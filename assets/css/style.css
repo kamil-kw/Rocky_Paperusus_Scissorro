@@ -1,8 +1,10 @@
 
 body {
+    
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
+
 }
 .header {
     order: 1;
@@ -41,12 +43,26 @@ body {
 
 .history--scissoro {
     order: 5;
+    display: inline-flex;
+}
+.image--scissoro {
+    height: 100px;
+    width: 100px;
+    background-image: url(/assets/images/scissor.PNG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.story--scissoro {
+    flex-basis: 70%;
 }
 .play--btn {
     order: 6;
 }
 footer {
     order: 7;
+    position: absolute;
+    bottom: 0;
 }
 .center {
     text-align: center;
