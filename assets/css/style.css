@@ -1,0 +1,60 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.header {
+    order: 1;
+    font-size: 1.4rem;
+   }
+.comment {
+    order: 2;
+   }
+.history--rocky {
+    order: 3;
+    display: inline-flex;
+}
+
+.image--rocky {
+    flex-basis: 30%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.story--rocky {
+    flex-basis: 70%;
+}
+
+.history--paperusus {
+    order: 4;
+    display: inline-flex;
+}
+.image--paperusus {
+    flex-basis: 30%;
+    height: 100px;
+    width: 100px;
+}
+.story--paperusus {
+    flex-basis: 70%;
+}
+
+.history--scissoro {
+    order: 5;
+}
+.play--btn {
+    order: 6;
+}
+footer {
+    order: 7;
+}
+.center {
+    text-align: center;
+}
+.name {
+    font-size: 1rem;
+}
+div > p {
+    font-size: 0.7rem;
+    padding-left: 5px;
+}
