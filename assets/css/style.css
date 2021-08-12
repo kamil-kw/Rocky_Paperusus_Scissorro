@@ -145,7 +145,7 @@ div > p {
 
 .player--choice {
     flex-basis: 40%;
-    height: 100px;
+    height: 220px;
     width: 100px;
     background-image: url(/assets/images/scissor.PNG);
     background-size: contain;
@@ -159,7 +159,7 @@ div > p {
 
 .computer--choice {
     flex-basis: 40%;
-    height: 100px;
+    height: 220px;
     width: 100px;
     background-image: url(/assets/images/scissor.PNG);
     background-size: contain;
