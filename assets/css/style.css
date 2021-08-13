@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-
 }
 
 .header {
@@ -170,4 +169,23 @@ div > p {
     order: 5;
     display: inline-flex;
     justify-content: space-between;
+}
+
+/* loose.html page style */
+
+.image--loose {
+    order: 3;
+}
+.image--win {
+    order: 3;
+}
+.result--score {
+    order: 4;
+    display: inline-flex;
+}
+.return--try {
+    order: 5;
+}
+.submit--form {
+    order: 6;
 }
