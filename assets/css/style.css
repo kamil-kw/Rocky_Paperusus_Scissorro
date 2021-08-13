@@ -159,12 +159,12 @@ div > p {
     width: 100px;
 }
 .game--score {
-    order: 6;
+    order: 5;
     display: inline-flex;
     justify-content: space-between;
 }
 #game--result {
-    order: 5;
+    order: 6;
 }
 /* loose.html page style */
 
