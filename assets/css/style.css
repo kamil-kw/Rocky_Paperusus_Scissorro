@@ -146,10 +146,7 @@ div > p {
     flex-basis: 40%;
     height: 220px;
     width: 100px;
-    background-image: url(/assets/images/scissor.PNG);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+
 }
 
 .vs {
@@ -160,10 +157,6 @@ div > p {
     flex-basis: 40%;
     height: 220px;
     width: 100px;
-    background-image: url(/assets/images/scissor.PNG);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .game--score {
     order: 5;
