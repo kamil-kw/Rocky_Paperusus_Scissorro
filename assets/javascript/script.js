@@ -64,5 +64,7 @@ function fighterComparation(user, computer) {
         if(computer === 'rocky') return 'win';
         if(computer === "scissorro") return 'loose';
         if(computer === "paperusus") return 'draw';
+    }
 }
-}
+
+/** calculate clicks - amount of games */
