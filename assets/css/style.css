@@ -142,7 +142,7 @@ div > p {
     justify-content: space-between;
 }
 
-.player--choice {
+#player--choice {
     flex-basis: 40%;
     height: 220px;
     width: 100px;
@@ -153,17 +153,19 @@ div > p {
     flex-basis: 10%;
 }
 
-.computer--choice {
+#computer--choice {
     flex-basis: 40%;
     height: 220px;
     width: 100px;
 }
 .game--score {
-    order: 5;
+    order: 6;
     display: inline-flex;
     justify-content: space-between;
 }
-
+#game--result {
+    order: 5;
+}
 /* loose.html page style */
 
 .image--loose {
