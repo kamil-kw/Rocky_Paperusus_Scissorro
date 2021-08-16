@@ -12,9 +12,9 @@
     <h1 class="header center">Rocky Paperusus Scissorro The Ultimate Tournament</h1>
     <h2 class="comment center">This are our fighers:</h2>
     <div class="choose--fighter">
-        <div class="fighter--rocky" onclick="chooseFighter('rocky')"></div>
-        <div class="fighter--paperusus" onclick="chooseFighter('paperusus')"></div>
-        <div class="fighter--scissorro" onclick="chooseFighter('scissorro')"></div>
+        <div class="fighter--rocky fighter" onclick="chooseFighter('rocky')"></div>
+        <div class="fighter--paperusus fighter" onclick="chooseFighter('paperusus')"></div>
+        <div class="fighter--scissorro fighter" onclick="chooseFighter('scissorro')"></div>
     </div>
     <div class="fight">
         <div id="player--choice" class="fighter--player"></div>
@@ -30,12 +30,18 @@
             <div class="player--scomment">Player Score</div>
             <div id="player--scored">0</div>
         </div>
+        <div class="games">
+            <div class="rounds">Rounds</div>
+            <div id="total--rounds">0</div>
+        </div>
         <div class="computer--score">
             <div class="computer--scomment">Computer Score</div>
             <div id="computer--scored">0</div>
         </div>
     </div>
     <a class="play--btn" href="/index.html"><button>RETURN TO STORY PAGE</button></a>
+    <a id="player--win" href="../subpages/win.html"></a>
+    <a id="player--loose" href="../subpages/loose.html"></a>
     <footer>Author: Kamil Kwiatkowski</footer>
 
     

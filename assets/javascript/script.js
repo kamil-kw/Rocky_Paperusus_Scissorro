@@ -1,3 +1,8 @@
+
+
+
+
+
 /** 
  * Choose fighter function  
  * */
@@ -12,7 +17,6 @@ function chooseFighter(userFighter) {
     const winner = fighterComparation(userFighter, computerFighter);
     let resultUser = '';
     let resultComputer ='';
-
     showWinner(winner);
 
     function showWinner() {
@@ -28,6 +32,7 @@ function chooseFighter(userFighter) {
         } else if(winner === 'draw'){
             resultUser = "DRAW";
             resultComputer = "DRAW";
+
         }
     
         document.getElementById('user--result').innerHTML = resultUser;
@@ -38,33 +43,52 @@ function chooseFighter(userFighter) {
         userChoosed.className = `fighter fighter--${userFighter}`;
         computerChoosed.className = `fighter fighter--${computerFighter}`;
     }
+    /**
+     * score and rounds calculator
+     */
     if (resultUser === "WINNER") {
         let playerScore = parseInt(document.getElementById("player--scored").innerText);
         document.getElementById("player--scored").innerText = ++playerScore;
-    } else if(resultComputer === "WINNER") {
+    } if(resultComputer === "WINNER") {
         let computerScore = parseInt(document.getElementById("computer--scored").innerText);
         document.getElementById("computer--scored").innerText = ++computerScore;
+    } if (resultUser === "WINNER" || resultComputer === "WINNER" || resultComputer === "DRAW") {
+        let roundsScore = parseInt(document.getElementById("total--rounds").innerText);
+        document.getElementById("total--rounds").innerText = ++roundsScore;
     }
+
+        let winnerPage = document.getElementById('player--win');
+        let looserPage = document.getElementById('player--loose');
+
+    if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) > (document.getElementById("player--scored").innerText)){
+        window.open(winnerPage, "_self");window.open(looserPage, "_self");
+    } else if ((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) < (document.getElementById("player--scored").innerText))
+        window.open(winnerPage, "_self");
 }
 
-/** Compare characters - Fight :) */
 
+
+
+
+/** Compare characters - Fight :) */
 function fighterComparation(user, computer) {
     if(user === 'rocky') {
         if(computer === 'paperusus') return 'loose';
         if(computer === "scissorro") return 'win';
         if(computer === "rocky") return 'draw';
+
     }
     if(user == 'scissorro') {
         if(computer === 'paperusus') return 'win';
         if(computer === "rocky") return 'loose';
         if(computer === "scissorro") return 'draw';
+
     }
     if(user == 'paperusus') {
         if(computer === 'rocky') return 'win';
         if(computer === "scissorro") return 'loose';
         if(computer === "paperusus") return 'draw';
-    }
-}
 
-/** calculate clicks - amount of games */
+    }
+
+}
