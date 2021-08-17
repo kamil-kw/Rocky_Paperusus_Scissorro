@@ -61,10 +61,38 @@ function chooseFighter(userFighter) {
         let looserPage = document.getElementById('player--loose');
 
     if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) > (document.getElementById("player--scored").innerText)){
-        window.open(winnerPage, "_self");window.open(looserPage, "_self");
+        window.open(looserPage, "_self");
     } else if ((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) < (document.getElementById("player--scored").innerText))
         window.open(winnerPage, "_self");
+
+    /**
+     * local storage for win loose page
+     */
+    let finalUserScore = document.getElementById("player--scored").innerText;
+    let finalComputerScore = document.getElementById("computer--scored").innerText;
+
+    localStorage.setItem('lastUserScore', finalUserScore);
+
+    let add = document.getElementsByClassName('player--totalScored');
+    
+    add.innerText = localStorage.getItem('lastUserScore');
+
+    console.log(add);
+
+
+
+
+    /*localStorage.userTotalScore = document.getElementById("player--scored").innerText;
+    localStorage.computerTotalScore = document.getElementById("computer--scored").innerText;
+
+    console.log("computer", localStorage.computerTotalScore);
+    console.log("user", localStorage.userTotalScore);*/
+
+
+
+
 }
+    
 
 
 
