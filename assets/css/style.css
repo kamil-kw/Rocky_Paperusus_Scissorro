@@ -194,4 +194,48 @@ div > p {
     z-index: -5;
     overflow: hidden;
   }
+
+  /*buttons*/
+  .btn {
+    border-radius: 2px;
+    background-color: #701ef4;
+    border: none;
+    border-radius: 30%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .btn--rtn {
+    width: 250px;
+  }
   
