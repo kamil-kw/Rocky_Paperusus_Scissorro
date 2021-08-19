@@ -1,8 +1,4 @@
 
-
-
-
-
 /** 
  * Choose fighter function  
  * */
@@ -18,6 +14,7 @@ function chooseFighter(userFighter) {
     let resultUser = '';
     let resultComputer ='';
     showWinner(winner);
+
 
     function showWinner() {
 
@@ -67,12 +64,27 @@ function chooseFighter(userFighter) {
     } else if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) < (document.getElementById("player--scored").innerText)){
         window.open(winnerPage, "_self");
     }
-    
+/**
+ * show image of vs only when score bigger than 0
+ */
     let showImage = document.getElementById('showimage');
 
     if((document.getElementById("total--rounds").innerText) > 0){
         showImage.className = `vs vsimage`;
     }
+
+    let fontAwesome = document.getElementById('fontawesome');
+
+    if(resultUser === "WINNER"){
+        fontAwesome.className = `font--awesome font-win`;
+    }
+    if(resultUser === "LOOSER"){
+        fontAwesome.className = `font--awesome font-loose`;
+    }
+    if(resultUser === "DRAW"){
+        fontAwesome.className = `font--awesome font-draw`;
+    }
+
 }
 
  

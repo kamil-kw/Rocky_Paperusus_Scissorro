@@ -144,7 +144,7 @@ div > p {
 
 #player--choice {
     flex-basis: 35%;
-    height: 220px;
+    height: 150px;
     width: 100px;
 
 }
@@ -158,13 +158,13 @@ div > p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 220px;
+    height: 150px;
     width: 100px;
 }
 
 #computer--choice {
     flex-basis: 35%;
-    height: 220px;
+    height: 150px;
     width: 100px;
 }
 .game--score {
@@ -264,5 +264,29 @@ div > p {
   }
   .btn--rtn {
     width: 250px;
+  }
+
+  .font-win::before, .font-loose::before, .font-draw::before {
+    font-family: FontAwesome;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 300%;
+    text-align: right;
+  }
+
+  .font-win::before {
+    content: "\f091";
+    text-align: center;
+
+  }
+
+  .font-loose::before {
+    content: "\f5b3";
+    text-align: center;
+
+  }
+
+  .font-draw::before {
+    content: "\f2b5";
   }
   
