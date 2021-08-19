@@ -219,7 +219,7 @@ div > p {
   .btn {
     border-radius: 2px;
     background-color: #701ef4;
-    border: none;
+    border: 2px solid orange;
     border-radius: 30%;
     color: #FFFFFF;
     text-align: center;
@@ -243,6 +243,7 @@ div > p {
   
   .btn span:after {
     content: '>>';
+    font-size: 100%;
     position: absolute;
     opacity: 0;
     top: 0;
@@ -275,12 +276,14 @@ div > p {
   }
 
   .font-win::before {
+    color: goldenrod;
     content: "\f091";
     text-align: center;
 
   }
 
   .font-loose::before {
+    color: red;
     content: "\f5b3";
     text-align: center;
 
