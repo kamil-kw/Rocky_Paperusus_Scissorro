@@ -43,6 +43,7 @@ function chooseFighter(userFighter) {
         userChoosed.className = `fighter fighter--${userFighter}`;
         computerChoosed.className = `fighter fighter--${computerFighter}`;
     }
+
     /**
      * score and rounds calculator
      */
@@ -60,14 +61,21 @@ function chooseFighter(userFighter) {
         let winnerPage = document.getElementById('player--win');
         let looserPage = document.getElementById('player--loose');
 
+
     if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) > (document.getElementById("player--scored").innerText)){
         window.open(looserPage, "_self");
-    } else if ((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) < (document.getElementById("player--scored").innerText))
+    } else if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) < (document.getElementById("player--scored").innerText)){
         window.open(winnerPage, "_self");
-
-
-}
+    }
     
+    let showImage = document.getElementById('showimage');
+
+    if((document.getElementById("total--rounds").innerText) > 0){
+        showImage.className = `vs vsimage`;
+    }
+}
+
+ 
 /** Compare characters - Fight :) */
 function fighterComparation(user, computer) {
     if(user === 'rocky') {
@@ -88,5 +96,6 @@ function fighterComparation(user, computer) {
         if(computer === "paperusus") return 'draw';
 
     }
+
 
 }
