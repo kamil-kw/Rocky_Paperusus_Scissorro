@@ -1,6 +1,8 @@
 ![Hero image]()
 
-# Rock⛰️ Paperusus🧻 Scissorro✂️ - The Ultimate Turnament
+# Rock Paperusus Scissorro 
+# ⛰️🧻✂️-
+# The Ultimate Turnament 
 
 ## Introduction
 
@@ -8,51 +10,69 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 
 # See live webpage [here](https://kamil-kw.github.io/Paperusus_Rocky_Scissorro/index.html)
 
+<a name="tableOfContents"></a>
 ## Table of Contents
 
-1. **UX**
-    * **1.1. Strategy**
-        * Project Goals
-        * User target
-        * 1st time visitors
-            * Returning visitors
-        * User expectations
-    * **1.2. Structure**
-    * **1.3. Skeleton**
-    * **1.4. Surface**
-2. **Features**
-3. **Technologies Used**
-4. **Testing**
-5. **Development Cycle**
-6. **End Product**
-7. **Known Bugs**
-8. **Credit**
+[1. **UX**](#ux)
+    [* **1.1. Strategy**](#strategy)
+        [* Project Goals](#projectGoals)
+        [* User target](#userTarget)
+        [* 1st time visitors](#firstTime)
+        [* Returning visitors](#returning)
+        [* User expectations](#userExpectations)
+    [* **1.2. Structure**](#structure)
+    [* **1.3. Skeleton**](#skeleton)
+    [* **1.4. Surface**](#surface)
+[2. **Features**](#features)
+[3. **Technologies Used**](#technologies)
+[4. **Testing**](#testing)
+[5. **Development Cycle**](#development)
+[6. **End Product**](#endProduct)
+[7. **Known Bugs**](#knownBugs)
+[8. **Credit**](#credits)
 
+[Back to Table Of Content](#tableOfContents)
 
+<a name="ux"></a>
 ## 1. UX
+
 
 As mention in my first project my ultimate goal is to change my career path and become a full time developer, therefore my second project will be a showing my new aqiured skill which is JavaScript in the real project.
 
 As a part of my path of becoming a software developer from zero to hero 😊, I'm presenting a Rock Paperusus Scissorro game.
 
+[Back to Table Of Content](#tableOfContents)
+<a name="strategy"></a>
 ## 1.1 Strategy
 
+[Back to Table Of Content](#tableOfContents)
+<a name="projectGoals"></a>
 ### * Project Goals
 
 The reason for this web page is to show my skills to potential recruiters and all who wants to cooperate with me in the future in projects. The website has been built by using HTML and CSS and new skill on board the JavaScript😊. 
 
+[Back to Table Of Content](#tableOfContents)
+
+<a name="userTarget"></a>
 ### * User Target
 
+[Back to Table Of Content](#tableOfContents)
+
+<a name="firstTime"></a>
 ### First time visitors:
 
 * 1st time Visitors who wants to see my products;
 * 1st time Visitors who wants to play a interesting game;
 
+[Back to Table Of Content](#tableOfContents)
 
+<a name="returning"></a>
 ### Returning visitors:
 
 * Visitors who would like to play again;
+[Back to Table Of Content](#tableOfContents)
 
+<a name="userExpectations"></a>
 ### User Expectations:
 
 * Interface is easy to navigate;
@@ -60,6 +80,8 @@ The reason for this web page is to show my skills to potential recruiters and al
 * Content is displayed in a clear and understanding format;
 * To have the ability to leave feedback about the game expirence and concept;
 
+[Back to Table Of Content](#tableOfContents)
+<a name="structure"></a>
 ## 1.2. Structure
 
 To be able to provide for users the best experience on devices which they use, my website have responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop). 
@@ -72,6 +94,9 @@ This has been tested and proven to be functional.
 * **Game** include game with, section to choose character, battlefield, score of user and computer, and amount of rounds;
 * **Lose and Win** include win or lost sentence, have abuility to leave feedback by submiting the form. 
 
+[Back to Table Of Content](#tableOfContents)
+
+<a name="skeleton"></a>
 ## 1.3. Skeleton
 
 For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which helped me with defining layout for three types of devices (desktop, tablets and mobiles).
@@ -95,7 +120,9 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 ![Contact](assets/images/contact_screenshot.PNG)
 
 ---
+[Back to Table Of Content](#tableOfContents)
 
+<a name="surface"></a>
 ## 1.4. Surface
 
 * **Typography**
@@ -114,7 +141,9 @@ Color has been defined with a paint eyedrop tool, the reason for that was to ens
 
 The icons were taken from [Font Awsome](https://fontawesome.com/)
 
-## 2. Feature
+[Back to Table Of Content](#tableOfContents)
+<a name="features"></a>
+## 2. Features
 
 ### All pages:
 
@@ -126,20 +155,22 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 * Social media icons;
 * Standardized personal information box used s in all pages;
 * Footer with downloadable CV.
-
+[Back to Table Of Content](#tableOfContents)
 ### About me
 
 * A short overview to showcase who I am and what I do
-
+[Back to Table Of Content](#tableOfContents)
 ### Resume page:
 
 * Work history in chronological way.
-
+[Back to Table Of Content](#tableOfContents)
 ### Contact page:
 
 * Contact form specified type of cooperation;
 * iframe with google maps to show location of my home city.
+[Back to Table Of Content](#tableOfContents)
 
+<a name="technologies"></a>
 ## 3. Technologies Used
 
 During my page creation journey I did use:
@@ -166,7 +197,9 @@ During my page creation journey I did use:
     * To test responsiveness in end product and create readme screen shots
 * [Beautifier - Free Formater](https://www.freeformatter.com/html-formatter.html) 
     * Used to improve HTML and CSS code presentation
+[Back to Table Of Content](#tableOfContents)
 
+<a name="testing"></a>
 ## 4. Testing
 
 ### Google developer Tool
@@ -275,7 +308,10 @@ Page details:
     Was checked at multiple device sizes to focus the majority of devices currently used worldwide.
 
     *Responsiveness pass all tests and worked according to project expections.*
+[Back to Table Of Content](#tableOfContents)
 
+
+<a name="development"></a>
 ## 5. Development
 
 I tried multiple layouts & elements in my second respiratory to provide the most user friendly interface. The design of the website and the content was created by myself, there were no design bots used to help with development.
@@ -291,7 +327,9 @@ Code has been runned by HTML/ CSS beautifier to improve code outlook.
 During the first days of the project I did use different pictures for positioning, however I changed it later to my own picture.
 
 Original design was with only a grey color background. I have changed that recently to provide a more complimentary photo to the hero image. Based on that, I was able to apply a grey transparent box to highlight the text section.
+[Back to Table Of Content](#tableOfContents)
 
+<a name="endProduct"></a>
 ## 6. End Product
 
 See End Product screens:
@@ -307,7 +345,9 @@ See End Product screens:
 * **Contact:**
 
 ![Contact](assets/images/end-product_contact_all-devices.PNG)
+[Back to Table Of Content](#tableOfContents)
 
+<a name="knownBugs"></a>
 ## 7. Known bugs
 
 * Incorrect data send from form - fixed by providing correct names;
@@ -316,7 +356,9 @@ See End Product screens:
 * Incorrect link to download file;
 * CSS typo - incorrect declaration in animation rule;
 * Navigation buttons background color transparency changed to 0,9 to increase contrast with visited text color.
+[Back to Table Of Content](#tableOfContents)
 
+<a name="credits"></a>
 ## 8. Credits
 
 * **Code:**
