@@ -15,23 +15,23 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 
 [1. **UX**](#ux)
 
-    [* **1.1. Strategy**](#strategy)
+[* **1.1. Strategy**](#strategy)
 
-        [* Project Goals](#projectGoals)
+[* Project Goals](#projectGoals)
 
-        [* User target](#userTarget)
+[* User target](#userTarget)
 
-        [* 1st time visitors](#firstTime)
+[* 1st time visitors](#firstTime)
 
-        [* Returning visitors](#returning)
+[* Returning visitors](#returning)
 
-        [* User expectations](#userExpectations)
+[* User expectations](#userExpectations)
 
-    [* **1.2. Structure**](#structure)
+[* **1.2. Structure**](#structure)
 
-    [* **1.3. Skeleton**](#skeleton)
+[* **1.3. Skeleton**](#skeleton)
 
-    [* **1.4. Surface**](#surface)
+[* **1.4. Surface**](#surface)
 
 [2. **Features**](#features)
 
@@ -123,21 +123,13 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 * **Story - homepage Wireframes:**
 
-
-
 * **Game before start - the play game page before Wireframes:**
-
-![Resume](assets/images/resume_screenshot.PNG)
 
 * **Game after start - the play game page after Wireframes:**
 
 * **Lose - Lose page Wireframes:**
 
-![Contact](assets/images/contact_screenshot.PNG)
-
 * **Win - Lose page Wireframes:**
-
-![Contact](assets/images/contact_screenshot.PNG)
 
 ---
 
@@ -150,13 +142,13 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 A font of my choice is Poppins provided by [Google Fonts](https://fonts.google.com/), as alternative font to Poopins, I used sans serif font.
 
-* **Background image**
+* **Background**
 
-The background image used in my project was taken from [Pexels](https://www.pexels.com/).
+The background video used in my project was taken from [Giphy](https://giphy.com/).
 
-* **Color**
+* **Characters**
 
-Color has been defined with a paint eyedrop tool, the reason for that was to ensure consistent design with the background image. 
+Characters were created using ....(TBA)
 
 * **Icons**
 
@@ -171,31 +163,51 @@ The icons were taken from [Font Awsome](https://fontawesome.com/)
 
 A goal was to achieve a one consistent layout within all pages. This includes: 
 
-* Photo on top of all pages;
-* Top navigation bar accessible while scrolling down;
-* Contact details below photo;
-* Social media icons;
-* Standardized personal information box used s in all pages;
-* Footer with downloadable CV.
+* Game title in top section of page;
+
+* Comment to player e.g. 
+    Story page: "This are our fighters" 
+    Game page:"Choose Fighter" 
+    Win page:"Congratulation" 
+    Lose page:"Sorry not this time"
+
+* Main section
+    Story page: Characters stories (catchy funny orginal) 
+    Game page: Batelfield area with score calculator and active icons
+    Win page: the congratulation image
+    Lose page: the you lost image
+
+* Action button
+    Story page: Play
+    Game page: Return to story page
+    Win page: Return to story page and Play again
+    Lose page: Return to story page and Play again
+
+* Feedback form only for last (win. lost page)
+
+* Footer with copyrights including autor name
 
 [Back to Table Of Content](#tableOfContents)
 
-### About me
+### Story page
 
-* A short overview to showcase who I am and what I do
-
-[Back to Table Of Content](#tableOfContents)
-
-### Resume page:
-
-* Work history in chronological way.
+* A short overview of game character, including funny/intrestiong story about each character
 
 [Back to Table Of Content](#tableOfContents)
 
-### Contact page:
+### Game page:
 
-* Contact form specified type of cooperation;
-* iframe with google maps to show location of my home city.
+* A game page devided in section to choose character, battelfield and score area.
+
+[Back to Table Of Content](#tableOfContents)
+
+### Win page:
+
+* A short message to player - "CONGRATULATIONS" 🏆 and feedback form
+
+### Lose page:
+
+* A short message to player - "Sorry not this time" 😢 and feedback form
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -208,6 +220,8 @@ During my page creation journey I did use:
     * Current project uses HyperText Markup Language.
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
     * Current project uses Cascading Style Sheets.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    * Current project uses Cascading Style Sheets. My new firend 😁 on my becoming software developer path
 * [Chrome](https://www.google.com/intl/en_uk/chrome/)
     * Chrome dev tool used to debug and test code while building
 * [Balsamiq](https://balsamiq.com/)
@@ -229,6 +243,7 @@ During my page creation journey I did use:
 
 [Back to Table Of Content](#tableOfContents)
 
+---
 <a name="testing"></a>
 ## 4. Testing
 
