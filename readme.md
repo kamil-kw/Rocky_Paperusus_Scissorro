@@ -14,21 +14,37 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 ## Table of Contents
 
 [1. **UX**](#ux)
+
     [* **1.1. Strategy**](#strategy)
+
         [* Project Goals](#projectGoals)
+
         [* User target](#userTarget)
+
         [* 1st time visitors](#firstTime)
+
         [* Returning visitors](#returning)
+
         [* User expectations](#userExpectations)
+
     [* **1.2. Structure**](#structure)
+
     [* **1.3. Skeleton**](#skeleton)
+
     [* **1.4. Surface**](#surface)
+
 [2. **Features**](#features)
+
 [3. **Technologies Used**](#technologies)
+
 [4. **Testing**](#testing)
+
 [5. **Development Cycle**](#development)
+
 [6. **End Product**](#endProduct)
+
 [7. **Known Bugs**](#knownBugs)
+
 [8. **Credit**](#credits)
 
 [Back to Table Of Content](#tableOfContents)
@@ -42,10 +58,12 @@ As mention in my first project my ultimate goal is to change my career path and 
 As a part of my path of becoming a software developer from zero to hero 😊, I'm presenting a Rock Paperusus Scissorro game.
 
 [Back to Table Of Content](#tableOfContents)
+
 <a name="strategy"></a>
 ## 1.1 Strategy
 
 [Back to Table Of Content](#tableOfContents)
+
 <a name="projectGoals"></a>
 ### * Project Goals
 
@@ -70,6 +88,7 @@ The reason for this web page is to show my skills to potential recruiters and al
 ### Returning visitors:
 
 * Visitors who would like to play again;
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="userExpectations"></a>
@@ -81,6 +100,7 @@ The reason for this web page is to show my skills to potential recruiters and al
 * To have the ability to leave feedback about the game expirence and concept;
 
 [Back to Table Of Content](#tableOfContents)
+
 <a name="structure"></a>
 ## 1.2. Structure
 
@@ -120,6 +140,7 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 ![Contact](assets/images/contact_screenshot.PNG)
 
 ---
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="surface"></a>
@@ -142,6 +163,7 @@ Color has been defined with a paint eyedrop tool, the reason for that was to ens
 The icons were taken from [Font Awsome](https://fontawesome.com/)
 
 [Back to Table Of Content](#tableOfContents)
+
 <a name="features"></a>
 ## 2. Features
 
@@ -155,19 +177,26 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 * Social media icons;
 * Standardized personal information box used s in all pages;
 * Footer with downloadable CV.
+
 [Back to Table Of Content](#tableOfContents)
+
 ### About me
 
 * A short overview to showcase who I am and what I do
+
 [Back to Table Of Content](#tableOfContents)
+
 ### Resume page:
 
 * Work history in chronological way.
+
 [Back to Table Of Content](#tableOfContents)
+
 ### Contact page:
 
 * Contact form specified type of cooperation;
 * iframe with google maps to show location of my home city.
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="technologies"></a>
@@ -197,6 +226,7 @@ During my page creation journey I did use:
     * To test responsiveness in end product and create readme screen shots
 * [Beautifier - Free Formater](https://www.freeformatter.com/html-formatter.html) 
     * Used to improve HTML and CSS code presentation
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="testing"></a>
@@ -308,8 +338,8 @@ Page details:
     Was checked at multiple device sizes to focus the majority of devices currently used worldwide.
 
     *Responsiveness pass all tests and worked according to project expections.*
-[Back to Table Of Content](#tableOfContents)
 
+[Back to Table Of Content](#tableOfContents)
 
 <a name="development"></a>
 ## 5. Development
@@ -327,6 +357,7 @@ Code has been runned by HTML/ CSS beautifier to improve code outlook.
 During the first days of the project I did use different pictures for positioning, however I changed it later to my own picture.
 
 Original design was with only a grey color background. I have changed that recently to provide a more complimentary photo to the hero image. Based on that, I was able to apply a grey transparent box to highlight the text section.
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="endProduct"></a>
@@ -345,6 +376,8 @@ See End Product screens:
 * **Contact:**
 
 ![Contact](assets/images/end-product_contact_all-devices.PNG)
+
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="knownBugs"></a>
@@ -356,6 +389,7 @@ See End Product screens:
 * Incorrect link to download file;
 * CSS typo - incorrect declaration in animation rule;
 * Navigation buttons background color transparency changed to 0,9 to increase contrast with visited text color.
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="credits"></a>
@@ -370,3 +404,6 @@ See End Product screens:
 * **Content:**
 
     * Background photo download from [Pexels](https://www.pexels.com/) Author: Matheus Natan
+
+    
+[Back to Table Of Content](#tableOfContents)
