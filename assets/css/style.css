@@ -200,6 +200,7 @@ div > p {
 }
 .return--try {
     order: 5;
+    text-align: center;
 }
 .submit--form {
     order: 6;
@@ -267,6 +268,14 @@ div > p {
     width: 250px;
   }
 
+  .return--btn {
+      width: 250px;
+  }
+
+  .btn--last {
+      width: 150px;
+  }
+
   .font-win::before, .font-loose::before, .font-draw::before {
     font-family: FontAwesome;
     display: inline-block;
@@ -292,4 +301,45 @@ div > p {
   .font-draw::before {
     content: "\f2b5";
   }
+
+  @media screen and (max-width: 279px) {
+
+  }
   
+  /* phone generations like iPhone 5S. Galaxy fold */
+
+@media screen and (min-width: 280px) and (max-width: 320px) {
+
+}
+
+/* screen 321px-767px */
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+
+}
+/* tablets 768px-1023px */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+/* iPad PRO 1024px-1279px not standard laptops */
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+/* 1280px up */
+
+@media screen and (min-width: 1280px) {
+    header {
+        order: 1;
+        font-size: 4rem;
+        margin: 0;
+    
+       }
+
+#feedback {
+    width: 100%;
+}
+
+}
