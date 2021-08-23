@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway&display=swap');
 
 body {
     display: flex;
@@ -6,9 +7,14 @@ body {
 }
 
 .header {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 300;
+    color: black;
     order: 1;
     font-size: 1.4rem;
     margin: 0;
+    margin-top: -10px;
+    text-shadow: 1px 1px darkviolet;
 
    }
 
@@ -25,9 +31,8 @@ body {
 }
 
 .image--rocky {
-    flex-basis: 30%;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 150px;
     background-image: url(../images/rocky.png);
     background-size: contain;
     background-position: center;
@@ -44,9 +49,8 @@ body {
 }
 
 .image--paperusus {
-    flex-basis: 30%;
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 150px;
     background-image: url(../images/paperusus.png);
     background-size: contain;
     background-position: center;
@@ -63,9 +67,8 @@ body {
 }
 
 .image--scissoro {
-    flex-basis: 30%;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 150px;
     background-image: url(../images/scissorro.png);
     background-size: contain;
     background-position: center;
@@ -83,21 +86,26 @@ body {
 
 footer {
     order: 7;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
 .center {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .name {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin: 5px;
+    text-decoration: underline;
+    text-shadow: 1px 0px darkviolet;
 }
 
 div > p {
-    font-size: 0.7rem;
+    font-size: 0.73rem;
     padding-left: 5px;
+    text-align: justify;
 }
 /* game.html page style */
 .choose--fighter {
@@ -107,8 +115,8 @@ div > p {
 }
 
 .fighter--rocky {
-    flex-basis: 30%;
-    height: 200px;
+
+    height: 100px;
     width: 200px;
     background-image: url(../images/rocky.png);
     background-size: contain;
@@ -117,8 +125,8 @@ div > p {
 }
 
 .fighter--paperusus {
-    flex-basis: 30%;
-    height: 200px;
+
+    height: 100px;
     width: 200px;
     background-image: url(../images/paperusus.png);
     background-size: contain;
@@ -127,8 +135,8 @@ div > p {
 }
 
 .fighter--scissorro {
-    flex-basis: 30%;
-    height: 200px;
+
+    height: 100px;
     width: 200px;
     background-image: url(../images/scissorro.png);
     background-size: contain;
@@ -186,13 +194,19 @@ div > p {
     text-align: right;
 }
 
+#computer--scored, #player--scored, #total--rounds {
+    font-size: 2rem;
+}
+#user--result, #computer--result {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px darkviolet;
+}
+
 /* loose.html page style */
 
-.image--loose {
+.image--win, .image--loose {
     order: 3;
-}
-.image--win {
-    order: 3;
+    text-align: center;
 }
 .result--score {
     order: 4;
@@ -202,8 +216,14 @@ div > p {
     order: 5;
     text-align: center;
 }
-.submit--form {
+#myForm {
     order: 6;
+    text-align: center;
+}
+
+#feedback {
+    width: 97%;
+    text-align: center;
 }
 
 #myVideo {
@@ -276,6 +296,7 @@ div > p {
       width: 150px;
   }
 
+
   .font-win::before, .font-loose::before, .font-draw::before {
     font-family: FontAwesome;
     display: inline-block;
@@ -302,9 +323,14 @@ div > p {
     content: "\f2b5";
   }
 
-  @media screen and (max-width: 279px) {
+  textarea#feedback {
+    width: 100%;
+}
 
-  }
+.giphy-embed {
+    height: 200px;
+}
+
   
   /* phone generations like iPhone 5S. Galaxy fold */
 
@@ -315,6 +341,25 @@ div > p {
 /* screen 321px-767px */
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
+
+
+    .fighter--rocky, .fighter--scissorro {
+        height: 130px;
+    }
+    .fighter--paperusus {
+        height: 122px;
+    }
+    #player--choice, 
+    #computer--choice {
+        height: 200px;
+    }
+    .vsimage {
+        height: 200px;
+    }
+    .comment {
+
+        margin: 10px 0 25px 0;
+    }
 
 }
 /* tablets 768px-1023px */
