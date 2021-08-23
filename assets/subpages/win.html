@@ -25,8 +25,9 @@
     </div>
     <form action="https://formdump.codeinstitute.net/" id="myForm">
         <div class="second">Please take a second to submit feedback about a game</div>
-        <input type="text" name="feedback" id="feedback"><br>
+        <textarea type="text" name="feedback" id="feedback" placeholder="Please leave your feedback here :)"></textarea>
         <input type="button" onclick="submitForm()" value="Submit form" class="btn btn--last">
+        <input type="button" onclick="clearForm()" value="Clear form" class="btn btn--last">
     </form>
     <footer>Author: Kamil Kwiatkowski</footer>
     <br>

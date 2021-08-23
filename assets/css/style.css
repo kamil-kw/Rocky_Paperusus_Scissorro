@@ -27,7 +27,6 @@ body {
 .history--rocky {
     order: 3;
     display: inline-flex;
-    justify-content: space-between;
 }
 
 .image--rocky {
@@ -107,7 +106,9 @@ div > p {
     padding-left: 5px;
     text-align: justify;
 }
+
 /* game.html page style */
+
 .choose--fighter {
     order: 3;
     display: inline-flex;
@@ -120,7 +121,7 @@ div > p {
     width: 200px;
     background-image: url(../images/rocky.png);
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
@@ -130,7 +131,7 @@ div > p {
     width: 200px;
     background-image: url(../images/paperusus.png);
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
@@ -140,7 +141,7 @@ div > p {
     width: 200px;
     background-image: url(../images/scissorro.png);
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
@@ -164,7 +165,7 @@ div > p {
 .vsimage {
     background-image: url(../images/vs.png);
     background-size: contain;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     height: 150px;
     width: 100px;
@@ -192,11 +193,13 @@ div > p {
 }
 .computer--score {
     text-align: right;
+    width: 23%;
 }
 
 #computer--scored, #player--scored, #total--rounds {
     font-size: 2rem;
 }
+
 #user--result, #computer--result {
     font-size: 1.5rem;
     text-shadow: 1px 1px darkviolet;
@@ -208,14 +211,17 @@ div > p {
     order: 3;
     text-align: center;
 }
+
 .result--score {
     order: 4;
     display: inline-flex;
 }
+
 .return--try {
     order: 5;
     text-align: center;
 }
+
 #myForm {
     order: 6;
     text-align: center;
@@ -251,6 +257,7 @@ div > p {
     cursor: pointer;
     margin: 5px;
   }
+
   .btn:hover {
     background-color: green;
   }
@@ -271,6 +278,7 @@ div > p {
     right: -20px;
     transition: 0.5s;
   }
+
   .btn--rtn span:after {
     content: '<<';
   }
@@ -293,7 +301,7 @@ div > p {
   }
 
   .btn--last {
-      width: 150px;
+      width: 130px;
   }
 
 
@@ -357,34 +365,284 @@ div > p {
         height: 200px;
     }
     .comment {
-
         margin: 10px 0 25px 0;
     }
 
 }
-/* tablets 768px-1023px */
+    /* tablets 768px-1023px */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-}
-/* iPad PRO 1024px-1279px not standard laptops */
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+        /* story page */
+        .image--scissoro, .image--paperusus, .image--rocky { 
 
-}
+            height: 220px;
+            width: 220px;
+        }
 
-/* 1280px up */
+        .name {
 
-@media screen and (min-width: 1280px) {
-    header {
-        order: 1;
+            font-size: 2rem;
+        }
+        div > p {
+            font-size: 1.2rem;
+        }
+
+        .fighter--rocky, .fighter--scissorro {
+            height: 200px;
+        }
+
+        .fighter--paperusus {
+            height: 188px;
+        }
+
+        #player--choice, 
+        #computer--choice {
+            height: 287px;
+        }
+
+        .vsimage {
+            height: 325px;
+        }
+
+        .comment {
+            margin: 10px 0 25px 0;
+            font-size: 2.3rem;
+    }
+
+    #user--result, #computer--result {
+        font-size: 2rem;
+        
+    }
+    .font-win::before, .font-loose::before, .font-draw::before {
+        font-size: 400%;
+    }
+
+    #computer--scored, #player--scored, #total--rounds {
         font-size: 4rem;
-        margin: 0;
+    }
+
+    .player--scomment, .rounds, .computer--scomment {
+        font-size: 2rem;
+    }
+
     
-       }
+    .btn {
+        font-size: 23px;
+        width: 150px;
+    }
+    .btn--rtn {
+        width: 402px;
+    }
+    .header {
+        font-size: 3rem;
+    }
+    .btn--last {
+        width: auto;
+    }
+    .return--btn{
+        width: 400px;
+    }
 
-#feedback {
-    width: 100%;
-}
+    .giphy-embed {
+        height: 481px;
+        width: 566px;
+    }
+
+    .second {
+        font-size: 2rem;
+    }
+
+    #feedback {
+        height: 100px;
+        font-size: 1.6rem;
+    }
 
 }
+    /* iPad PRO 1024px-1279px not standard laptops */
+
+    @media screen and (min-width: 1024px) and (max-width: 1279px) {
+        
+        /* story page */
+        .image--scissoro, .image--paperusus, .image--rocky { 
+
+            height: 220px;
+            width: 220px;
+        }
+
+        .name {
+
+            font-size: 2rem;
+        }
+        div > p {
+            font-size: 1.2rem;
+        }
+
+        .fighter--rocky, .fighter--scissorro {
+            height: 200px;
+        }
+
+        .fighter--paperusus {
+            height: 188px;
+        }
+
+        #player--choice, 
+        #computer--choice {
+            height: 287px;
+        }
+
+        .vsimage {
+            height: 325px;
+        }
+
+        .comment {
+            margin: 10px 0 25px 0;
+            font-size: 2.3rem;
+    }
+
+    #user--result, #computer--result {
+        font-size: 2rem;
+        
+    }
+    .font-win::before, .font-loose::before, .font-draw::before {
+        font-size: 400%;
+    }
+
+    #computer--scored, #player--scored, #total--rounds {
+        font-size: 4rem;
+    }
+
+    .player--scomment, .rounds, .computer--scomment {
+        font-size: 2rem;
+    }
+
+    
+    .btn {
+        font-size: 23px;
+        width: 150px;
+    }
+    .btn--rtn {
+        width: 402px;
+    }
+    .header {
+        font-size: 3rem;
+    }
+    .btn--last {
+        width: auto;
+    }
+    .return--btn{
+        width: 400px;
+    }
+
+    .giphy-embed {
+        height: 481px;
+        width: 566px;
+    }
+
+    .second {
+        font-size: 2rem;
+    }
+
+    #feedback {
+        height: 100px;
+        font-size: 1.6rem;
+    }
+
+    }
+
+    /* 1280px up */
+
+    @media screen and (min-width: 1280px) {
+         /* story page */
+         body {
+             margin-left: 100px;
+             margin-right: 100px;
+         }
+         .image--scissoro, .image--paperusus, .image--rocky { 
+
+            height: 220px;
+            width: 220px;
+        }
+
+        .name {
+
+            font-size: 2rem;
+        }
+        div > p {
+            font-size: 1.2rem;
+        }
+
+        .fighter--rocky, .fighter--scissorro {
+            height: 200px;
+        }
+
+        .fighter--paperusus {
+            height: 188px;
+        }
+
+        #player--choice, 
+        #computer--choice {
+            height: 267px;
+            flex-basis: 30%;
+        }
+
+        .vsimage {
+            height: 25vh;
+        }
+
+        .comment {
+            margin: 10px 0 25px 0;
+            font-size: 2.3rem;
+    }
+
+    #user--result, #computer--result {
+        font-size: 2rem;
+        
+    }
+    .font-win::before, .font-loose::before, .font-draw::before {
+        font-size: 400%;
+    }
+
+    #computer--scored, #player--scored, #total--rounds {
+        font-size: 4rem;
+    }
+
+    .player--scomment, .rounds, .computer--scomment {
+        font-size: 2rem;
+    }
+
+    
+    .btn {
+        font-size: 23px;
+        width: 150px;
+    }
+    .btn--rtn {
+        width: 402px;
+    }
+    .header {
+        font-size: 3rem;
+    }
+    .btn--last {
+        width: auto;
+    }
+    .return--btn{
+        width: 400px;
+    }
+
+    .giphy-embed {
+        height: 481px;
+        width: 718px;
+    }
+
+    .second {
+        font-size: 2rem;
+    }
+
+    #feedback {
+        height: 100px;
+        font-size: 1.6rem;
+    }
+
+    }
+
