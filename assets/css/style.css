@@ -13,7 +13,7 @@ body {
     order: 1;
     font-size: 1.4rem;
     margin: 0;
-    margin-top: -10px;
+    margin-top: -3px;
     text-shadow: 1px 1px darkviolet;
 
    }
@@ -256,6 +256,7 @@ div > p {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    align-self: center;
   }
 
   .btn:hover {
@@ -337,6 +338,7 @@ div > p {
 
 .giphy-embed {
     height: 200px;
+    width: auto;
 }
 
   

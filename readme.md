@@ -150,8 +150,8 @@ As alternative font to Raleway, I used sans-sarif font,
 The background video used in my project was taken from [Giphy](https://giphy.com/).
 
 * **Characters**
-
-Characters were created by my fioncee (a graphic designer begginer) a using Inkspace app.
+ 
+Characters were created Malgorzata Ostrowska (a graphic designer begginer) with using the Inkspace app.
 
 * **Icons**
 
@@ -411,12 +411,9 @@ See End Product screens:
 <a name="knownBugs"></a>
 ## 7. Known bugs
 
-* Incorrect data send from form - fixed by providing correct names;
-* Multiple lines reacting in the same way - reduced in last stage of project;
-* Nav bar was hidden once animated fixed by z-index;
-* Incorrect link to download file;
-* CSS typo - incorrect declaration in animation rule;
-* Navigation buttons background color transparency changed to 0,9 to increase contrast with visited text color.
+* Incorrect structure of play and return button - cant be closed in anchor tag - rebuild to correct structure format
+* Typo in line 22 of game.html - missing space button between attribiutes - space added
+* incorrect structure of embeded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed 
 
 [Back to Table Of Content](#tableOfContents)
 
