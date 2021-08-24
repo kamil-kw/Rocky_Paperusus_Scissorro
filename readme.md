@@ -1,4 +1,4 @@
-![Hero image]()
+![Hero image](assets/images/hero_image.PNG)
 
 # Rock Paperusus Scissorro 
 # ⛰️🧻✂️
