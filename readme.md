@@ -1,7 +1,7 @@
 ![Hero image]()
 
 # Rock Paperusus Scissorro 
-# ⛰️🧻✂️-
+# ⛰️🧻✂️
 # The Ultimate Turnament 
 
 ## Introduction
@@ -105,6 +105,7 @@ The reason for this web page is to show my skills to potential recruiters and al
 ## 1.2. Structure
 
 To be able to provide for users the best experience on devices which they use, my website have responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop). 
+
 This has been tested and proven to be functional. 
 
 * **All pages** with one consistent layout design being easy to understand and intuitive for all users;
@@ -140,7 +141,9 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 * **Typography**
 
-A font of my choice is Poppins provided by [Google Fonts](https://fonts.google.com/), as alternative font to Poopins, I used sans serif font.
+A font of my choice is Luckiest Guy & Raleway provided by [Google Fonts](https://fonts.google.com/).
+As alternative font to Luckiest Guy, I used cursive font,
+As alternative font to Raleway, I used sans-sarif font,
 
 * **Background**
 
@@ -148,7 +151,7 @@ The background video used in my project was taken from [Giphy](https://giphy.com
 
 * **Characters**
 
-Characters were created using ....(TBA)
+Characters were created by my fioncee (a graphic designer begginer) a using Inkspace app.
 
 * **Icons**
 
@@ -166,26 +169,26 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 * Game title in top section of page;
 
 * Comment to player e.g. 
-    Story page: "This are our fighters" 
-    Game page:"Choose Fighter" 
-    Win page:"Congratulation" 
-    Lose page:"Sorry not this time"
+    **Story page:** "This are our fighters" 
+    **Game page:** "Choose Fighter" 
+    **Win page:** "Congratulation" 
+    **Lose page:** "Sorry not this time"
 
 * Main section
-    Story page: Characters stories (catchy funny orginal) 
-    Game page: Batelfield area with score calculator and active icons
-    Win page: the congratulation image
-    Lose page: the you lost image
+    **Story page:** Characters stories (catchy funny orginal) 
+    **Game page:** Batelfield area with score calculator and active icons
+    **Win page:** the congratulation image
+    **Lose page:** the you lost image
 
-* Action button
-    Story page: Play
-    Game page: Return to story page
-    Win page: Return to story page and Play again
-    Lose page: Return to story page and Play again
+* Action buttons
+    **Story page:** Play
+    **Game page:** Return to story page
+    **Win page:** Return to story page and Play again
+    **Lose page:** Return to story page and Play again
 
-* Feedback form only for last (win. lost page)
+* Feedback form only for last (win. lost page) inluding submit and clear form buttons
 
-* Footer with copyrights including autor name
+* Footer with copyrights including author name
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -203,11 +206,11 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 ### Win page:
 
-* A short message to player - "CONGRATULATIONS" 🏆 and feedback form
+* A short message to player - "CONGRATULATIONS" 🏆, iframe from [Giphy](https://giphy.com/) and feedback form
 
 ### Lose page:
 
-* A short message to player - "Sorry not this time" 😢 and feedback form
+* A short message to player - "Sorry not this time" 😢, , iframe from [Giphy](https://giphy.com/) and feedback form
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -240,6 +243,16 @@ During my page creation journey I did use:
     * To test responsiveness in end product and create readme screen shots
 * [Beautifier - Free Formater](https://www.freeformatter.com/html-formatter.html) 
     * Used to improve HTML and CSS code presentation
+* [Giphy](https://giphy.com/)
+    * Used to create background and adding last page gif animation
+* [Inkspace](https://inkscape.org/)
+    * Used to create characters
+* [Freeconvert](https://www.freeconvert.com/)
+    * Used to convert tiff format to png (one of acceptable omage formats allowing to have no background)
+* [I Loving img](https://www.iloveimg.com/)
+    * Used to crop images to correct size
+
+
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -249,7 +262,7 @@ During my page creation journey I did use:
 
 ### Google developer Tool
 
-Used during entire project to test code and debug issues   
+Used during entire project to test code and debug issues.
 
 ### Responsive tools
 

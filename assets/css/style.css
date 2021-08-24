@@ -332,7 +332,7 @@ div > p {
   }
 
   textarea#feedback {
-    width: 100%;
+    width: 91%;
 }
 
 .giphy-embed {
@@ -462,7 +462,7 @@ div > p {
 }
     /* iPad PRO 1024px-1279px not standard laptops */
 
-    @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    @media screen and (min-width: 1024px) and (max-width: 1278px) {
         
         /* story page */
         .image--scissoro, .image--paperusus, .image--rocky { 
@@ -485,6 +485,12 @@ div > p {
 
         .fighter--paperusus {
             height: 188px;
+        }
+
+
+        .header {
+            font-size: 0.1rem;
+            display: inline-flex;
         }
 
         #player--choice, 
@@ -553,7 +559,7 @@ div > p {
 
     /* 1280px up */
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1279px) {
          /* story page */
          body {
              margin-left: 100px;
@@ -561,9 +567,10 @@ div > p {
          }
          .image--scissoro, .image--paperusus, .image--rocky { 
 
-            height: 220px;
+            height: 20vh;
             width: 220px;
         }
+
 
         .name {
 
@@ -574,26 +581,28 @@ div > p {
         }
 
         .fighter--rocky, .fighter--scissorro {
-            height: 200px;
+            height: 20vh;
+            background-position: bottom;
         }
 
         .fighter--paperusus {
-            height: 188px;
+            height: 23vh;
+            background-position: bottom;
         }
 
         #player--choice, 
         #computer--choice {
-            height: 267px;
+            height: 20vh;
             flex-basis: 30%;
         }
 
         .vsimage {
-            height: 25vh;
+            height: 20vh;
         }
 
         .comment {
-            margin: 10px 0 25px 0;
-            font-size: 2.3rem;
+            margin: 2px 0 1px 0;
+            font-size: 1.7rem;
     }
 
     #user--result, #computer--result {
@@ -601,15 +610,15 @@ div > p {
         
     }
     .font-win::before, .font-loose::before, .font-draw::before {
-        font-size: 400%;
+        font-size: 300%;
     }
 
     #computer--scored, #player--scored, #total--rounds {
-        font-size: 4rem;
+        font-size: 2.4rem;
     }
 
     .player--scomment, .rounds, .computer--scomment {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     
@@ -621,7 +630,7 @@ div > p {
         width: 402px;
     }
     .header {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .btn--last {
         width: auto;
@@ -631,7 +640,7 @@ div > p {
     }
 
     .giphy-embed {
-        height: 481px;
+        height: 240px;
         width: 718px;
     }
 
