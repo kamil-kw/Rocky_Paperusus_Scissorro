@@ -18,11 +18,8 @@ body {
 
    }
 
-   .back {
-       background-color: rgba(255, 255, 255, 0.7);
 
-   }
-   .title, .choose--fighter, .fight, .game--score {
+   .title, .choose--fighter, .fight, .game--score, .back {
     background-color: rgba(255, 255, 255, 0.7);
    }
 .comment {
@@ -405,6 +402,10 @@ details >p {
     margin: 7px;
 }
   
+footer {
+    order: 7;
+    text-align: center;
+}
   /* phone generations like iPhone 5S. Galaxy fold */
 
 @media screen and (min-width: 280px) and (max-width: 320px) {

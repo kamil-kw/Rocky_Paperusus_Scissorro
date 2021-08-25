@@ -10,32 +10,35 @@
     <script src="../javascript/script.js"></script>
 </head>
 <body>
-    <video autoplay muted loop id="myVideo"><source src="../images/background_game.mp4" type="video/mp4"></video>
-    <div class="title center">
-        <h1 class="header center">Rocky Paperusus Scissorro</h1>
-        <h1 class="header center">The Ultimate Tournament</h1>
-    </div>
-    <h2 class="comment center">CONGRATULATIONS</h2>
-    
-    
-    <div class="image--win">
-        <iframe src="https://giphy.com/embed/3oz8xAFtqoOUUrsh7W" class="giphy-embed"></iframe>
-    </div>
+    <div class="back">
+        <video autoplay muted loop id="myVideo"><source src="../images/background_game.mp4" type="video/mp4"></video>
+        <div class="center">
+            <h1 class="header center">Rocky Paperusus Scissorro</h1>
+            <h1 class="header center">The Ultimate Tournament</h1>
+        </div>
+        <h2 class="comment center">CONGRATULATIONS</h2>
+        
+        
+        <div class="image--win">
+            <iframe src="https://giphy.com/embed/3oz8xAFtqoOUUrsh7W" class="giphy-embed"></iframe>
+        </div>
 
-    <div class="return--try">
-    <button class="try--btn btn btn--last" onclick="window.location='./game.html'"><span>PLAY <i class="fas fa-play"></i></span></button>
-    <button class="return--btn btn btn--rtn" onclick="window.location='../../index.html'"><span>RETURN TO STORY PAGE <i class="fas fa-backward"></i></span></button>
+        <div class="return--try">
+        <button class="try--btn btn btn--last" onclick="window.location='./game.html'"><span>PLAY <i class="fas fa-play"></i></span></button>
+        <button class="return--btn btn btn--rtn" onclick="window.location='../../index.html'"><span>RETURN TO STORY PAGE <i class="fas fa-backward"></i></span></button>
+        
+        </div>
+        <form action="https://formdump.codeinstitute.net/" id="myForm" name="myForm" method="POST" target="_blank" onsubmit="return checkForm()">
+            <div class="second">Please take a second to submit feedback about a game</div>
+            <textarea type="text" name="feedback" id="feedback" placeholder="Please leave your feedback here :)"></textarea>
+            <br>
+            <input type="submit"  value="Submit form" class="btn btn--last">
+            <input type="button" onclick="clearForm()" value="Clear form" class="btn btn--last">
+        </form>
+        </form>
+        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+        <footer>Game Author: Kamil Kwiatkowski</footer>
+    </div>
     
-    </div>
-    <form action="https://formdump.codeinstitute.net/" id="myForm">
-        <div class="second">Please take a second to submit feedback about a game</div>
-        <textarea type="text" name="feedback" id="feedback" placeholder="Please leave your feedback here :)"></textarea>
-        <div>
-        <input type="button" onclick="submitForm()" value="Submit form" class="btn btn--last">
-        <input type="button" onclick="clearForm()" value="Clear form" class="btn btn--last">
-    </div>
-    </form>
-    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-    <footer>Game Author: Kamil Kwiatkowski</footer>
 </body>
 </html>
