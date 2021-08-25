@@ -10,44 +10,84 @@
     <script src="./assets/javascript/script.js"></script>
 </head>
 <body>
-    <video autoplay muted loop id="myVideo"><source src="assets/images/background_game.mp4" type="video/mp4"></video>
         <div class="title center">
-        <h1 class="header center">Rocky Paperusus Scissorro</h1>
-        <h1 class="header center">The Ultimate Tournament</h1>
-    </div>
-    <h2 class="comment center">This are our fighers:</h2>
-    <div class="history--rocky">
-        <div class="image--rocky"></div>
-        <div class="story--rocky">
-            <h3 class="center name">Rocky</h3>
-            <p>Slightly thick-skinned, was born with extraordinary ability to dull 
-                sharp tools with his own skin.  His eternal enemy is Paperusus – 
-                Master of the hammer art.</p>
+            <h1 class="header">Rocky Paperusus Scissorro</h1>
+            <h1 class="header">The Ultimate Tournament</h1>
+            <h2 class="comment">This are our fighers:</h2>
         </div>
-    </div>
-    <br>
-    <div class="history--paperusus">
-        <div class="image--paperusus"></div>
-        <div class="story--paperusus">
-            <h3 class="center name">Paperusus</h3>
-            <p>He may look inconspicuously, but he wields a hammer as no one before. 
-                In the far east countries he learned how to combat with the hammer, 
-                and he is second to none. With one stroke he can break down the biggest 
-                and toughest rocks in the world. His eternal enemy is Scissorro.</p>
+        <div class="history--rocky">
+            <div class="image--rocky"></div>
+            <div class="story--rocky">
+                <h3 class="center name">Rocky</h3>
+                <p>Slightly thick-skinned, was born with extraordinary ability to dull 
+                    sharp tools with his own skin.  His eternal enemy is Paperusus – 
+                    Master of the hammer art.</p>
+            </div>
         </div>
-    </div>
-    <div class="history--scissoro">
-        <div class="image--scissoro"></div>
-        <div class="story--scissoro">
-            <h3 class="center name">Scissorro</h3>
-            <p>A brave hero from the Scissorland, defending the oppressed, trained by his 
-                father. Currently the fencing master with a talent to inflicting lethal 
-                strokes with unheard of speed. His eternal enemy is Rocky.</p>
+        <br>
+        <div class="history--paperusus">
+            <div class="image--paperusus"></div>
+            <div class="story--paperusus">
+                <h3 class="center name">Paperusus</h3>
+                <p>He may look inconspicuously, but he wields a hammer as no one before. 
+                    In the far east countries he learned how to combat with the hammer, 
+                    and he is second to none. With one stroke he can break down the biggest 
+                    and toughest rocks in the world. His eternal enemy is Scissorro.</p>
+            </div>
         </div>
-    </div>
-    <button class="btn play--btn" onclick="window.location='./assets/subpages/game.html'"><span>PLAY <i class="fas fa-play"></i></span></button>
-    <footer>Author: Kamil Kwiatkowski</footer>
-    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+        <div class="history--scissoro">
+            <div class="image--scissoro"></div>
+            <div class="story--scissoro">
+                <h3 class="center name">Scissorro</h3>
+                <p>A brave hero from the Scissorland, defending the oppressed, trained by his 
+                    father. Currently the fencing master with a talent to inflicting lethal 
+                    strokes with unheard of speed. His eternal enemy is Rocky.</p>
+            </div>
+        </div>
+        <div class="btn--footer">
+            <button class="btn play--btn" onclick="window.location='./assets/subpages/game.html'"><span>PLAY <i class="fas fa-play"></i></span></button>
+            <details>
+                <summary class="how">WANT TO KNOW HOW TO PLAY?</summary>
+                <h3><i class="fas fa-book"></i> Game RULES?</i></h3>
+                <h4><i class="fas fa-user-ninja"></i> Players <i class="fas fa-robot"></i></h4>
+                <p>You as a player are going to fight agianst the machine(computer)</p>
+                
+                <h4><i class="fas fa-sort-numeric-up-alt"></i> Rounds</h4>
+                <p>The tournament have 10 rounds, however (!important) the number of rounds can drasticly increase until
+                    the winner will be defined only in case of the situation where one of the 
+                    battle parties will have score bigger than a opponent the game will end.
+                </p>
+
+                <h4><i class="fas fa-dice"></i> Throw Strategy</h4>
+                <p>
+                    As all in this world also our heros have a cons and pros, see details below:
+                </p>
+                <p> 
+                    <i class="fas fa-hand-rock"></i> <strong>Rocky</strong> - due to his extraordinary ability to dull 
+                    sharp tools with his own skin he will destroy the Scissioro, 
+                    however his nemesis is Paperusus
+                </p>
+                <p> 
+                    <i class="fas fa-hand-paper"></i> <strong>Paparusus</strong> - As he can crush with one stroke the biggest 
+                    and toughest rocks in the world he will crush the Rocky into the piecies, however his nemesis is Scissoro
+                </p>
+                <p> 
+                    <i class="fas fa-hand-scissors"></i> <strong>Scissioro</strong> - As the fencing master with a talent to inflicting lethal 
+                    strokes with unheard of speed he will cut in piecies the Paparusus, however his nemesis is Rocky
+                </p>
+            
+                <h4><i class="fas fa-question-circle"></i> You may ask how can I play this game</h4>
+                <p> Is easy like mouse clicing, just choose your character out of three characters form top side od screen and than immedetaly the machine will choose (random) its character to fight against you
+                </p>
+                <h3><i class="fas fa-award"></i> GOOD LUCK</h3>
+            
+            </details>
+            <footer>Game Author: Kamil Kwiatkowski</footer>
+        </div>
+
+
     
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <video autoplay muted loop id="myVideo"><source src="assets/images/background_game.mp4" type="video/mp4"></video>
 </body>
 </html>

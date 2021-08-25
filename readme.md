@@ -372,19 +372,14 @@ Page details:
 <a name="development"></a>
 ## 5. Development
 
-I tried multiple layouts & elements in my second respiratory to provide the most user friendly interface. The design of the website and the content was created by myself, there were no design bots used to help with development.
-I have defined responsive breakpoints based on the percentage of the most popular devices screen size used in 2021.
 
-The code was reviewed multiple times to ensure all dead codes are cleaned, and it's readable for the other testers/ users.
-CSS code was cleaned and condensed (in total over 200 lines of CSS code lines were removed).
-Code has been runned by HTML/ CSS beautifier to improve code outlook. 
 
 
 * **All pages:**
  
-During the first days of the project I did use different pictures for positioning, however I changed it later to my own picture.
+During the first days of the project I did use different pictures for positioning, however I changed it later to specialy designed for this game characters.
 
-Original design was with only a grey color background. I have changed that recently to provide a more complimentary photo to the hero image. Based on that, I was able to apply a grey transparent box to highlight the text section.
+
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -424,11 +419,10 @@ See End Product screens:
 
     * Icons came from [Font Awsome](https://fontawesome.com/)
     * Font came from [Google Fonts](https://fonts.google.com/)
-    * Shadows code from [Neumorphism/Soft UI CSS shadow generator](https://neumorphism.io/#e0e0e0) thank you for sharing @Aukje - Red Pepper_Alumni
 
 * **Content:**
 
-    * Background photo download from [Pexels](https://www.pexels.com/) Author: Matheus Natan
+    * Background photo download from [Giphy](https://giphy.com/);
 
     
 [Back to Table Of Content](#tableOfContents)

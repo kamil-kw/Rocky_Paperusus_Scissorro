@@ -112,6 +112,7 @@ function fighterComparation(user, computer) {
 
 }
 
+
 function submitForm() {
     document.getElementById("myForm").submit();
   }
@@ -119,4 +120,3 @@ function submitForm() {
   function clearForm() {
     document.getElementById("myForm").reset();
   }
-
