@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rocky Paperusus Scissorro The Ultimate Tournament</title>
-    <link rel="stylesheet" href="../css/style.css"/>
-    <link rel="shortcut icon" type="image/png" href="../images/favicon-32x32.png">
-    <script src="../javascript/script.js"></script>
-</head>
-<body>
-    <video autoplay muted loop id="myVideo"><source src="../images/background_game.mp4" type="video/mp4"></video>
-    <div class="title center">
-        <h1 class="header">Rocky Paperusus Scissorro</h1>
-        <h1 class="header">The Ultimate Tournament</h1>
-        <h2 class="comment">Choose Fighter:</h2>
-    </div>
-
-    
-    <div class="choose--fighter">
-        <div id="rocky" class="fighter--rocky" onclick="chooseFighter('rocky')"></div>
-        <div id="paperusus" class="fighter--paperusus" onclick="chooseFighter('paperusus')"></div>
-        <div  id="scissorro" class="fighter--scissorro" onclick="chooseFighter('scissorro')"></div>
-    </div>
-    <div class="fight">
-        <div id="player--choice" class="fighter--player"></div>
-        <div id="showimage" class="vs"></div>
-        <div id="computer--choice" class="fighter--computer"></div>
-    </div>
-    <div class="game--score">
-        <div id="user--result"></div>
-        <div id="fontawesome" class="font--awesome"></div>
-        <div id="computer--result"></div>
-    </div>
-    <div class="game--score">
-        <div class="player--score">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rocky Paperusus Scissorro The Ultimate Tournament</title>
+      <link rel="stylesheet" href="../css/style.css"/>
+      <link rel="shortcut icon" type="image/png" href="../images/favicon-32x32.png">
+      <script src="../javascript/script.js"></script>
+   </head>
+   <body>
+      <!-- Title area -->
+      <div class="title center">
+         <h1 class="header">Rocky Paperusus Scissorro</h1>
+         <h1 class="header">The Ultimate Tournament</h1>
+         <h2 class="comment">Choose Fighter:</h2>
+      </div>
+      <!-- Choose fighter area -->
+      <div class="choose--fighter">
+         <div id="rocky" class="fighter--rocky" onclick="chooseFighter('rocky')"></div>
+         <div id="paperusus" class="fighter--paperusus" onclick="chooseFighter('paperusus')"></div>
+         <div  id="scissorro" class="fighter--scissorro" onclick="chooseFighter('scissorro')"></div>
+      </div>
+      <!-- Battlefield -->
+      <div class="fight">
+         <div id="player--choice" class="fighter--player"></div>
+         <div id="showimage" class="vs"></div>
+         <div id="computer--choice" class="fighter--computer"></div>
+      </div>
+      <!-- Match outcome -->
+      <div class="game--score">
+         <div id="user--result"></div>
+         <div id="fontawesome" class="font--awesome"></div>
+         <div id="computer--result"></div>
+      </div>
+      <!-- Game score and round calculator -->
+      <div class="game--score">
+         <div class="player--score">
             <div class="player--scomment">Player<br>Score</div>
             <div id="player--scored">0</div>
-        </div>
-        <div class="games">
+         </div>
+         <div class="games">
             <div class="rounds">Rounds<br>Played</div>
             <div id="total--rounds">0</div>
-        </div>
-        <div class="computer--score">
+         </div>
+         <div class="computer--score">
             <div class="computer--scomment">Computer<br>Score</div>
             <div id="computer--scored">0</div>
-        </div>
-    </div>
-    <div class="btn--footer">
-        <button class="btn play--btn btn--rtn" onclick="window.location='../../index.html'"><span>RETURN TO STORY PAGE <i class="fas fa-backward"></i></span></button>
-    </div>
-    <a id="player--win" href="win.html"></a>
-    <a id="player--loose" href="loose.html"></a>
-    <footer class="back">Game Author: Kamil Kwiatkowski</footer>
-    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-
-    
-</body>
+         </div>
+      </div>
+      <!-- buttons area -->
+      <div class="btn--footer">
+         <button class="btn play--btn btn--rtn" onclick="window.location='../../index.html'"><span>RETURN TO STORY PAGE <i class="fas fa-backward"></i></span></button>
+      </div>
+      <!-- links to final game outcome -->
+      <a id="player--win" href="win.html"></a>
+      <a id="player--loose" href="loose.html"></a>
+      <!-- Footer -->
+      <footer class="back">Game Author: Kamil Kwiatkowski</footer>
+      <!-- Font awesome script -->
+      <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+      <!-- Background video -->
+      <video autoplay muted loop id="myVideo">
+         <source src="../images/background_game.mp4" type="video/mp4">
+      </video>
+   </body>
 </html>
