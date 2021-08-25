@@ -18,6 +18,10 @@ body {
 
    }
 
+   .back {
+       background-color: rgba(255, 255, 255, 0.7);
+
+   }
    .title, .choose--fighter, .fight, .game--score {
     background-color: rgba(255, 255, 255, 0.7);
    }
@@ -39,7 +43,6 @@ body {
        text-align: center;
        background-color: rgba(255, 255, 255, 0.7);
        order: 5;
-       margin-bottom: 10px;
    }
 
 /* index.html page style */
@@ -58,10 +61,12 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    flex-basis: 40%;
 }
 
 .story--rocky {
-    flex-basis: 75%;
+    flex-basis: 60%;
+    margin-right: 5px;
 }
 
 .history--paperusus {
@@ -77,10 +82,12 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    flex-basis: 40%;
 }
 
 .story--paperusus {
-    flex-basis: 75%;
+    flex-basis: 60%;
+    margin-right: 5px;
     
 }
 
@@ -97,10 +104,12 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    flex-basis: 40%;
 }
 
 .story--scissoro {
-    flex-basis: 75%;
+    flex-basis: 60%;
+    margin-right: 5px;
 }
 
 .play--btn {
@@ -369,7 +378,7 @@ div > p {
   }
 
   textarea#feedback {
-    width: 91%;
+    max-width: 700px;
 }
 
 .giphy-embed {
@@ -507,7 +516,7 @@ details >p {
 
     .giphy-embed {
         height: 481px;
-        width: 566px;
+        width: auto;
     }
 
     .second {
@@ -612,7 +621,7 @@ details >p {
 
     .giphy-embed {
         height: 481px;
-        width: 566px;
+        width: auto;
     }
 
     .second {
@@ -719,7 +728,7 @@ details >p {
 
     .giphy-embed {
         height: 240px;
-        width: 718px;
+        width: auto;
     }
 
     .second {

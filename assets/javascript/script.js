@@ -64,9 +64,9 @@ function chooseFighter(userFighter) {
     } else if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) < (document.getElementById("player--scored").innerText)){
         window.open(winnerPage, "_self");
     }
-/**
- * show image of vs only when score bigger than 0
- */
+    /**
+    * show image of vs only when score bigger than 0
+    */
     let showImage = document.getElementById('showimage');
 
     if((document.getElementById("total--rounds").innerText) > 0){
@@ -113,10 +113,15 @@ function fighterComparation(user, computer) {
 }
 
 
-function submitForm() {
-    document.getElementById("myForm").submit();
-  }
+function checkForm() {
+    let x = document.forms["myForm"]["feedback"].value;
+    if (x == "") {
+      alert("Please leave feedback");
+      return false;
+    }
+}
 
-  function clearForm() {
+
+function clearForm() {
     document.getElementById("myForm").reset();
-  }
+}
