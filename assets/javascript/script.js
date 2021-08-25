@@ -1,12 +1,11 @@
 
-/** 
- * Choose fighter function  
- * */
+// Choose fighter function  
+
 function chooseFighter(userFighter) {
-    /** declare array */
+    // declare array 
     const fighterCharacter=['rocky', 'paperusus', 'scissorro'];
 
-    /** create random number to choose compuerFighter*/
+    // create random number to choose compuerFighter
     const randomNumber = Math.random()*fighterCharacter.length;
     const roundNumber = Math.ceil(randomNumber)-1;
     const computerFighter = fighterCharacter[roundNumber];
@@ -41,9 +40,9 @@ function chooseFighter(userFighter) {
         computerChoosed.className = `fighter fighter--${computerFighter}`;
     }
 
-    /**
-     * score and rounds calculator
-     */
+    
+     // score and rounds calculator
+    
     if (resultUser === "WINNER") {
         let playerScore = parseInt(document.getElementById("player--scored").innerText);
         document.getElementById("player--scored").innerText = ++playerScore;
@@ -64,9 +63,9 @@ function chooseFighter(userFighter) {
     } else if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) < (document.getElementById("player--scored").innerText)){
         window.open(winnerPage, "_self");
     }
-    /**
-    * show image of vs only when score bigger than 0
-    */
+    
+    // show image of vs only when score bigger than 0
+    
     let showImage = document.getElementById('showimage');
 
     if((document.getElementById("total--rounds").innerText) > 0){
@@ -88,7 +87,7 @@ function chooseFighter(userFighter) {
 }
 
  
-/** Compare characters - Fight :) */
+// Compare characters - Fight :)
 function fighterComparation(user, computer) {
     if(user === 'rocky') {
         if(computer === 'paperusus') return 'loose';
@@ -112,6 +111,7 @@ function fighterComparation(user, computer) {
 
 }
 
+// Checking form if has value and return alert in case of missing
 
 function checkForm() {
     let x = document.forms["myForm"]["feedback"].value;
