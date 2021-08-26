@@ -177,19 +177,19 @@ div>p {
 .zoom {
 	cursor: pointer;
 	transition: transform .2s; /* Animation */
-  }
+}
   
-  .zoom:hover {
+.zoom:hover {
 	transform: scale(1.2);
-  }
+}
 
-  .zoom--small {
+.zoom--small {
 	transition: transform .2s; /* Animation */
-  }
+}
   
-  .zoom--small:hover {
+.zoom--small:hover {
 	transform: scale(1.1);
-  }
+}
 
 .fight {
 	order: 4;

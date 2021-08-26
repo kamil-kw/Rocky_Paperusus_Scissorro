@@ -121,7 +121,6 @@ function checkForm() {
     }
 }
 
-
 function clearForm() {
     document.getElementById("myForm").reset();
 }
