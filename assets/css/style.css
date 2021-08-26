@@ -6,6 +6,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
+	cursor: pointer black;
 }
 
 .header {
@@ -64,11 +65,11 @@ summary {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	flex-basis: 40%;
+	flex-basis: 30%;
 }
 
 .story--rocky {
-	flex-basis: 60%;
+	flex-basis: 65%;
 	margin-right: 5px;
 }
 
@@ -85,11 +86,11 @@ summary {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	flex-basis: 40%;
+	flex-basis: 30%;
 }
 
 .story--paperusus {
-	flex-basis: 60%;
+	flex-basis: 65%;
 	margin-right: 5px;
 }
 
@@ -106,11 +107,11 @@ summary {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	flex-basis: 40%;
+	flex-basis: 30%;
 }
 
 .story--scissoro {
-	flex-basis: 60%;
+	flex-basis: 65%;
 	margin-right: 5px;
 }
 
@@ -172,6 +173,23 @@ div>p {
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
+
+.zoom {
+	cursor: pointer;
+	transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+	transform: scale(1.2);
+  }
+
+  .zoom--small {
+	transition: transform .2s; /* Animation */
+  }
+  
+  .zoom--small:hover {
+	transform: scale(1.1);
+  }
 
 .fight {
 	order: 4;
