@@ -297,20 +297,21 @@ div>p {
 
 /*buttons*/
 
-.btn {
-	border-radius: 2px;
+.btn, .how {
 	background-color: #701ef4;
 	border: 2px solid orange;
-	border-radius: 30%;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
-	padding: 5px;
 	width: auto;
 	transition: all 0.5s;
-	cursor: pointer;
-	margin: 2px;
 	align-self: center;
+	padding: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
 }
 
 .btn:hover {
@@ -359,21 +360,7 @@ div>p {
 	width: 130px;
 }
 
-.how {
-	border-radius: 2px;
-	background-color: #701ef4;
-	border: 2px solid orange;
-	border-radius: 30%;
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 20px;
-	padding: 5px;
-	width: auto;
-	transition: all 0.5s;
-	cursor: pointer;
-	margin: 2px;
-	align-self: center;
-}
+
 
 .font-win::before,
 .font-loose::before,
