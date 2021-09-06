@@ -262,6 +262,9 @@ div>p {
 	order: 3;
 	text-align: center;
 }
+.image--loose {
+	opacity: 0.7;
+}
 
 #last--image {
 	height: 40vh;
