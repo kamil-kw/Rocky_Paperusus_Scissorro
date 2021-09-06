@@ -264,6 +264,11 @@ div>p {
 	text-align: center;
 }
 
+#last--image {
+	height: 40vh;
+    width: 90vw;
+}
+
 .result--score {
 	order: 4;
 	display: inline-flex;
