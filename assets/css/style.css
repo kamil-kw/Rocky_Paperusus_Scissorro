@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway&display=swap');
 
 /* Main styles settings */
-
+html {
+	font-size: 10px;
+}
 body {
 	display: flex;
 	flex-direction: column;
@@ -14,7 +16,7 @@ body {
 	font-weight: 300;
 	color: black;
 	order: 1;
-	font-size: 1.4rem;
+	font-size: 2.1rem;
 	margin: 0;
 	margin-top: -3px;
 	text-shadow: 1px 1px darkviolet;
@@ -30,6 +32,7 @@ body {
 
 .comment {
 	margin: 0;
+	font-size: 2rem
 }
 
 summary {
@@ -55,7 +58,7 @@ summary {
 	display: inline-flex;
 	background-color: rgba(255, 255, 255, 0.7);
 	width: 100%;
-	margin-top: -18px;
+	margin-top: -11px;
 }
 
 .image--rocky {
@@ -126,14 +129,14 @@ summary {
 }
 
 .name {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	margin: 5px;
 	text-decoration: underline;
 	text-shadow: 1px 0px darkviolet;
 }
 
 div>p {
-	font-size: 0.73rem;
+	font-size: 1.17rem;
 	padding-left: 5px;
 	text-align: justify;
 }
@@ -309,7 +312,7 @@ div>p {
 	border: 2px solid orange;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 15px;
+	font-size: 2.4rem;
 	width: auto;
 	transition: all 0.5s;
 	align-self: center;
@@ -409,6 +412,8 @@ details {
 	font-size: 0.8rem;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
+	margin-left: 4vw;
+    margin-right: 4vw;
 }
 
 h4 {
@@ -427,15 +432,19 @@ details>p {
 footer {
 	order: 7;
 	text-align: center;
+	font-size: 2rem;
 }
 
 
 /* phone generations like iPhone 5S. Galaxy fold */
 
 @media screen and (min-width: 280px) and (max-width: 320px) {
-	.how {
-		font-size: .8rem;
+	.how, .btn {
+		font-size: 1.4rem;
 	}
+}
+footer {
+	font-size: 1.5rem;
 }
 
 
@@ -458,9 +467,10 @@ footer {
 	}
 	.comment {
 		margin: 10px 0 25px 0;
+		font-size: 2rem;
 	}
-	.how {
-		font-size: 1rem;
+	.how, .btn {
+		font-size: 1.5rem;
 	}
 }
 
@@ -476,10 +486,10 @@ footer {
 		width: 220px;
 	}
 	.name {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	div>p {
-		font-size: 1.2rem;
+		font-size: 2.2rem;
 	}
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -497,7 +507,7 @@ footer {
 	}
 	.comment {
 		margin: 10px 0 25px 0;
-		font-size: 2.3rem;
+		font-size: 3rem;
 	}
 	#user--result,
 	#computer--result {
@@ -526,7 +536,7 @@ footer {
 		width: 402px;
 	}
 	.header {
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	.btn--last {
 		width: auto;
@@ -550,11 +560,18 @@ footer {
 	}
 	h3 {
 		margin: 10px;
+		font-size: 2.4rem;
 	}
 	h4 {
 		margin: 0;
-		font-size: 1.4rem;
+		font-size: 2.1rem;
 	}
+	
+
+	details>p {
+		font-size: 2rem;
+	}
+
 }
 
 
@@ -673,7 +690,7 @@ footer {
 		font-size: 2rem;
 	}
 	div>p {
-		font-size: 1.2rem;
+		font-size: 1.6rem;
 	}
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -694,7 +711,7 @@ footer {
 	}
 	.comment {
 		margin: 2px 0 1px 0;
-		font-size: 1.7rem;
+		font-size: 2.7rem;
 	}
 	#user--result,
 	#computer--result {
@@ -715,15 +732,27 @@ footer {
 	.computer--scomment {
 		font-size: 1.5rem;
 	}
-	.btn {
-		font-size: 23px;
-		width: 150px;
+	.btn, .how {
+		font-size: 2rem;
+		width: auto;
 	}
+	
+	h3 {
+		font-size: 2rem;
+	}
+	h4 {
+		font-size: 1.8rem;
+	}
+
+	details>p {
+		font-size: 1.7rem;
+	}
+
 	.btn--rtn {
 		width: 402px;
 	}
 	.header {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	.btn--last {
 		width: auto;
