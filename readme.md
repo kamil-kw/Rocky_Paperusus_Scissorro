@@ -206,11 +206,11 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 ### Win page:
 
-* A short message to player - "CONGRATULATIONS" 🏆, iframe from [Giphy](https://giphy.com/) and feedback form
+* A short message to player - "CONGRATULATIONS" 🏆, video created using [Canva](https://www.canva.com/)
 
 ### Lose page:
 
-* A short message to player - "Sorry not this time" 😢, , iframe from [Giphy](https://giphy.com/) and feedback form
+* A short message to player - "Sorry not this time" 😢, video created using [Canva](https://www.canva.com/)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -411,7 +411,8 @@ See End Product screens:
 
 * Incorrect structure of play and return button - cant be closed in anchor tag - rebuild to correct structure format
 * Typo in line 22 of game.html - missing space button between attribiutes - space added
-* incorrect structure of embeded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed 
+* incorrect structure of embeded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed
+* Poor score from lighthouse performance 89% due to external source of video, replacing video from giphy to own created using [Canva](https://www.canva.com/)
 
 [Back to Table Of Content](#tableOfContents)
 
