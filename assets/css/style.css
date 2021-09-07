@@ -550,9 +550,12 @@ details>p {
 	.vsimage {
 		height: 325px;
 	}
+	.header {
+		font-size: 5rem;
+	}
 	.comment {
 		margin: 10px 0 25px 0;
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	#user--result,
 	#computer--result {
@@ -582,9 +585,7 @@ details>p {
 		font-size: 23px;
 		width: 150px;
 	}
-	.header {
-		font-size: 4rem;
-	}
+
 	.btn--last {
 		width: auto;
 	}
@@ -593,11 +594,11 @@ details>p {
 	}
 
 	.second {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	#feedback {
 		height: 100px;
-		font-size: 1.6rem;
+		font-size: 2.4rem;
 	}
 	details {
 		font-size: 1.2rem;
@@ -644,7 +645,6 @@ details>p {
 	}
 	.header {
 		font-size: 0.1rem;
-		display: inline-flex;
 	}
 	#player--choice,
 	#computer--choice {
@@ -715,6 +715,9 @@ details>p {
 	footer {
 		font-size: 2.5rem;
 	}
+	textarea#feedback {
+		max-width: 40vw;
+	}
 }
 
 
@@ -733,10 +736,10 @@ details>p {
 		width: 220px;
 	}
 	.name {
-		font-size: 3.3rem;
+		font-size: 2rem;
 	}
 	div>p {
-		font-size: 3rem;
+		font-size: 1.8rem;
 	}
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -755,9 +758,12 @@ details>p {
 	.vsimage {
 		height: 20vh;
 	}
+	.header {
+		font-size: 2.9rem;
+	}
 	.comment {
 		margin: 2px 0 1px 0;
-		font-size: 4rem;
+		font-size: 2.4rem;
 	}
 	.font-win::before,
 	.font-loose::before,
@@ -775,38 +781,42 @@ details>p {
 	#computer--scored,
 	#player--scored,
 	#total--rounds {
-		font-size: 4rem;
+		font-size: 2.9rem;
 	}
 	.btn,
 	.how {
-		font-size: 3rem;
+		font-size: 1.8rem;
 		width: auto;
 	}
 	h3 {
-		font-size: 4rem;
+		font-size: 2.2rem;
 	}
 	h4 {
-		font-size: 3.3rem;
+		font-size: 2.1rem;
 	}
 	details>p {
-		font-size: 3rem;
+		font-size: 1.9rem;
 	}
-	.header {
-		font-size: 5rem;
-	}
+
 	.btn--last {
 		width: auto;
 	}
-
+	#last--image{
+		width: 80vw;
+		height: 45vh;
+	}
 	.second {
-		font-size: 3.7rem;
+		font-size: 2.2rem;
 	}
 	#feedback {
-		height: 15vh;
-		font-size: 3rem;
+		height: 13vh;
+		font-size: 2rem;
+	}
+	textarea#feedback {
+		max-width: 40vw;
 	}
 	footer {
-		font-size: 3rem;
+		font-size: 2.2rem;
 	}
 }
 
@@ -845,9 +855,12 @@ details>p {
 	.vsimage {
 		height: 20vh;
 	}
+	.header {
+		font-size: 5.4rem;
+	}
 	.comment {
 		margin: 2px 0 1px 0;
-		font-size: 6rem;
+		font-size: 5rem;
 	}
 	.font-win::before,
 	.font-loose::before,
@@ -869,7 +882,7 @@ details>p {
 	}
 	.btn,
 	.how {
-		font-size: 5rem;
+		font-size: 4rem;
 		width: auto;
 	}
 	h3 {
@@ -881,9 +894,13 @@ details>p {
 	details>p {
 		font-size: 3rem;
 	}
-	.header {
-		font-size: 7rem;
+
+	#last--image {
+		height: 46vh;
+		width: 56vw;
+		opacity: 0.7;
 	}
+
 	.btn--last {
 		width: auto;
 	}
@@ -892,7 +909,7 @@ details>p {
 		max-width: 40vw;
 	}
 	.second {
-		font-size: 5.7rem;
+		font-size: 3.7rem;
 	}
 	#feedback {
 		height: 15vh;
