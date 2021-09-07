@@ -139,6 +139,7 @@ div>p {
 	font-size: 1.17rem;
 	padding-left: 5px;
 	text-align: justify;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -235,15 +236,18 @@ div>p {
 .player--score {
 	text-align: left;
 	width: 23%;
+	font-size: 1.5rem;
 }
 
 .games {
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 .computer--score {
 	text-align: right;
 	width: 23%;
+	font-size: 1.5rem;
 }
 
 #computer--scored,
@@ -419,20 +423,31 @@ details {
 h4 {
 	margin: 0;
 	text-decoration: underline;
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: 100;
 }
 
 h3 {
 	margin: 5px;
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: 100;
 }
 
 details>p {
 	margin: 7px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 footer {
 	order: 7;
 	text-align: center;
 	font-size: 2rem;
+}
+
+strong {
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: 100;
 }
 
 
@@ -446,7 +461,17 @@ footer {
 footer {
 	font-size: 1.5rem;
 }
+h3 {
+	font-size: 1.5rem;
+}
+h4 {
+	font-size: 1.4rem;
+}
 
+
+details>p {
+	font-size: 1.17rem;
+}
 
 /* screen 321px-767px */
 
@@ -471,6 +496,16 @@ footer {
 	}
 	.how, .btn {
 		font-size: 1.5rem;
+	}
+
+	.player--scomment, 
+	.computer--scomment, 
+	.rounds,
+	.player--scomment, 
+	.computer--scomment, 
+	.rounds, #user--result, 
+	#computer--result {
+		font-size: 2rem;
 	}
 }
 
@@ -511,7 +546,7 @@ footer {
 	}
 	#user--result,
 	#computer--result {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	.font-win::before,
 	.font-loose::before,
@@ -523,10 +558,15 @@ footer {
 	#total--rounds {
 		font-size: 4rem;
 	}
-	.player--scomment,
-	.rounds,
-	.computer--scomment {
-		font-size: 2rem;
+
+	.game--score,
+	.computer--score,
+	.game--score {
+	font-size: 3rem;
+	}
+
+	.player--scomment, .computer--scomment, .rounds {
+		font-size: 3rem;
 	}
 	.btn {
 		font-size: 23px;
@@ -571,7 +611,10 @@ footer {
 	details>p {
 		font-size: 2rem;
 	}
-
+	
+	footer {
+		font-size: 2.5rem;
+	}
 }
 
 
@@ -586,10 +629,10 @@ footer {
 		width: 220px;
 	}
 	.name {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	div>p {
-		font-size: 1.2rem;
+		font-size: 2.2rem;
 	}
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -611,12 +654,20 @@ footer {
 	}
 	.comment {
 		margin: 10px 0 25px 0;
-		font-size: 2.3rem;
+		font-size: 3.3rem;
 	}
-	#user--result,
+
+	.player--scomment, 
+	.computer--scomment, 
+	.rounds,
+	.player--scomment, 
+	.computer--scomment, 
+	.rounds, 
+	#user--result, 
 	#computer--result {
-		font-size: 2rem;
+		font-size: 4rem;
 	}
+
 	.font-win::before,
 	.font-loose::before,
 	.font-draw::before {
@@ -627,20 +678,17 @@ footer {
 	#total--rounds {
 		font-size: 4rem;
 	}
-	.player--scomment,
-	.rounds,
-	.computer--scomment {
-		font-size: 2rem;
-	}
+
 	.btn {
-		font-size: 23px;
+		font-size: 2.7rem;
 		width: 150px;
+		
 	}
 	.btn--rtn {
 		width: 402px;
 	}
 	.header {
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	.btn--last {
 		width: auto;
@@ -662,12 +710,19 @@ footer {
 	details {
 		font-size: 1.2rem;
 	}
+	details>p {
+		font-size: 2.17rem;
+	}
 	h3 {
 		margin: 10px;
+		font-size: 3rem;
 	}
 	h4 {
 		margin: 0;
-		font-size: 1.4rem;
+		font-size: 2.4rem;
+	}
+	footer {
+		font-size: 2.5rem;
 	}
 }
 
@@ -713,25 +768,27 @@ footer {
 		margin: 2px 0 1px 0;
 		font-size: 2.7rem;
 	}
-	#user--result,
-	#computer--result {
-		font-size: 2rem;
-	}
+
 	.font-win::before,
 	.font-loose::before,
 	.font-draw::before {
 		font-size: 300%;
 	}
+
+	.player--scomment, 
+	.computer--scomment, 
+	.rounds,
+	.player--scomment, 
+	.computer--scomment, 
+	.rounds, 
+	#user--result, 
+	#computer--result,
 	#computer--scored,
 	#player--scored,
 	#total--rounds {
-		font-size: 2.4rem;
+		font-size: 3rem;
 	}
-	.player--scomment,
-	.rounds,
-	.computer--scomment {
-		font-size: 1.5rem;
-	}
+
 	.btn, .how {
 		font-size: 2rem;
 		width: auto;
