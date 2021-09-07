@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Welcome to my first Full Stack Course project. This page is my "Welcome World" project, a way for me to say Hi! to developers world. Webpage will tell you something more about myself and show my achievements.
+Welcome to my second Full Stack Course project. This game is a modern twist on the popular game paper scissor rock.
 
 # See live webpage [here](https://kamil-kw.github.io/Paperusus_Rocky_Scissorro/index.html)
 
