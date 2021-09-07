@@ -53,7 +53,7 @@ Welcome to my first Full Stack Course project. This page is my "Welcome World" p
 ## 1. UX
 
 
-As mention in my first project my ultimate goal is to change my career path and become a full time developer, therefore my second project will be a showing my new aqiured skill which is JavaScript in the real project.
+As mentioned in my first project my ultimate goal is to change my career path and become a full time developer, therefore my second project will be showing my new acquired skill which is JavaScript in the real project.
 
 As a part of my path of becoming a software developer from zero to hero 😊, I'm presenting a Rock Paperusus Scissorro game.
 
@@ -67,7 +67,9 @@ As a part of my path of becoming a software developer from zero to hero 😊, I'
 <a name="projectGoals"></a>
 ### * Project Goals
 
-The reason for this web page is to show my skills to potential recruiters and all who wants to cooperate with me in the future in projects. The website has been built by using HTML and CSS and new skill on board the JavaScript😊. 
+The reason for this web page is to show my skills to potential recruiters and all who want to cooperate with me in the future in projects.
+
+The website has been built by using HTML, CSS and JavaScript (the new skill on board 😊). 
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -97,23 +99,23 @@ The reason for this web page is to show my skills to potential recruiters and al
 * Interface is easy to navigate;
 * The website is responsive across all devices (mobile, tablet and desktop);
 * Content is displayed in a clear and understanding format;
-* To have the ability to leave feedback about the game expirence and concept;
+* To have the ability to leave feedback about the game experience and concept;
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="structure"></a>
 ## 1.2. Structure
 
-To be able to provide for users the best experience on devices which they use, my website have responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop). 
+To be able to provide for users the best experience on devices which they use, my website has responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop). 
 
 This has been tested and proven to be functional. 
 
 * **All pages** with one consistent layout design being easy to understand and intuitive for all users;
-* **Navigation buttons** located abouve the footer;
+* **Action buttons** located below middle sections (history, battlefield, lost/win image);
 * **Footer** with copyrights and author name;
 * **Story** includes short catchy/funny story about each character;
 * **Game** include game with, section to choose character, battlefield, score of user and computer, and amount of rounds;
-* **Lose and Win** include win or lost sentence, have abuility to leave feedback by submiting the form. 
+* **Lose and Win** include win or lost sentence, have ability to leave feedback by submitting the form. 
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -141,17 +143,17 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 
 * **Typography**
 
-A font of my choice is Luckiest Guy & Raleway provided by [Google Fonts](https://fonts.google.com/).
-As alternative font to Luckiest Guy, I used cursive font,
-As alternative font to Raleway, I used sans-sarif font,
+* A font of my choice is Luckiest Guy & Raleway provided by [Google Fonts](https://fonts.google.com/).
+    * As alternative font to Luckiest Guy, I used cursive font,
+    * As alternative font to Raleway, I used sans-sarif font,
 
 * **Background**
 
-The background video used in my project was taken from [Giphy](https://giphy.com/).
+The background video used in my project was created and downloaded from [Giphy](https://giphy.com/).
 
 * **Characters**
  
-Characters were created Malgorzata Ostrowska (a graphic designer begginer) with using the Inkspace app.
+Characters were created Malgorzata Ostrowska (a graphic designer beginner) with using the Inkspace app.
 
 * **Icons**
 
@@ -166,6 +168,8 @@ The icons were taken from [Font Awsome](https://fontawesome.com/)
 
 A goal was to achieve a one consistent layout within all pages. This includes: 
 
+* Consistent animated background created and downloaded from [Giphy](https://giphy.com/)
+
 * Game title in top section of page;
 
 * Comment to player e.g. 
@@ -175,18 +179,18 @@ A goal was to achieve a one consistent layout within all pages. This includes:
     **Lose page:** "Sorry not this time"
 
 * Main section
-    **Story page:** Characters stories (catchy funny orginal) 
-    **Game page:** Batelfield area with score calculator and active icons
-    **Win page:** the congratulation image
-    **Lose page:** the you lost image
+    **Story page:** Characters stories (catchy funny original) 
+    **Game page:** Battlefield area with score calculator and active icons (characters)
+    **Win page:** the congratulation image created & download from [Canva](https://www.canva.com/)
+    **Lose page:** the you lost image created & download from [Canva](https://www.canva.com/)
 
 * Action buttons
     **Story page:** Play
     **Game page:** Return to story page
-    **Win page:** Return to story page and Play again
-    **Lose page:** Return to story page and Play again
+    **Win page:** Return to story page and Play
+    **Lose page:** Return to story page and Play
 
-* Feedback form only for last (win. lost page) inluding submit and clear form buttons
+* Feedback form only for last (win. lost page) including submit and clear form buttons
 
 * Footer with copyrights including author name
 
@@ -194,13 +198,13 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 ### Story page
 
-* A short overview of game character, including funny/intrestiong story about each character
+* A short overview of game character, including funny/interesting story about each character
 
 [Back to Table Of Content](#tableOfContents)
 
 ### Game page:
 
-* A game page devided in section to choose character, battelfield and score area.
+* A game page divided in sections to choose character, battlefield and score area.
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -224,7 +228,7 @@ During my page creation journey I did use:
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
     * Current project uses Cascading Style Sheets.
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-    * Current project uses Cascading Style Sheets. My new firend 😁 on my becoming software developer path
+    * Current project uses Cascading Style Sheets. My new friend 😁 on my becoming software developer path
 * [Chrome](https://www.google.com/intl/en_uk/chrome/)
     * Chrome dev tool used to debug and test code while building
 * [Balsamiq](https://balsamiq.com/)
@@ -237,18 +241,24 @@ During my page creation journey I did use:
     * For storing project code written in gitpod
 * [JS Fiddle](https://jsfiddle.net/)
     * Used as playground for code
+* [W3C Markup](https://validator.w3.org/)
+    * Validation tool to validate the HTML code and CSS style used in the project.
+* [Jigsaw](https://jigsaw.w3.org/) 
+    * Validation tool to validate the Javascript code style.
 * [W3School](https://www.w3schools.com/)
     * For problem solving and code searching
 * [Am I responsive design](http://ami.responsivedesign.is/)
-    * To test responsiveness in end product and create readme screen shots
+    * To test responsiveness in end product and create readme screenshots
 * [Beautifier - Free Formater](https://www.freeformatter.com/html-formatter.html) 
     * Used to improve HTML and CSS code presentation
 * [Giphy](https://giphy.com/)
     * Used to create background and adding last page gif animation
+* [Canva](https://www.canva.com/)
+    * Used to create animated videos to the last pages 
 * [Inkspace](https://inkscape.org/)
     * Used to create characters
 * [Freeconvert](https://www.freeconvert.com/)
-    * Used to convert tiff format to png (one of acceptable omage formats allowing to have no background)
+    * Used to convert tiff format to png (one of acceptable image formats allowing to have no background)
 * [I Loving img](https://www.iloveimg.com/)
     * Used to crop images to correct size
 
@@ -268,10 +278,11 @@ Used during entire project to test code and debug issues.
 
 Used google dev tool to test responsiveness.
 
-### Light House
+### Lighthouse
 
-Used as tool for improving the quality of web page.
+Used as a tool for improving the quality of web pages.
 
+### Am I responsive design
 
 [Am I responsive design](http://ami.responsivedesign.is/) used to test end product responsiveness.
 
@@ -302,7 +313,7 @@ Used as tool for improving the quality of web page.
 ### W3C Validator tools
 
 Tested by W3C validators, issues discovered:
-* Incorrect stucture of button tag - fixed by removing anchor tag and replace with span tag
+* Incorrect structure of the button tag - fixed by removing anchor tag and replace with span tag
 
 All issues corrected.
 
@@ -310,45 +321,74 @@ All issues corrected.
 
 Page details:
 
-* **Navigation Bar:**
-
-    All buttons have text color set to grey the same as borders once a site is active. After the visit this will change to sea blue color to match the background image:
-    * **About me** button will direct you to the Home page.
-    * **Resume** button will direct you to my work history.
-    * **Contact** button will direct you to the Contact page.
+* **Action buttons:** 
     
-    *All navigation buttons has pass tests and worked according to project expections.*
+    All buttons have text color set to #701ef4 with orange border, to ensure good contrast.
+    * **Play** button will direct you to the Game page, will animate (transition in 0.5s) once pressed and change color to green.
+    * **WANT TO KNOW HOW TO PLAY?** button will expand game rules below;
+    * **RETURN TO STORY PAGE** button will direct you to the index page, will animate (transition in 0.5s) once pressed and change color to green.
+    * **Submit form** button once pressed will change color to green than check if feedback field is filled (using Java Script):
+        * If NOT the page alert "Please leave feedback" will appear  
+        * If YES than will direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in it in the new tab
+        
+    * **Clear form** button will clear all text from form (using Java Script).
 
-* **Hero image:**
+    
+    *All buttons has pass tests and worked according to project expections.*
+
+* **Characters story:**
+
+    * Entire text was checked against grammatical issues and typos
+    * Entire text area received transparent background to improve contrast and UX
+    * Story will zoom to 110% to increase text size once mouse over the area - adding motion to the page
+
+    *Characters story has pass tests and worked according to project expections.*
+
+* **Game rules:**
+    Expand once press the **WANT TO KNOW HOW TO PLAY?** button:
+    * Entire text was checked against grammatical issues and typos
+    * Entire text area received transparent background to improve contrast and UX
+    * A font awesome icons added to achieve game card style
+
+    *Game rules has pass tests and worked according to project expections.*
+
+* **Game buttons (choose fighter):**
  
-    Was styled to achieve a multi dimensional look,  animation added to increase the size of hero image to 110% and zoom back after 5 sec.
+    * Characters images used instead of regular buttons, 
+    * Characters will zoom to 110% to show currently pointed hero (UX)
 
-    *Hero image animation has pass tests and worked according to project expections.*
 
-* **Title area:**
+    *Game buttons animation has pass tests and worked according to project expections.*
 
-    Text was checked against typos, the font size is set to match the most popular screen sizes. Slide in animation added to compliment hero image animation.
+* **Battlefield area:**
 
-    *Title area animation has pass tests and worked according to project expections.*
+    * Characters images will appear as per player and computer choice, 
+    * The VS image will popup in between chosen characters once first character will be clicked
 
-* **Personal Details:**
 
-    Build in table form to ensure correct position of the text. 
+   *Battlefield area has pass all tests and worked according to project expections.*
 
-    Social media icons added without visual text (e.g Facebook), all icons are with active links.
+* **Score/result area:** 
+    * The player (left) and computer (right) result in text form will appear below chosen character
+    * As per player result (Win, Lost, Draw) the font awesome will appear
+        * WINNER - Trophy icon 🏆
+        * LOOSER - Sad face icon 😭
+        * DRAW - Hand shake icon 🤝
+    * Player score will be calculated each time when player wins
+    * Computer score will be calculated each time when computer wins
+    * Rounds played will calculate each time the character is chosen
 
-    *Social media icons pass tests and worked according to project expections.*
 
-* **Middle section (About me, Resume, Contact):**
+*Score/result area has pass all tests and worked according to project expections.*
 
-    Scale to fit most popular devices, added grey transparent background to separate form page background, heading is visually separated by double underline.
-    Per page:
-    * **About me** - short sentence with quote for visitors.
-    * **Resume** - work history in easy to read form, job title automatically set to uppercase, company and work time frames with underline decoration to provide clear separation from main text;
+* **Game logic:** 
+    * 3 characters to choose from (9 combinations)
+    * Total rounds 10
+    * No draw option (as this is The Ultimate Tournament 😂), game number will increase until one of the game parties will get a higher score.
 
-    *Resume page pass tests and worked according to project expections.*
+*game logic has pass all tests and worked according to project expections.*
 
-    * **Contact** - Contact form with decision points (radio buttons);
+* **Contact** - Contact form with decision points (radio buttons);
         * Send button with green color, once pressed will check if all fields are filled than direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in new tab;
 
         * Clear form button with red color will clear all text from form.
@@ -376,11 +416,9 @@ Page details:
 ## 5. Development
 
 
-
-
 * **All pages:**
  
-During the first days of the project I did use different pictures for positioning, however I changed it later to specialy designed for this game characters.
+During the first days of the project I did use different pictures for positioning and building game logic, however I changed it later to specially designed for this game characters.
 
 
 
@@ -410,9 +448,9 @@ See End Product screens:
 ## 7. Known bugs
 
 * Incorrect structure of play and return button - cant be closed in anchor tag - rebuild to correct structure format
-* Typo in line 22 of game.html - missing space button between attribiutes - space added
-* incorrect structure of embeded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed
-* Poor score from lighthouse performance 89% due to external source of video, replacing video from giphy to own created using [Canva](https://www.canva.com/)
+* Typo in line 22 of game.html - missing space button between attributes - space added
+* incorrect structure of embedded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed
+* Poor score from lighthouse performance 89% due to external source of video (giphy), replacing video to own created using [Canva](https://www.canva.com/)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -426,7 +464,10 @@ See End Product screens:
 
 * **Content:**
 
-    * Background photo download from [Giphy](https://giphy.com/);
+    * Background photo created & download from [Giphy](https://giphy.com/);
+    * Win, Lost videos created & download from [Canva](https://www.canva.com/);
+    * Characters created by Malgorzata Ostrowska (a graphic designer beginner)
 
-    
+Special thanks to @Marcel(Mentor) Mulder for constructive feedback and amazing tips, and Malgorzata Ostrowska for creating amazing characters.
+
 [Back to Table Of Content](#tableOfContents)
