@@ -718,9 +718,9 @@ details>p {
 }
 
 
-/* 1280px up */
+/* 1280px up to 1599px */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
 	/* story page */
 	body {
 		margin-left: 100px;
