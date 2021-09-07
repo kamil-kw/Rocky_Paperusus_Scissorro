@@ -4,6 +4,7 @@
 html {
 	font-size: 10px;
 }
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -276,6 +277,7 @@ div>p {
 #last--image {
 	height: 40vh;
     width: 90vw;
+	opacity: 0.7;
 }
 
 .result--score {

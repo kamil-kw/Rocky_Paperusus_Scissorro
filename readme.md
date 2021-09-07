@@ -268,6 +268,11 @@ Used during entire project to test code and debug issues.
 
 Used google dev tool to test responsiveness.
 
+### Light House
+
+Used as tool for improving the quality of web page.
+
+
 [Am I responsive design](http://ami.responsivedesign.is/) used to test end product responsiveness.
 
 * **Laptop (14"):**
@@ -297,9 +302,7 @@ Used google dev tool to test responsiveness.
 ### W3C Validator tools
 
 Tested by W3C validators, issues discovered:
-* Sections where missing H1-6 tags - corrected to div structure;
-* Typo in input hiring ID;
-* Attribute typo in the form tag.
+* Incorrect stucture of button tag - fixed by removing anchor tag and replace with span tag
 
 All issues corrected.
 
