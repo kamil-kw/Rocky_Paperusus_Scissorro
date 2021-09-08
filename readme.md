@@ -1,4 +1,4 @@
-![Hero image](assets/images/hero_image_rps.PNG)
+![Hero image](assets/images/readme_images/hero_image_rps.PNG)
 
 # Rocky Paperusus Scissorro ⛰️🧻✂️ The Ultimate Turnament 
 
@@ -6,34 +6,27 @@
 
 Welcome to my second Full Stack Course project. This game is a modern twist on the popular game rock paper scissor. 
 
-In this project my goal was to create intresting game - with original approach to rock paper scissor topic. As a Quality Engineer I'm a person who look for improvements in my daily basis, therefore I'm always keeping in back of my head words of **Ty Warner** (CEO of Ty Icn.) ***"Even perfection has room for improvement"***, what in case of my game can be translated as a perfect game with funny twist as improvement. 
+In this project my goal was to create intresting game - with original approach to rock paper scissor topic. As a Quality Engineer I'm a person who look for improvements opportunity in my daily basis, therefore I'm always keeping in back of my head words of **Ty Warner** (CEO of Ty Icn.) ***"Even perfection has room for improvement"***, what in case of my game can be translated as a perfect game with funny twist as improvement. 
 
 Hope You will enjoy my project idea, and have lots of fun with.
 
 # [See live webpage here](https://kamil-kw.github.io/Paperusus_Rocky_Scissorro/index.html)
 
 <a name="tableOfContents"></a>
-## Table of Contents
+
+# Table of Contents
 
 [1. **UX**](#ux)
+* [**1.1. Strategy**](#strategy)
+    * [Project Goals](#projectGoals)
+    * [User target](#userTarget)
+    * [1st time visitors](#firstTime)
+    * [Returning visitors](#returning)
+    * [User expectations](#userExpectations)
 
-[* **1.1. Strategy**](#strategy)
-
-[* Project Goals](#projectGoals)
-
-[* User target](#userTarget)
-
-[* 1st time visitors](#firstTime)
-
-[* Returning visitors](#returning)
-
-[* User expectations](#userExpectations)
-
-[* **1.2. Structure**](#structure)
-
-[* **1.3. Skeleton**](#skeleton)
-
-[* **1.4. Surface**](#surface)
+* [**1.2. Structure**](#structure)
+* [**1.3. Skeleton**](#skeleton)
+* [**1.4. Surface**](#surface)
 
 [2. **Features**](#features)
 
@@ -43,11 +36,13 @@ Hope You will enjoy my project idea, and have lots of fun with.
 
 [5. **Development Cycle**](#development)
 
-[6. **End Product**](#endProduct)
+[6. **Deployment**](#deployment)
 
-[7. **Known Bugs**](#knownBugs)
+[7. **End Product**](#endProduct)
 
-[8. **Credit**](#credits)
+[8. **Known Bugs**](#knownBugs)
+
+[9. **Credit**](#credits)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -58,17 +53,15 @@ As a part of my path of becoming a software developer from zero to hero 😊, I'
 
 As mentioned in my first project my ultimate goal is to change my career path and become a full time developer, therefore my second project will be showing my new acquired skill which is JavaScript in the real project. 
 
-One of the goals in this product was to draw attention of my potential employeers into my project and not be another one of the "next" rock paper scissors game out there, therefore I decided to use my creativity and build something new and original which can stay in memory for longer time than just simple version of this game.
+One of the goals in this product was to draw attention of my potential employeers into this project and not be another one of the "next" rock paper scissors game out there, therefore I decided to use my creativity and build something new and original which can stay in memory for longer time than just simple version of this game.
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="strategy"></a>
 # 1.1 Strategy
 
-[Back to Table Of Content](#tableOfContents)
-
 <a name="projectGoals"></a>
-## * Project Goals
+## Project Goals
 
 The reason for this web page is to show my skills to potential recruiters and all who want to cooperate with me in the future in projects.
 
@@ -77,12 +70,12 @@ The website has been built by using HTML, CSS and JavaScript (the new s
 [Back to Table Of Content](#tableOfContents)
 
 <a name="userTarget"></a>
-## * User Target
+## User Target
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="firstTime"></a>
-## First time visitors:
+## First time visitors
 
 * 1st time Visitors who wants to see my products;
 * 1st time Visitors who wants to play a interesting game;
@@ -90,14 +83,14 @@ The website has been built by using HTML, CSS and JavaScript (the new s
 [Back to Table Of Content](#tableOfContents)
 
 <a name="returning"></a>
-## Returning visitors:
+## Returning visitors
 
 * Visitors who would like to play again;
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="userExpectations"></a>
-## User Expectations:
+## User Expectations
 
 * Interface is easy to navigate;
 * The website is responsive across all devices (mobile, tablet and desktop);
@@ -111,7 +104,7 @@ The website has been built by using HTML, CSS and JavaScript (the new s
 
 To be able to provide for users the best experience on devices which they use, my website has responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop). 
 
-This has been tested and proven to be functional. 
+***This has been tested and proven to be functional.***
 
 * **All pages** with one consistent layout design being easy to understand and intuitive for all users;
 * **Action buttons** located below middle sections (history, battlefield, lost/win image);
@@ -208,13 +201,13 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 * A short overview of game character, including funny/interesting story about each character
 
-![Story Page](assets/images/story_page_rps.PNG)
+![Story Page](assets/images/readme_images/story_page_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
 * Game rules revel after pressing **WANT TO KNOW HOW TO PLAY?** button
 
-![Game Rules](assets/images/game_rules_rps.PNG)
+![Game Rules](assets/images/readme_images/game_rules_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -222,7 +215,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 * A game page divided in sections to choose character, battlefield and score area.
 
-![Game Page](assets/images/game_page_rps.PNG)
+![Game Page](assets/images/readme_images/game_page_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -231,7 +224,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 * A short message to player - "CONGRATULATIONS" 🏆, video created using [Canva](https://www.canva.com/)
 * Feedback form
 
-![Game Page](assets/images/win_page_rps.PNG)
+![Game Page](assets/images/readme_images/win_page_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -240,7 +233,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 * A short message to player - "Sorry not this time" 😢, video created using [Canva](https://www.canva.com/)
 * Feedback form
 
-![Game Page](assets/images/lost_page_rps.PNG)
+![Game Page](assets/images/readme_images/lost_page_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -306,35 +299,101 @@ Used google dev tool to test responsiveness.
 
 Used as a tool for improving the quality of web pages.
 
+Lighthouse Score for Mobile devices:
+
+***Story page Lighthouse Score**
+
+![Story page - Lighthouse](assets/images/readme_images/lighthouse_index.PNG)
+
+**Game page Lighthouse Score**
+
+![Game page - Lighthouse](assets/images/readme_images/lighthouse_game.PNG)
+
+**Lost page Lighthouse Score**
+
+![Lost page - Lighthouse](assets/images/readme_images/lighthouse_lost.PNG)
+
+**Win page Lighthouse Score**
+
+![Win page - Lighthouse](assets/images/readme_images/lighthouse_win.PNG)
+
+
 ### **Am I responsive design**
 
 [Am I responsive design](http://ami.responsivedesign.is/) used to test end product responsiveness.
 
 [Back to Table Of Content](#tableOfContents)
 
-* **Laptop (14"):**
 
-![Laptop](assets/images/laptop.PNG)
+### **Story screen from multiple devices**
 
-* **Desktop (24"):**
+**Laptop (14"):**
 
-![Desktop](assets/images/desktop.PNG)
+![Laptop](assets/images/readme_images/story_page_endproduct_laptop_rps.PNG)
 
-* **iPhone gen 6 up to 8:**
+[Back to Table Of Content](#tableOfContents)
 
-![iphone 6-8](assets/images/iphone_6-8.PNG)
+**Desktop (24"):**
 
-* **iPhone plus gen 6 up to 8:**
+![Desktop](assets/images/readme_images/story_page_endproduct_desktop_rps.PNG)
 
-![iphone 6-8](assets/images/iphone_plus_6-8.PNG)
+[Back to Table Of Content](#tableOfContents)
 
-* **Samsung Galaxy S5:**
+**iPhone gen 6 up to 8:**
 
-![Samsung Galaxy S5](assets/images/samsung_galaxy_s5.PNG)
+![iphone 5](assets/images/readme_images/story_page_endproduct_iphone5_rps.PNG)
 
-* **iPad:**
+[Back to Table Of Content](#tableOfContents)
 
-![iPad](assets/images/ipad.PNG)
+**iPhone plus gen 6 up to 8:**
+
+![iphone 6-8](assets/images/readme_images/story_page_endproduct_iphone6-8plus_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+**iPad:**
+
+![iPad](assets/images/readme_images/story_page_endproduct_ipad_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+### **Story screen from multiple devices**
+
+**Laptop (14"):**
+
+![Laptop](assets/images/readme_images/game_page_endproduct_laptop_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+**Desktop (24"):**
+
+![Desktop](assets/images/readme_images/game_page_endproduct_desktop_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+**iPhone gen 5:**
+
+![iphone 5](assets/images/readme_images/game_page_endproduct_iphone5_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+**iPhone gen 6 up to 8:**
+
+![iphone 6-8](assets/images/readme_images/game_page_endproduct_iphone6-8_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+**iPhone plus gen 6 up to 8:**
+
+![iphone 6-8plus](assets/images/readme_images/game_page_endproduct_iphone7_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+**iPad:**
+
+![iPad](assets/images/readme_images/game_page_endproduct_ipad_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
 
 ### W3C Validator tools
 
@@ -342,99 +401,99 @@ Tested by W3C validators, issues discovered:
 
 * Incorrect structure of the button tag - fixed by removing anchor tag and replace with span tag
 
-All issues corrected.
+**All issues corrected.**
 
 ## Manual testing
 
 Page details:
 
-* **Action buttons:** 
+**Action buttons:** 
     
-    All buttons have text color set to #701ef4 with orange border, to ensure good contrast.
+All buttons have text color set to #701ef4 with orange border, to ensure good contrast.
 
-    * **Play** button will direct you to the Game page, will animate (transition in 0.5s) once pressed and change color to green.
-    * **WANT TO KNOW HOW TO PLAY?** button will expand game rules below;
-    * **RETURN TO STORY PAGE** button will direct you to the index page, will animate (transition in 0.5s) once pressed and change color to green.
-    * **Submit form** button once pressed will change color to green than check if feedback field is filled (using Java Script):
-        * If NOT the page alert "Please leave feedback" will appear  
-        * If YES than will direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in it in the new tab
-    * **Clear form** button will clear all text from form (using Java Script).
+* **Play** button will direct you to the Game page, will animate (transition in 0.5s) once pressed and change color to green.
+* **WANT TO KNOW HOW TO PLAY?** button will expand game rules below;
+* **RETURN TO STORY PAGE** button will direct you to the index page, will animate (transition in 0.5s) once pressed and change color to green.
+* **Submit form** button once pressed will change color to green than check if feedback field is filled (using Java Script):
+    * If NOT the page alert "Please leave feedback" will appear  
+    * If YES than will direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in it in the new tab
 
-    
-    *All buttons has pass tests and worked according to project expections.*
+        ![Feedback result](assets/images/readme_images/codeinstitute_feedback.PNG)
+* **Clear form** button will clear all text from form (using Java Script).
 
-* **Characters story:**
+ ***All buttons has pass tests and worked according to project expections.***
 
-    * Entire text was checked against grammatical issues and typos
-    * Entire text area received transparent background to improve contrast and maintain visibility of animated background
-    * Story will zoom to 110% to increase text size once mouse over the area - adding motion/interactivity to the page
+**Characters story:**
 
-    *Characters story has pass tests and worked according to project expections.*
+* Entire text was checked against grammatical issues and typos
+* Entire text area received transparent background to improve contrast and maintain visibility of animated background
+* Story will zoom to 110% to increase text size once mouse over the area - adding motion/interactivity to the page
 
-* **Game rules:**
-    Expand once press the **WANT TO KNOW HOW TO PLAY?** button:
-    * Entire text was checked against grammatical issues and typos
-    * Entire text area received transparent background to improve contrast and UX
-    * A font awesome icons added to achieve game card style
+***Characters story has pass tests and worked according to project expections.***
 
-    *Game rules has pass tests and worked according to project expections.*
+**Game rules:**
+Expand once press the **WANT TO KNOW HOW TO PLAY?** button:
+* Entire text was checked against grammatical issues and typos
+* Entire text area received transparent background to improve contrast and UX
+* A font awesome icons added to achieve game card style
 
-* **Game buttons (choose fighter):**
+***Game rules has pass tests and worked according to project expections.***
+
+**Game buttons (choose fighter):**
  
-    * Characters images used instead of regular buttons, 
-    * Characters will zoom to 110% to show currently pointed hero (UX)
+* Characters images used instead of regular buttons, 
+* Characters will zoom to 110% to show currently pointed hero (UX)
 
 
-    *Game buttons animation has pass tests and worked according to project expections.*
+***Game buttons animation has pass tests and worked according to project expections.***
 
-* **Battlefield area:**
+**Battlefield area:**
 
-    * Characters images will appear as per player and computer choice, 
-    * The VS image will popup in between chosen characters once first character will be clicked
-
-
-   *Battlefield area has pass all tests and worked according to project expections.*
-
-* **Score/result area:** 
-    * The player (left) and computer (right) result in text form will appear below chosen character
-    * As per player result (Win, Lost, Draw) the font awesome will appear
-        * 🏆 **WINNER** - Trophy icon
-        * 😭 **LOOSER** - Sad face icon 
-        * 🤝 **DRAW** - Hand shake icon
-    * Player score will be calculated each time when player wins
-    * Computer score will be calculated each time when computer wins
-    * Rounds played will calculate each time the character is chosen
+* Characters images will appear as per player and computer choice, 
+* The VS image will popup in between chosen characters once first character will be clicked
 
 
-*Score/result area has pass all tests and worked according to project expections.*
+***Battlefield area has pass all tests and worked according to project expections.***
 
-* **Win & lost page** - Contact form with decision points (radio buttons);
+***Score/result area:** 
+* The player (left) and computer (right) result in text form will appear below chosen character
+* As per player result (Win, Lost, Draw) the font awesome will appear
+    * 🏆 **WINNER** - Trophy icon
+    * 😭 **LOOSER** - Sad face icon 
+    * 🤝 **DRAW** - Hand shake icon
+* Player score will be calculated each time when player wins
+* Computer score will be calculated each time when computer wins
+* Rounds played will calculate each time the character is chosen
 
-    * Send button with color theme matching to all buttons, once pressed will check if field is filled than direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in new tab;
-    * Clear form button with color theme matching to all buttons clear all text from form.
-    * Win & lost animation - video based (mp4) displayed once enter the page
+***Score/result area has pass all tests and worked according to project expections.***
 
-    *Win & lost pages pass tests and worked according to project expections.*
+**Win & lost page**
+
+* Send button with color theme matching to all buttons, once pressed will check if field is filled than direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in new tab;
+* Clear form button with color theme matching to all buttons clear all text from form.
+* Win & lost animation - video based (mp4) displayed once enter the page
+
+***Win & lost pages pass tests and worked according to project expections.***
 
 
-* **Game logic:** 
-    * 3 characters to choose from (9 combinations)
-    * Total rounds 10
-    * No draw option (as this is The Ultimate Tournament 😂), game number will increase until one of the game parties will get a higher score.
+**Game logic:** 
+* 3 characters to choose from (9 combinations)
+* Total rounds 10
+* No draw option (as this is The Ultimate Tournament 😂), game number will increase until one of the game parties will get a higher score.
 
-*game logic has pass all tests and worked according to project expections.*
+***Game logic has pass all tests and worked according to project expections.***
 
-* **Footer:**
+**Footer:**
 
-    Include author name, styled to match the page designe, always on the bottom of the page.
+Include author name, styled to match the page designe, always on the bottom of the page.
 
-    *footer worked according to project expections.*
+***Footer worked according to project expections.***
 
-* **Responsiveness:**
+**Responsiveness:**
 
-    Was checked at multiple device sizes to focus the majority of devices currently used worldwide.
+Was checked at multiple device sizes to focus the majority of devices currently used worldwide.
 
-    *Responsiveness pass all tests and worked according to project expections.*
+***Responsiveness pass all tests and worked according to project expections.***
 
 
 [Back to Table Of Content](#tableOfContents)
@@ -446,40 +505,57 @@ Page details:
 * **All pages:**
  
     * Characters - during the first days of the project I did use different pictures for positioning and building game logic, however I changed it later to specially designed and created for this game characters.
-    * Game rules added to first page as adviced by my Mentor Marcel Mulders, reveal after pressing button 
-    * Lost & win page image changed due to issues with performance and best practice discovered by Lighthouse test - created own mp4 to be displayed
-    * Zoom (text and characters) added to page to improve interactivity and UX
+    * Game rules added to first page as adviced by my Mentor Marcel Mulders, list reveal after pressing the **WANT TO KNOW HOW TO PLAY?** button 
+    * Lost & win page image changed due to issues with performance and best practice discovered by Lighthouse test - created own mp4 in [Canva](https://www.canva.com/) to be displayed
+    * Zoom for text and characters added to story page to improve interactivity and UX
+    * Zoom for choose characters area added for improving user interactivity with characters and overall UX
 
 
 [Back to Table Of Content](#tableOfContents)
 
+
+<a name="deployment"></a>
+# 5. Deployment
+
+Web page deployed using GitHub
+
+[See live webpage here](https://kamil-kw.github.io/Paperusus_Rocky_Scissorro/index.html)
+
+[Back to Table Of Content](#tableOfContents)
+
 <a name="endProduct"></a>
-# 6. End Product
+# 7. End Product
 
 See End Product screens:
 
 * **Story page:**
 
-![Story page](assets/images/story_page_endproduct_rps.PNG)
+![Story page](assets/images/readme_images/story_page_endproduct_rps.PNG)
 
-![Game rules](assets/images/game_rules_endproduct_rps.PNG)
+![Game rules](assets/images/readme_images/game_rules_endproduct_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
 
 * **Game page:**
 
-![Game page](assets/images/game_page_endproduct_rps.PNG)
+![Game page](assets/images/readme_images/game_page_endproduct_rps.PNG)
 
-* **Win page:*
+[Back to Table Of Content](#tableOfContents)
 
-![Win page](assets/images/win_page_endproduct_rps.PNG)
+* **Win page:**
+
+![Win page](assets/images/readme_images/win_page_endproduct_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
 
 * **Lost page:**
 
-![Lost page](assets/images/lost_page_endproduct_rps.PNG)
+![Lost page](assets/images/readme_images/lost_page_endproduct_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="knownBugs"></a>
-# 7. Known bugs
+# 8. Known bugs
 
 * Incorrect structure of play and return button - cant be closed with anchor tag - rebuild to correct structure format
 * Typo in line 22 of game.html - missing space button between attributes - space added
@@ -490,7 +566,7 @@ See End Product screens:
 [Back to Table Of Content](#tableOfContents)
 
 <a name="credits"></a>
-# 8. Credits
+# 9. Credits
 
 * **Code:**
 
