@@ -564,7 +564,7 @@ details>p {
 	.font-win::before,
 	.font-loose::before,
 	.font-draw::before {
-		font-size: 400%;
+		font-size: 200%;
 	}
 	#computer--scored,
 	#player--scored,
