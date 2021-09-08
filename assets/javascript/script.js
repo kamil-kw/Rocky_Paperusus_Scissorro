@@ -1,4 +1,3 @@
-
 // Choose fighter function  
 /*jshint esversion: 6 */
 function chooseFighter(userFighter) {

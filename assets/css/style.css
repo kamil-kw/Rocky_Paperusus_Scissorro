@@ -3,7 +3,7 @@
 /* Main styles settings */
 
 html {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 body {
@@ -18,23 +18,19 @@ body {
 	font-weight: 300;
 	color: black;
 	order: 1;
-	font-size: 2.1rem;
+	font-size: 1.8rem;
 	margin: 0;
 	margin-top: -3px;
 	text-shadow: 1px 1px darkviolet;
 }
 
-.title,
-.choose--fighter,
-.fight,
-.game--score,
 .back {
 	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .comment {
 	margin: 0;
-	font-size: 2rem
+	font-size: 1.6rem;
 }
 
 summary {
@@ -48,7 +44,6 @@ summary {
 
 .btn--footer {
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.7);
 	order: 5;
 }
 
@@ -58,9 +53,7 @@ summary {
 .history--rocky {
 	order: 2;
 	display: inline-flex;
-	background-color: rgba(255, 255, 255, 0.7);
 	width: 100%;
-	margin-top: -11px;
 }
 
 .image--rocky {
@@ -73,52 +66,45 @@ summary {
 	flex-basis: 30%;
 }
 
-.story--rocky {
+.story--rocky,
+.story--paperusus,
+.story--scissoro {
 	flex-basis: 65%;
 	margin-right: 5px;
+	margin-bottom: -10px
 }
 
 .history--paperusus {
 	order: 3;
 	display: inline-flex;
-	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .image--paperusus {
 	height: 120px;
 	width: 150px;
-	background-image: url(../images/paperusus.png);
+	background-image: url(../images/paperususnew.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 	flex-basis: 30%;
 }
 
-.story--paperusus {
-	flex-basis: 65%;
-	margin-right: 5px;
-}
 
 .history--scissoro {
 	order: 5;
 	display: inline-flex;
-	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .image--scissoro {
 	height: 100px;
 	width: 150px;
-	background-image: url(../images/scissorro.png);
+	background-image: url(../images/scissorro2.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 	flex-basis: 30%;
 }
 
-.story--scissoro {
-	flex-basis: 65%;
-	margin-right: 5px;
-}
 
 .play--btn {
 	order: 6;
@@ -131,14 +117,13 @@ summary {
 }
 
 .name {
-	font-size: 1.42rem;
-	margin: 5px;
+	font-size: 1.4rem;
 	text-decoration: underline;
 	text-shadow: 1px 0px darkviolet;
 }
 
 div>p {
-	font-size: 1.11rem;
+	font-size: 1rem;
 	padding-left: 5px;
 	text-align: justify;
 	font-family: 'Raleway', sans-serif;
@@ -165,7 +150,7 @@ div>p {
 .fighter--paperusus {
 	height: 100px;
 	width: 200px;
-	background-image: url(../images/paperusus.png);
+	background-image: url(../images/paperususnew.png);
 	background-size: contain;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -174,7 +159,7 @@ div>p {
 .fighter--scissorro {
 	height: 100px;
 	width: 200px;
-	background-image: url(../images/scissorro.png);
+	background-image: url(../images/scissorro2.png);
 	background-size: contain;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -459,24 +444,24 @@ strong {
 @media screen and (min-width: 280px) and (max-width: 320px) {
 	.how,
 	.btn {
-		font-size: 1.25rem;
+		font-size: 1.09rem;
 	}
 }
 
 footer {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 h4 {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 }
 
 details>p {
-	font-size: 1.17rem;
+	font-size: 1.1rem;
 }
 .second {
     font-size: 1.4rem;
@@ -505,7 +490,7 @@ details>p {
 	}
 	.how,
 	.btn {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 	.player--scomment,
 	.computer--scomment,
@@ -519,7 +504,6 @@ details>p {
 	}
 }
 
-
 /* tablets 768px-1023px */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -531,10 +515,10 @@ details>p {
 		width: 220px;
 	}
 	.name {
-		font-size: 3rem;
+		font-size: 2.3rem;
 	}
 	div>p {
-		font-size: 2.2rem;
+		font-size: 1.8rem;
 	}
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -551,11 +535,11 @@ details>p {
 		height: 325px;
 	}
 	.header {
-		font-size: 5rem;
+		font-size: 3.5rem;
 	}
 	.comment {
 		margin: 10px 0 25px 0;
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	#user--result,
 	#computer--result {
@@ -581,8 +565,8 @@ details>p {
 	.rounds {
 		font-size: 3rem;
 	}
-	.btn {
-		font-size: 23px;
+	.btn, .how {
+		font-size: 2rem;
 		width: auto;
 	}
 
@@ -600,19 +584,16 @@ details>p {
 		height: 100px;
 		font-size: 2.4rem;
 	}
-	details {
-		font-size: 1.2rem;
-	}
 	h3 {
 		margin: 10px;
-		font-size: 2.4rem;
+		font-size: 2.2rem;
 	}
 	h4 {
 		margin: 0;
 		font-size: 2.1rem;
 	}
 	details>p {
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 	footer {
 		font-size: 2.5rem;
@@ -736,10 +717,10 @@ details>p {
 		width: 220px;
 	}
 	.name {
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 	div>p {
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 	}
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -759,11 +740,10 @@ details>p {
 		height: 20vh;
 	}
 	.header {
-		font-size: 2.9rem;
+		font-size: 2.3rem;
 	}
 	.comment {
-		margin: 2px 0 1px 0;
-		font-size: 2.4rem;
+		font-size: 2rem;
 	}
 	.font-win::before,
 	.font-loose::before,
@@ -785,7 +765,7 @@ details>p {
 	}
 	.btn,
 	.how {
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 		width: auto;
 	}
 	h3 {
@@ -816,7 +796,7 @@ details>p {
 		max-width: 40vw;
 	}
 	footer {
-		font-size: 2.2rem;
+		font-size: 2rem;
 	}
 }
 
@@ -829,14 +809,14 @@ details>p {
 	.image--scissoro,
 	.image--paperusus,
 	.image--rocky {
-		height: 20vh;
+		height: auto;
 		width: 220px;
 	}
 	.name {
-		font-size: 3.3rem;
+		font-size: 3rem;
 	}
 	div>p {
-		font-size: 3rem;
+		font-size: 2.7rem;;
 	}
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -849,7 +829,7 @@ details>p {
 	}
 	#player--choice,
 	#computer--choice {
-		height: 20vh;
+		height: 349px;
 		flex-basis: 30%;
 	}
 	.vsimage {
