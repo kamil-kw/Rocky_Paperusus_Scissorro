@@ -856,16 +856,16 @@ details>p {
 		height: 20vh;
 	}
 	.header {
-		font-size: 5.2rem;
+		font-size: 4rem;
 	}
 	.comment {
 		margin: 2px 0 1px 0;
-		font-size: 4.7rem;
+		font-size: 3.7rem;
 	}
 	.font-win::before,
 	.font-loose::before,
 	.font-draw::before {
-		font-size: 300%;
+		font-size: 500%;
 	}
 	.player--scomment,
 	.computer--scomment,
@@ -878,11 +878,11 @@ details>p {
 	#computer--scored,
 	#player--scored,
 	#total--rounds {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	.btn,
 	.how {
-		font-size: 4rem;
+		font-size: 2.5rem;
 		width: auto;
 	}
 	h3 {
@@ -909,10 +909,10 @@ details>p {
 		max-width: 40vw;
 	}
 	.second {
-		font-size: 3.7rem;
+		font-size: 3rem;
 	}
 	#feedback {
-		height: 15vh;
+		height: 11vh;
 		font-size: 3rem;
 	}
 	footer {

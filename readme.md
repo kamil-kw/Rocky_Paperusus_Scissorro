@@ -408,6 +408,15 @@ Page details:
 
 *Score/result area has pass all tests and worked according to project expections.*
 
+* **Win & lost page** - Contact form with decision points (radio buttons);
+
+    * Send button with color theme matching to all buttons, once pressed will check if field is filled than direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in new tab;
+    * Clear form button with color theme matching to all buttons clear all text from form.
+    * Win & lost animation - video based (mp4) displayed once enter the page
+
+    *Win & lost pages pass tests and worked according to project expections.*
+
+
 * **Game logic:** 
     * 3 characters to choose from (9 combinations)
     * Total rounds 10
@@ -415,27 +424,18 @@ Page details:
 
 *game logic has pass all tests and worked according to project expections.*
 
-* **Contact** - Contact form with decision points (radio buttons);
-        * Send button with green color, once pressed will check if all fields are filled than direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in new tab;
-
-        * Clear form button with red color will clear all text from form.
-
-    *Contact page form and buttons pass tests and worked according to project expections.*
-
-
 * **Footer:**
 
-    Set to grey color to compliment the top section of the web with shadow decoration to blend with the page.
+    Include author name, styled to match the page designe, always on the bottom of the page.
 
-    Footers in main and all sub pages include downloadable CV under download icon.
-
-    *Download icon pass tests and worked according to project expections.*
+    *footer worked according to project expections.*
 
 * **Responsiveness:**
 
     Was checked at multiple device sizes to focus the majority of devices currently used worldwide.
 
     *Responsiveness pass all tests and worked according to project expections.*
+
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -445,8 +445,10 @@ Page details:
 
 * **All pages:**
  
-During the first days of the project I did use different pictures for positioning and building game logic, however I changed it later to specially designed for this game characters.
-
+    * Characters - during the first days of the project I did use different pictures for positioning and building game logic, however I changed it later to specially designed and created for this game characters.
+    * Game rules added to first page as adviced by my Mentor Marcel Mulders, reveal after pressing button 
+    * Lost & win page image changed due to issues with performance and best practice discovered by Lighthouse test - created own mp4 to be displayed
+    * Zoom (text and characters) added to page to improve interactivity and UX
 
 
 [Back to Table Of Content](#tableOfContents)
@@ -466,7 +468,7 @@ See End Product screens:
 
 ![Game page](assets/images/game_page_endproduct_rps.PNG)
 
-* **Win page:**
+* **Win page:*
 
 ![Win page](assets/images/win_page_endproduct_rps.PNG)
 
@@ -479,10 +481,11 @@ See End Product screens:
 <a name="knownBugs"></a>
 # 7. Known bugs
 
-* Incorrect structure of play and return button - cant be closed in anchor tag - rebuild to correct structure format
+* Incorrect structure of play and return button - cant be closed with anchor tag - rebuild to correct structure format
 * Typo in line 22 of game.html - missing space button between attributes - space added
 * incorrect structure of embedded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed
 * Poor score from lighthouse performance 89% due to external source of video (giphy), replacing video to own created using [Canva](https://www.canva.com/)
+
 
 [Back to Table Of Content](#tableOfContents)
 
