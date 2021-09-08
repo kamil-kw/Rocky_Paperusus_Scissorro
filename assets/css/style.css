@@ -131,14 +131,14 @@ summary {
 }
 
 .name {
-	font-size: 1.5rem;
+	font-size: 1.42rem;
 	margin: 5px;
 	text-decoration: underline;
 	text-shadow: 1px 0px darkviolet;
 }
 
 div>p {
-	font-size: 1.17rem;
+	font-size: 1.11rem;
 	padding-left: 5px;
 	text-align: justify;
 	font-family: 'Raleway', sans-serif;
@@ -459,7 +459,7 @@ strong {
 @media screen and (min-width: 280px) and (max-width: 320px) {
 	.how,
 	.btn {
-		font-size: 1.4rem;
+		font-size: 1.25rem;
 	}
 }
 
@@ -856,11 +856,11 @@ details>p {
 		height: 20vh;
 	}
 	.header {
-		font-size: 5.4rem;
+		font-size: 5.2rem;
 	}
 	.comment {
 		margin: 2px 0 1px 0;
-		font-size: 5rem;
+		font-size: 4.7rem;
 	}
 	.font-win::before,
 	.font-loose::before,
