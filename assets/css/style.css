@@ -583,7 +583,7 @@ details>p {
 	}
 	.btn {
 		font-size: 23px;
-		width: 150px;
+		width: auto;
 	}
 
 	.btn--last {

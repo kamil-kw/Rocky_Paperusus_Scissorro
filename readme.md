@@ -1,4 +1,4 @@
-![Hero image](assets/images/hero_image.PNG)
+![Hero image](assets/images/hero_image_rps.PNG)
 
 # Rock Paperusus Scissorro 
 # ⛰️🧻✂️
@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Welcome to my second Full Stack Course project. This game is a modern twist on the popular game paper scissor rock.
+Welcome to my second Full Stack Course project. This game is a modern twist on the popular game rock paper scissor.
 
 # See live webpage [here](https://kamil-kw.github.io/Paperusus_Rocky_Scissorro/index.html)
 
@@ -50,7 +50,7 @@ Welcome to my second Full Stack Course project. This game is a modern twist on t
 [Back to Table Of Content](#tableOfContents)
 
 <a name="ux"></a>
-## 1. UX
+# 1. UX
 
 
 As mentioned in my first project my ultimate goal is to change my career path and become a full time developer, therefore my second project will be showing my new acquired skill which is JavaScript in the real project.
@@ -60,12 +60,12 @@ As a part of my path of becoming a software developer from zero to hero 😊, I'
 [Back to Table Of Content](#tableOfContents)
 
 <a name="strategy"></a>
-## 1.1 Strategy
+# 1.1 Strategy
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="projectGoals"></a>
-### * Project Goals
+## * Project Goals
 
 The reason for this web page is to show my skills to potential recruiters and all who want to cooperate with me in the future in projects.
 
@@ -74,12 +74,12 @@ The website has been built by using HTML, CSS and JavaScript (the new s
 [Back to Table Of Content](#tableOfContents)
 
 <a name="userTarget"></a>
-### * User Target
+## * User Target
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="firstTime"></a>
-### First time visitors:
+## First time visitors:
 
 * 1st time Visitors who wants to see my products;
 * 1st time Visitors who wants to play a interesting game;
@@ -87,14 +87,14 @@ The website has been built by using HTML, CSS and JavaScript (the new s
 [Back to Table Of Content](#tableOfContents)
 
 <a name="returning"></a>
-### Returning visitors:
+## Returning visitors:
 
 * Visitors who would like to play again;
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="userExpectations"></a>
-### User Expectations:
+## User Expectations:
 
 * Interface is easy to navigate;
 * The website is responsive across all devices (mobile, tablet and desktop);
@@ -104,7 +104,7 @@ The website has been built by using HTML, CSS and JavaScript (the new s
 [Back to Table Of Content](#tableOfContents)
 
 <a name="structure"></a>
-## 1.2. Structure
+# 1.2. Structure
 
 To be able to provide for users the best experience on devices which they use, my website has responsive design to cover the majority of currently used devices (mobile, tablet, laptop/desktop). 
 
@@ -120,7 +120,7 @@ This has been tested and proven to be functional.
 [Back to Table Of Content](#tableOfContents)
 
 <a name="skeleton"></a>
-## 1.3. Skeleton
+# 1.3. Skeleton
 
 For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which helped me with defining layout for three types of devices (desktop, tablets and mobiles).
 
@@ -139,7 +139,7 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 [Back to Table Of Content](#tableOfContents)
 
 <a name="surface"></a>
-## 1.4. Surface
+# 1.4. Surface
 
 * **Typography**
 
@@ -162,7 +162,7 @@ The icons were taken from [Font Awsome](https://fontawesome.com/)
 [Back to Table Of Content](#tableOfContents)
 
 <a name="features"></a>
-## 2. Features
+# 2. Features
 
 ### All pages:
 
@@ -173,53 +173,71 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 * Game title in top section of page;
 
 * Comment to player e.g. 
-    **Story page:** "This are our fighters" 
-    **Game page:** "Choose Fighter" 
-    **Win page:** "Congratulation" 
-    **Lose page:** "Sorry not this time"
+    * **Story page:** "This are our fighters" 
+    * **Game page:** "Choose Fighter" 
+    * **Win page:** "Congratulation" 
+    * **Lose page:** "Sorry not this time"
 
 * Main section
-    **Story page:** Characters stories (catchy funny original) 
-    **Game page:** Battlefield area with score calculator and active icons (characters)
-    **Win page:** the congratulation image created & download from [Canva](https://www.canva.com/)
-    **Lose page:** the you lost image created & download from [Canva](https://www.canva.com/)
+    * **Story page:** Characters stories (catchy funny original) 
+    * **Game page:** Battlefield area with score calculator and active icons (characters)
+    * **Win page:** the congratulation image created & download from [Canva](https://www.canva.com/)
+    * **Lose page:** the you lost image created & download from [Canva](https://www.canva.com/)
 
 * Action buttons
-    **Story page:** Play
-    **Game page:** Return to story page
-    **Win page:** Return to story page and Play
-    **Lose page:** Return to story page and Play
+    * **Story page:** Play
+    * **Game page:** Return to story page
+    * **Win page:** Return to story page and Play
+    * **Lose page:** Return to story page and Play
 
-* Feedback form only for last (win. lost page) including submit and clear form buttons
+* Feedback form only for last win/lost page including submit and clear form buttons
 
-* Footer with copyrights including author name
+* Footer with author name
 
 [Back to Table Of Content](#tableOfContents)
 
-### Story page
+## Story page
 
 * A short overview of game character, including funny/interesting story about each character
 
+![Story Page](assets/images/story_page_rps.PNG)
+
 [Back to Table Of Content](#tableOfContents)
 
-### Game page:
+* Game rules revel after pressing **WANT TO KNOW HOW TO PLAY?** button
+
+![Game Rules](assets/images/game_rules_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+## Game page:
 
 * A game page divided in sections to choose character, battlefield and score area.
 
+![Game Page](assets/images/game_page_rps.PNG)
+
 [Back to Table Of Content](#tableOfContents)
 
-### Win page:
+## Win page:
 
 * A short message to player - "CONGRATULATIONS" 🏆, video created using [Canva](https://www.canva.com/)
+* Feedback form
 
-### Lose page:
+![Game Page](assets/images/win_page_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+## Lose page:
 
 * A short message to player - "Sorry not this time" 😢, video created using [Canva](https://www.canva.com/)
+* Feedback form
+
+![Game Page](assets/images/lost_page_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="technologies"></a>
-## 3. Technologies Used
+# 3. Technologies Used
 
 During my page creation journey I did use:
 
@@ -228,7 +246,7 @@ During my page creation journey I did use:
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
     * Current project uses Cascading Style Sheets.
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-    * Current project uses Cascading Style Sheets. My new friend 😁 on my becoming software developer path
+    * My new friend 😁 on my path to become a software developer
 * [Chrome](https://www.google.com/intl/en_uk/chrome/)
     * Chrome dev tool used to debug and test code while building
 * [Balsamiq](https://balsamiq.com/)
@@ -263,12 +281,10 @@ During my page creation journey I did use:
     * Used to crop images to correct size
 
 
-
 [Back to Table Of Content](#tableOfContents)
 
----
 <a name="testing"></a>
-## 4. Testing
+# 4. Testing
 
 ### Google developer Tool
 
@@ -285,6 +301,8 @@ Used as a tool for improving the quality of web pages.
 ### Am I responsive design
 
 [Am I responsive design](http://ami.responsivedesign.is/) used to test end product responsiveness.
+
+[Back to Table Of Content](#tableOfContents)
 
 * **Laptop (14"):**
 
@@ -413,7 +431,7 @@ Page details:
 [Back to Table Of Content](#tableOfContents)
 
 <a name="development"></a>
-## 5. Development
+# 5. Development
 
 
 * **All pages:**
@@ -425,27 +443,32 @@ During the first days of the project I did use different pictures for positionin
 [Back to Table Of Content](#tableOfContents)
 
 <a name="endProduct"></a>
-## 6. End Product
+# 6. End Product
 
 See End Product screens:
 
-* **About me:**
+* **Story page:**
 
-![About me](assets/images/end-product_aboutme_all-devices.PNG)
+![Story page](assets/images/story_page_endproduct_rps.PNG)
 
-* **Resume:**
+![Game rules](assets/images/game_rules_endproduct_rps.PNG)
 
-![Resume](assets/images/end-product_resume_all-devices.PNG)
+* **Game page:**
 
-* **Contact:**
+![Game page](assets/images/game_page_endproduct_rps.PNG)
 
-![Contact](assets/images/end-product_contact_all-devices.PNG)
+* **Win page:**
 
+![Win page](assets/images/win_page_endproduct_rps.PNG)
+
+* **Lost page:**
+
+![Lost page](assets/images/lost_page_endproduct_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
 <a name="knownBugs"></a>
-## 7. Known bugs
+# 7. Known bugs
 
 * Incorrect structure of play and return button - cant be closed in anchor tag - rebuild to correct structure format
 * Typo in line 22 of game.html - missing space button between attributes - space added
@@ -455,7 +478,7 @@ See End Product screens:
 [Back to Table Of Content](#tableOfContents)
 
 <a name="credits"></a>
-## 8. Credits
+# 8. Credits
 
 * **Code:**
 
