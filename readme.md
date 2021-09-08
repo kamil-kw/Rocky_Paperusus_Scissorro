@@ -403,6 +403,15 @@ Tested by W3C validators, issues discovered:
 
 **All issues corrected.**
 
+### JShint
+
+Tested by W3C validators, issues discovered:
+
+* ['myForm'] is better written in dot notation
+* ['feedback'] is better written in dot notation
+
+***Both errors with dot notation corrected**
+
 ## Manual testing
 
 Page details:
@@ -561,6 +570,8 @@ See End Product screens:
 * Typo in line 22 of game.html - missing space button between attributes - space added
 * incorrect structure of embedded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed
 * Poor score from lighthouse performance 89% due to external source of video (giphy), replacing video to own created using [Canva](https://www.canva.com/)
+* Dot notation not used in form checker - fixed
+* Unchecked runtime.lastError: The message port closed before a response was received - error caused by Norton browser extention
 
 
 [Back to Table Of Content](#tableOfContents)

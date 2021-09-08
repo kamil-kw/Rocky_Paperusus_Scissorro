@@ -114,7 +114,7 @@ function fighterComparation(user, computer) {
 // Checking form if has value and return alert in case of missing
 
 function checkForm() {
-    let x = document.forms["myForm"]["feedback"].value;
+    let x = document.myForm.feedback.value;
     if (x == "") {
       alert("Please leave feedback");
       return false;
