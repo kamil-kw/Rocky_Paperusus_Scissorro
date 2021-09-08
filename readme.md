@@ -305,6 +305,7 @@ Lighthouse Score for Mobile devices:
 
 ![Story page - Lighthouse](assets/images/readme_images/lighthouse_index.PNG)
 
+
 **Game page Lighthouse Score**
 
 ![Game page - Lighthouse](assets/images/readme_images/lighthouse_game.PNG)
@@ -317,6 +318,23 @@ Lighthouse Score for Mobile devices:
 
 ![Win page - Lighthouse](assets/images/readme_images/lighthouse_win.PNG)
 
+***Story page Lighthouse Score**
+
+![Story page - Lighthouse](assets/images/readme_images/lighthouse_index.PNG)
+
+Lighthouse Score for desktop:
+
+**Game page Lighthouse Score**
+
+![Game page - Lighthouse](assets/images/readme_images/lighthouse_index_desktop_fix.PNG)
+
+**Lost page Lighthouse Score**
+
+![Lost page - Lighthouse]()
+
+**Win page Lighthouse Score**
+
+![Win page - Lighthouse]()
 
 ### **Am I responsive design**
 
@@ -578,6 +596,9 @@ See End Product screens:
 * Dot notation not used in form checker - fixed
 * Unchecked runtime.lastError: The message port closed before a response was received - error caused by Norton browser extention
 * 'const' & 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz) - fixed by using inline code /*jshint esversion: 6 */
+
+Unfixed errors
+* Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'
 
 
 [Back to Table Of Content](#tableOfContents)
