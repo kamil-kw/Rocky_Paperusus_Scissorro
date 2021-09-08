@@ -1,6 +1,6 @@
 
 // Choose fighter function  
-
+/*jshint esversion: 6 */
 function chooseFighter(userFighter) {
     // declare array 
     const fighterCharacter=['rocky', 'paperusus', 'scissorro'];

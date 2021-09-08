@@ -410,13 +410,8 @@ Tested by W3C validators, issues discovered:
 * ['myForm'] is better written in dot notation
 * ['feedback'] is better written in dot notation
 
-**Both errors with dot notation corrected**
+***Both errors with dot notation corrected**
 
-* 'const' & 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz) - 
-
-**Fixed by using inline code /*jshint esversion: 6 */**
-
-***All errors corrected - no 
 ## Manual testing
 
 Page details:
@@ -577,7 +572,6 @@ See End Product screens:
 * Poor score from lighthouse performance 89% due to external source of video (giphy), replacing video to own created using [Canva](https://www.canva.com/)
 * Dot notation not used in form checker - fixed
 * Unchecked runtime.lastError: The message port closed before a response was received - error caused by Norton browser extention
-* 'const' & 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz) - fixed by using inline code /*jshint esversion: 6 */
 
 
 [Back to Table Of Content](#tableOfContents)
