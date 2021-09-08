@@ -1,14 +1,16 @@
 ![Hero image](assets/images/hero_image_rps.PNG)
 
-# Rock Paperusus Scissorro 
-# ⛰️🧻✂️
-# The Ultimate Turnament 
+# Rocky Paperusus Scissorro ⛰️🧻✂️ The Ultimate Turnament 
 
-## Introduction
+# Introduction
 
-Welcome to my second Full Stack Course project. This game is a modern twist on the popular game rock paper scissor.
+Welcome to my second Full Stack Course project. This game is a modern twist on the popular game rock paper scissor. 
 
-# See live webpage [here](https://kamil-kw.github.io/Paperusus_Rocky_Scissorro/index.html)
+In this project my goal was to create intresting game - with original approach to rock paper scissor topic. As a Quality Engineer I'm a person who look for improvements in my daily basis, therefore I'm always keeping in back of my head words of **Ty Warner** (CEO of Ty Icn.) ***"Even perfection has room for improvement"***, what in case of my game can be translated as a perfect game with funny twist as improvement. 
+
+Hope You will enjoy my project idea, and have lots of fun with.
+
+# [See live webpage here](https://kamil-kw.github.io/Paperusus_Rocky_Scissorro/index.html)
 
 <a name="tableOfContents"></a>
 ## Table of Contents
@@ -52,10 +54,11 @@ Welcome to my second Full Stack Course project. This game is a modern twist on t
 <a name="ux"></a>
 # 1. UX
 
-
-As mentioned in my first project my ultimate goal is to change my career path and become a full time developer, therefore my second project will be showing my new acquired skill which is JavaScript in the real project.
-
 As a part of my path of becoming a software developer from zero to hero 😊, I'm presenting a Rock Paperusus Scissorro game.
+
+As mentioned in my first project my ultimate goal is to change my career path and become a full time developer, therefore my second project will be showing my new acquired skill which is JavaScript in the real project. 
+
+One of the goals in this product was to draw attention of my potential employeers into my project and not be another one of the "next" rock paper scissors game out there, therefore I decided to use my creativity and build something new and original which can stay in memory for longer time than just simple version of this game.
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -159,6 +162,11 @@ Characters were created Malgorzata Ostrowska (a graphic designer beginner) with 
 
 The icons were taken from [Font Awsome](https://fontawesome.com/)
 
+* **Win and lost animation**
+
+The Win and lost animation used in my project was created and downloaded from [Giphy](https://giphy.com/).
+
+
 [Back to Table Of Content](#tableOfContents)
 
 <a name="features"></a>
@@ -168,7 +176,7 @@ The icons were taken from [Font Awsome](https://fontawesome.com/)
 
 A goal was to achieve a one consistent layout within all pages. This includes: 
 
-* Consistent animated background created and downloaded from [Giphy](https://giphy.com/)
+* Consistent animated background was created by me using [Giphy](https://giphy.com/)
 
 * Game title in top section of page;
 
@@ -179,10 +187,10 @@ A goal was to achieve a one consistent layout within all pages. This includes:
     * **Lose page:** "Sorry not this time"
 
 * Main section
-    * **Story page:** Characters stories (catchy funny original) 
+    * **Story page:** Characters stories (catchy funny original), characters created specialy for this game (uniqe)
     * **Game page:** Battlefield area with score calculator and active icons (characters)
-    * **Win page:** the congratulation image created & download from [Canva](https://www.canva.com/)
-    * **Lose page:** the you lost image created & download from [Canva](https://www.canva.com/)
+    * **Win page:** the congratulation image was created by me using [Canva](https://www.canva.com/)
+    * **Lose page:** the you lost image was created by me using [Canva](https://www.canva.com/)
 
 * Action buttons
     * **Story page:** Play
@@ -286,19 +294,19 @@ During my page creation journey I did use:
 <a name="testing"></a>
 # 4. Testing
 
-### Google developer Tool
+### **Google developer Tool**
 
 Used during entire project to test code and debug issues.
 
-### Responsive tools
+### **Responsive tools**
 
 Used google dev tool to test responsiveness.
 
-### Lighthouse
+### **Lighthouse**
 
 Used as a tool for improving the quality of web pages.
 
-### Am I responsive design
+### **Am I responsive design**
 
 [Am I responsive design](http://ami.responsivedesign.is/) used to test end product responsiveness.
 
@@ -331,6 +339,7 @@ Used as a tool for improving the quality of web pages.
 ### W3C Validator tools
 
 Tested by W3C validators, issues discovered:
+
 * Incorrect structure of the button tag - fixed by removing anchor tag and replace with span tag
 
 All issues corrected.
@@ -342,13 +351,13 @@ Page details:
 * **Action buttons:** 
     
     All buttons have text color set to #701ef4 with orange border, to ensure good contrast.
+
     * **Play** button will direct you to the Game page, will animate (transition in 0.5s) once pressed and change color to green.
     * **WANT TO KNOW HOW TO PLAY?** button will expand game rules below;
     * **RETURN TO STORY PAGE** button will direct you to the index page, will animate (transition in 0.5s) once pressed and change color to green.
     * **Submit form** button once pressed will change color to green than check if feedback field is filled (using Java Script):
         * If NOT the page alert "Please leave feedback" will appear  
         * If YES than will direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in it in the new tab
-        
     * **Clear form** button will clear all text from form (using Java Script).
 
     
@@ -357,8 +366,8 @@ Page details:
 * **Characters story:**
 
     * Entire text was checked against grammatical issues and typos
-    * Entire text area received transparent background to improve contrast and UX
-    * Story will zoom to 110% to increase text size once mouse over the area - adding motion to the page
+    * Entire text area received transparent background to improve contrast and maintain visibility of animated background
+    * Story will zoom to 110% to increase text size once mouse over the area - adding motion/interactivity to the page
 
     *Characters story has pass tests and worked according to project expections.*
 
@@ -389,9 +398,9 @@ Page details:
 * **Score/result area:** 
     * The player (left) and computer (right) result in text form will appear below chosen character
     * As per player result (Win, Lost, Draw) the font awesome will appear
-        * WINNER - Trophy icon 🏆
-        * LOOSER - Sad face icon 😭
-        * DRAW - Hand shake icon 🤝
+        * 🏆 **WINNER** - Trophy icon
+        * 😭 **LOOSER** - Sad face icon 
+        * 🤝 **DRAW** - Hand shake icon
     * Player score will be calculated each time when player wins
     * Computer score will be calculated each time when computer wins
     * Rounds played will calculate each time the character is chosen
