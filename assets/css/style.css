@@ -11,6 +11,7 @@ body {
 	flex-basis: 100%;
 	cursor: pointer black;
 }
+
 /* background video */
 #myVideo {
 	position: fixed;
@@ -255,7 +256,7 @@ div>p {
 	transition: 0.5s;
 }
 .btn span:after {
-	content: '>>';
+	content: '>';
 	font-size: 100%;
 	position: absolute;
 	opacity: 0;
@@ -264,7 +265,8 @@ div>p {
 	transition: 0.5s;
 }
 .btn--rtn span:after {
-	content: '<<';
+	content: '<';
+	right: -20px;
 }
 .btn:hover span {
 	padding-right: 25px;
@@ -275,7 +277,7 @@ div>p {
 }
 /* fontawesome pseudo classes */
 .font-win::before,
-.font-loose::before,
+.font-lost::before,
 .font-draw::before {
 	font-family: FontAwesome;
 	display: inline-block;
@@ -287,7 +289,7 @@ div>p {
 	color: goldenrod;
 	content: "\f091";
 }
-.font-loose::before {
+.font-lost::before {
 	color: red;
 	content: "\f5b3";
 }
@@ -355,6 +357,7 @@ h4 {
 strong {
 	font-weight: 100;
 }
+
 /* phone generations like iPhone 5S. Galaxy fold */
 @media screen and (min-width: 280px) and (max-width: 320px) {
 	.how,
@@ -362,6 +365,7 @@ strong {
 		font-size: 1.09rem;
 	}
 }
+
 /* screen 321px-767px */
 @media screen and (min-width: 321px) and (max-width: 767px) {
 	.fighter--rocky,
@@ -442,7 +446,7 @@ strong {
 		font-size: 3rem;
 	}
 	.font-win::before,
-	.font-loose::before,
+	.font-lost::before,
 	.font-draw::before {
 		font-size: 200%;
 	}
@@ -524,7 +528,7 @@ strong {
 		font-size: 4rem;
 	}
 	.font-win::before,
-	.font-loose::before,
+	.font-lost::before,
 	.font-draw::before {
 		font-size: 400%;
 	}
@@ -611,7 +615,7 @@ strong {
 		font-size: 2rem;
 	}
 	.font-win::before,
-	.font-loose::before,
+	.font-lost::before,
 	.font-draw::before {
 		font-size: 300%;
 	}
@@ -693,8 +697,9 @@ strong {
 		margin: 2px 0 1px 0;
 		font-size: 3.7rem;
 	}
+
 	.font-win::before,
-	.font-loose::before,
+	.font-lost::before,
 	.font-draw::before {
 		font-size: 500%;
 	}
@@ -706,7 +711,7 @@ strong {
 	#computer--result,
 	#computer--scored,
 	#player--scored,
-	#total--rounds
+	#total--rounds,
 	.second,
 	#feedback,
 	footer,

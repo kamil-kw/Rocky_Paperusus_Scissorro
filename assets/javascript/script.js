@@ -16,7 +16,7 @@ function chooseFighter(userFighter) {
 
     function showWinner() {
 
-        if (winner === 'loose') {
+        if (winner === 'lost') {
             resultUser = "LOOSER";
             resultComputer = "WINNER";
 
@@ -54,7 +54,7 @@ function chooseFighter(userFighter) {
     }
 
         let winnerPage = document.getElementById('player--win');
-        let looserPage = document.getElementById('player--loose');
+        let looserPage = document.getElementById('player--lost');
 
 
     if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) > (document.getElementById("player--scored").innerText)){
@@ -77,7 +77,7 @@ function chooseFighter(userFighter) {
         fontAwesome.className = `font--awesome font-win`;
     }
     if(resultUser === "LOOSER"){
-        fontAwesome.className = `font--awesome font-loose`;
+        fontAwesome.className = `font--awesome font-lost`;
     }
     if(resultUser === "DRAW"){
         fontAwesome.className = `font--awesome font-draw`;
@@ -89,20 +89,20 @@ function chooseFighter(userFighter) {
 // Compare characters - Fight :)
 function fighterComparation(user, computer) {
     if(user === 'rocky') {
-        if(computer === 'paperusus') return 'loose';
+        if(computer === 'paperusus') return 'lost';
         if(computer === "scissorro") return 'win';
         if(computer === "rocky") return 'draw';
 
     }
     if(user == 'scissorro') {
         if(computer === 'paperusus') return 'win';
-        if(computer === "rocky") return 'loose';
+        if(computer === "rocky") return 'lost';
         if(computer === "scissorro") return 'draw';
 
     }
     if(user == 'paperusus') {
         if(computer === 'rocky') return 'win';
-        if(computer === "scissorro") return 'loose';
+        if(computer === "scissorro") return 'lost';
         if(computer === "paperusus") return 'draw';
 
     }
