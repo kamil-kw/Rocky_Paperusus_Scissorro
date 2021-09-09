@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway&display=swap');
 
 /* Main styles settings */
-
 html {
 	font-size: 12px;
 }
@@ -12,284 +11,7 @@ body {
 	flex-basis: 100%;
 	cursor: pointer black;
 }
-
-.header {
-	font-family: 'Luckiest Guy', cursive;
-	font-weight: 300;
-	color: black;
-	order: 1;
-	font-size: 1.8rem;
-	margin: 0;
-	margin-top: -3px;
-	text-shadow: 1px 1px darkviolet;
-}
-
-.back {
-	background-color: rgba(255, 255, 255, 0.7);
-}
-
-.comment {
-	margin: 0;
-	font-size: 1.6rem;
-}
-
-summary {
-	display: inline-flex;
-}
-
-.how {
-	width: auto;
-	color: #701ef4;
-}
-
-.btn--footer {
-	text-align: center;
-	order: 5;
-}
-
-
-/* index.html page style */
-
-.history--rocky {
-	order: 2;
-	display: inline-flex;
-	width: 100%;
-}
-
-.image--rocky {
-	height: 100px;
-	width: 150px;
-	background-image: url(../images/rocky.png);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	flex-basis: 30%;
-}
-
-.story--rocky,
-.story--paperusus,
-.story--scissoro {
-	flex-basis: 65%;
-	margin-right: 5px;
-	margin-bottom: -10px
-}
-
-.history--paperusus {
-	order: 3;
-	display: inline-flex;
-}
-
-.image--paperusus {
-	height: 120px;
-	width: 150px;
-	background-image: url(../images/paperususnew.png);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	flex-basis: 30%;
-}
-
-
-.history--scissoro {
-	order: 5;
-	display: inline-flex;
-}
-
-.image--scissoro {
-	height: 100px;
-	width: 150px;
-	background-image: url(../images/scissorro2.png);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	flex-basis: 30%;
-}
-
-
-.play--btn {
-	order: 6;
-	text-align: center;
-}
-
-.center {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-}
-
-.name {
-	font-size: 1.4rem;
-	text-decoration: underline;
-	text-shadow: 1px 0px darkviolet;
-}
-
-div>p {
-	font-size: 1rem;
-	padding-left: 5px;
-	text-align: justify;
-	font-family: 'Raleway', sans-serif;
-}
-
-
-/* game.html page style */
-
-.choose--fighter {
-	order: 3;
-	display: inline-flex;
-	justify-content: space-around;
-}
-
-.fighter--rocky {
-	height: 100px;
-	width: 200px;
-	background-image: url(../images/rocky.png);
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-
-.fighter--paperusus {
-	height: 100px;
-	width: 200px;
-	background-image: url(../images/paperususnew.png);
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-
-.fighter--scissorro {
-	height: 100px;
-	width: 200px;
-	background-image: url(../images/scissorro2.png);
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-
-.zoom {
-	cursor: pointer;
-	transition: transform .2s;
-	/* Animation */
-}
-
-.zoom:hover {
-	transform: scale(1.2);
-}
-
-.zoom--small {
-	transition: transform .2s;
-	/* Animation */
-}
-
-.zoom--small:hover {
-	transform: scale(1.1);
-}
-
-.fight {
-	order: 4;
-	display: inline-flex;
-	justify-content: space-between;
-}
-
-#player--choice {
-	flex-basis: 35%;
-	height: 150px;
-	width: 100px;
-}
-
-.vs {
-	flex-basis: 30%;
-}
-
-.vsimage {
-	background-image: url(../images/vs.png);
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
-	height: 150px;
-	width: 100px;
-}
-
-#computer--choice {
-	flex-basis: 35%;
-	height: 150px;
-	width: 100px;
-}
-
-.game--score {
-	order: 5;
-	display: inline-flex;
-	justify-content: space-between;
-	flex-basis: 30%;
-}
-
-.player--score {
-	text-align: left;
-	width: 23%;
-	font-size: 1.5rem;
-}
-
-.games {
-	text-align: center;
-	font-size: 1.5rem;
-}
-
-.computer--score {
-	text-align: right;
-	width: 23%;
-	font-size: 1.5rem;
-}
-
-#computer--scored,
-#player--scored,
-#total--rounds {
-	font-size: 2rem;
-}
-
-#user--result,
-#computer--result {
-	font-size: 1.5rem;
-	text-shadow: 1px 1px darkviolet;
-}
-
-
-/* loose.html page style */
-
-.image--win,
-.image--loose {
-	order: 3;
-	text-align: center;
-}
-
-.image--loose {
-	opacity: 0.7;
-}
-
-#last--image {
-	height: 50vh;
-	width: 90vw;
-	opacity: 0.7;
-}
-
-.result--score {
-	order: 4;
-	display: inline-flex;
-}
-
-.return--try {
-	order: 5;
-	text-align: center;
-}
-
-#myForm {
-	order: 6;
-	text-align: center;
-}
-
-#feedback {
-	width: 97%;
-	text-align: center;
-}
-
+/* background video */
 #myVideo {
 	position: fixed;
 	right: 0;
@@ -300,16 +22,218 @@ div>p {
 	overflow: hidden;
 }
 
+/* fonts used */
 
+.header,
+h3,
+h4,
+strong {
+	font-family: 'Luckiest Guy', cursive;
+}
+
+/* title style */
+.header {
+	font-weight: 300;
+	color: black;
+	order: 1;
+	margin: 0;
+	margin-top: -3px;
+	text-shadow: 1px 1px darkviolet;
+}
+/* comment below title */
+.comment {
+	margin: 0;
+}
+/* make it center */
+.center {
+	text-align: center;
+}
+/* transparent background */
+.back {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+/* inline flex display areas */ 
+summary, 
+.history--rocky,
+.game--score,
+.history--paperusus,
+.history--scissoro,
+.result--score {
+	display: inline-flex;
+}
+
+#player--choice,
+#computer--choice {
+	flex-basis: 35%;
+	height: 150px;
+	width: 100px;
+}
+/* flex orders */
+/* order */
+
+.history--rocky {
+	order: 2;
+}
+.image--win,
+.image--loose,
+.history--paperusus {
+	order: 3;
+	text-align: center;
+}
+.choose--fighter {
+	order: 3;
+	display: inline-flex;
+	justify-content: space-around;
+}
+.result--score, 
+.fight {
+	order: 4;
+}
+.btn--footer,
+.history--scissoro,
+.return--try, 
+.game--score {
+	text-align: center;
+	order: 5;
+}
+.play--btn, #myForm {
+	order: 6;
+	text-align: center;
+}
+footer {
+	order: 7;
+	text-align: center;
+}
+/* images of characters links */
+.image--scissoro, 
+.fighter--scissorro {
+	background-image: url(../images/scissorro1.png);
+}
+.image--rocky, 
+.fighter--rocky {
+	background-image: url(../images/rocky.png);
+}
+.image--paperusus, 
+.fighter--paperusus {
+	background-image: url(../images/paperususnew1.png);
+}
+.vsimage {
+	background-image: url(../images/vs.png);
+}
+.image--scissoro, 
+.image--rocky, 
+.image--paperusus,
+.vsimage {
+	height: 100px;
+	width: 150px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	flex-basis: 30%;
+}
+.vsimage {
+	background-image: url(../images/vs.png);
+	background-position: bottom;
+}
+/* story of characters flex basis */
+.story--rocky,
+.story--paperusus,
+.story--scissoro {
+	flex-basis: 65%;
+	margin-right: 5px;
+	margin-bottom: -10px
+}
+/* font for stories and game rules description */
+
+div>p,
+.center,
+details>p,
+.second {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.name {
+	text-decoration: underline;
+	text-shadow: 1px 0px darkviolet;
+}
+div>p {
+	padding-left: 5px;
+	text-align: justify;
+}
+
+
+/* choose character */
+.fighter--rocky, 
+.fighter--paperusus, 
+.fighter--scissorro {
+	height: 100px;
+	width: 200px;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+/* score section */
+.vs, 
+.game--score {
+	flex-basis: 30%;
+}
+.player--score, 
+.computer--score, 
+.games {
+	width: 23%;
+}
+.player--score {
+	text-align: left;
+}
+.games {
+	text-align: center;
+}
+.computer--score {
+	text-align: right;
+}
+#user--result,
+#computer--result {
+	text-shadow: 1px 1px darkviolet;
+}
+/* Animation */
+.zoom {
+	cursor: pointer;
+	transition: transform .2s;
+}
+.zoom:hover {
+	transform: scale(1.2);
+}
+.zoom--small {
+	transition: transform .2s;
+}
+.zoom--small:hover {
+	transform: scale(1.1);
+}
+
+.game--score, 
+.fight {
+	display: inline-flex;
+	justify-content: space-between;
+}
+/* loose.html page style */
+#last--image {
+	height: 50vh;
+	width: 90vw;
+	opacity: 0.7;
+}
+#feedback {
+	width: 97%;
+	text-align: center;
+}
 /*buttons*/
-
 .btn,
 .how {
 	background-color: #701ef4;
 	border: 2px solid orange;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 2.4rem;
 	width: auto;
 	transition: all 0.5s;
 	align-self: center;
@@ -320,18 +244,16 @@ div>p {
 	cursor: pointer;
 	border-radius: 16px;
 }
-
+/* button animation */
 .btn:hover {
 	background-color: green;
 }
-
 .btn span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
 }
-
 .btn span:after {
 	content: '>>';
 	font-size: 100%;
@@ -341,32 +263,17 @@ div>p {
 	right: -20px;
 	transition: 0.5s;
 }
-
 .btn--rtn span:after {
 	content: '<<';
 }
-
 .btn:hover span {
 	padding-right: 25px;
 }
-
 .btn:hover span:after {
 	opacity: 1;
 	right: 0;
 }
-
-.btn--rtn {
-	width: auto;
-}
-
-.return--btn {
-	width: 250px;
-}
-
-.btn--last {
-	width: 130px;
-}
-
+/* fontawesome pseudo classes */
 .font-win::before,
 .font-loose::before,
 .font-draw::before {
@@ -374,101 +281,88 @@ div>p {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 300%;
-	text-align: right;
+	text-align: center;
 }
-
 .font-win::before {
 	color: goldenrod;
 	content: "\f091";
-	text-align: center;
 }
-
 .font-loose::before {
 	color: red;
 	content: "\f5b3";
-	text-align: center;
 }
-
 .font-draw::before {
 	content: "\f2b5";
 }
-
+/* feedback form */
 textarea#feedback {
 	max-width: 88vw;
 }
-
-
+/* Game rules styles */
 
 details {
 	display: block;
 	font-size: 0.8rem;
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
 	margin-left: 4vw;
 	margin-right: 4vw;
 }
-
 h4 {
 	margin: 0;
 	text-decoration: underline;
-	font-family: 'Luckiest Guy', cursive;
 	font-weight: 100;
 }
-
 h3 {
-	margin: 5px;
-	font-family: 'Luckiest Guy', cursive;
+	margin: 1px;
 	font-weight: 100;
 }
-
 details>p {
-	margin: 7px;
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
+	margin: 2px;
 }
-
-footer {
-	order: 7;
-	text-align: center;
+/* font size */
+#computer--scored,
+#player--scored,
+#total--rounds {
 	font-size: 2rem;
 }
-
+.player--score, 
+.computer--score, 
+.games,
+#user--result,
+#computer--result {
+	font-size: 1.5rem;
+}
+.header {
+	font-size: 1.8rem;
+}
+.comment {
+	margin: 0;
+	font-size: 1.6rem;
+}
+div>p, 
+details>p,
+.second {
+	font-size: 1rem;
+}
+footer,
+h3,
+.name {
+	font-size: 1.2rem;
+}
+h4 {
+	font-size: 1.1rem;
+}
 strong {
-	font-family: 'Luckiest Guy', cursive;
 	font-weight: 100;
 }
-
-
 /* phone generations like iPhone 5S. Galaxy fold */
-
 @media screen and (min-width: 280px) and (max-width: 320px) {
 	.how,
 	.btn {
 		font-size: 1.09rem;
 	}
 }
-
-footer {
-	font-size: 1.2rem;
-}
-
-h3 {
-	font-size: 1.2rem;
-}
-
-h4 {
-	font-size: 1.3rem;
-}
-
-details>p {
-	font-size: 1.1rem;
-}
-.second {
-    font-size: 1.4rem;
-}
-
 /* screen 321px-767px */
-
 @media screen and (min-width: 321px) and (max-width: 767px) {
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -485,7 +379,6 @@ details>p {
 		height: 200px;
 	}
 	.comment {
-		margin: 10px 0 25px 0;
 		font-size: 2rem;
 	}
 	.how,
@@ -500,10 +393,9 @@ details>p {
 	.rounds,
 	#user--result,
 	#computer--result {
-		font-size: 2rem;
+		font-size: 1.6rem;
 	}
 }
-
 /* tablets 768px-1023px */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -537,12 +429,16 @@ details>p {
 	.header {
 		font-size: 3.5rem;
 	}
-	.comment {
-		margin: 10px 0 25px 0;
-		font-size: 3rem;
-	}
 	#user--result,
-	#computer--result {
+	#computer--result,
+	.comment,
+	.game--score,
+	.computer--score,
+	.game--score,
+	.player--scomment,
+	.computer--scomment,
+	.rounds,
+	.second {
 		font-size: 3rem;
 	}
 	.font-win::before,
@@ -555,30 +451,9 @@ details>p {
 	#total--rounds {
 		font-size: 4rem;
 	}
-	.game--score,
-	.computer--score,
-	.game--score {
-		font-size: 3rem;
-	}
-	.player--scomment,
-	.computer--scomment,
-	.rounds {
-		font-size: 3rem;
-	}
+
 	.btn, .how {
 		font-size: 2rem;
-		width: auto;
-	}
-
-	.btn--last {
-		width: auto;
-	}
-	.return--btn {
-		width: 400px;
-	}
-
-	.second {
-		font-size: 3rem;
 	}
 	#feedback {
 		height: 100px;
@@ -655,23 +530,14 @@ details>p {
 	}
 	#computer--scored,
 	#player--scored,
-	#total--rounds {
-		font-size: 4rem;
-	}
-	.btn {
-		font-size: 2.7rem;
-		width: 150px;
-	}
+	#total--rounds,
 	.header {
 		font-size: 4rem;
 	}
-	.btn--last {
-		width: auto;
+	.btn,
+	.how {
+		font-size: 2.7rem;
 	}
-	.return--btn {
-		width: 400px;
-	}
-
 	.second {
 		font-size: 2rem;
 	}
@@ -716,19 +582,16 @@ details>p {
 		height: 20vh;
 		width: 220px;
 	}
-	.name {
-		font-size: 1.8rem;
-	}
-	div>p {
-		font-size: 1.4rem;
+	footer,
+	h3,
+	.name,
+	.second {
+		font-size: 2rem;
 	}
 	.fighter--rocky,
-	.fighter--scissorro {
-		height: 20vh;
-		background-position: bottom;
-	}
+	.fighter--scissorro,
 	.fighter--paperusus {
-		height: 23vh;
+		height: 20vh;
 		background-position: bottom;
 	}
 	#player--choice,
@@ -742,6 +605,8 @@ details>p {
 	.header {
 		font-size: 2.3rem;
 	}
+	footer,
+	#feedback,
 	.comment {
 		font-size: 2rem;
 	}
@@ -761,45 +626,33 @@ details>p {
 	#computer--scored,
 	#player--scored,
 	#total--rounds {
-		font-size: 2.9rem;
+		font-size: 2.5rem;
 	}
+	div>p, 
+	details>p,
 	.btn,
 	.how {
 		font-size: 1.4rem;
-		width: auto;
-	}
-	h3 {
-		font-size: 2.2rem;
 	}
 	h4 {
-		font-size: 2.1rem;
-	}
-	details>p {
-		font-size: 1.9rem;
+		font-size: 1.8rem;
 	}
 
-	.btn--last {
-		width: auto;
+	.second {
+		font-size: 1.65rem;
 	}
 	#last--image{
 		width: 80vw;
 		height: 45vh;
 	}
-	.second {
-		font-size: 2.2rem;
-	}
 	#feedback {
 		height: 13vh;
-		font-size: 2rem;
 	}
 	textarea#feedback {
 		max-width: 40vw;
 	}
-	footer {
-		font-size: 2rem;
-	}
+	
 }
-
 @media screen and (min-width: 1600px) {
 	/* story page */
 	body {
@@ -812,11 +665,9 @@ details>p {
 		height: auto;
 		width: 220px;
 	}
-	.name {
+	.name,
+	h4 {
 		font-size: 3rem;
-	}
-	div>p {
-		font-size: 2.7rem;;
 	}
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -829,7 +680,7 @@ details>p {
 	}
 	#player--choice,
 	#computer--choice {
-		height: 349px;
+		height: 300px;
 		flex-basis: 30%;
 	}
 	.vsimage {
@@ -847,9 +698,7 @@ details>p {
 	.font-draw::before {
 		font-size: 500%;
 	}
-	.player--scomment,
-	.computer--scomment,
-	.rounds,
+	
 	.player--scomment,
 	.computer--scomment,
 	.rounds,
@@ -857,22 +706,19 @@ details>p {
 	#computer--result,
 	#computer--scored,
 	#player--scored,
-	#total--rounds {
-		font-size: 3rem;
+	#total--rounds
+	.second,
+	#feedback,
+	footer,
+	details>p,
+	div>p,
+	h3,
+	footer {
+		font-size: 2.6rem;
 	}
 	.btn,
 	.how {
 		font-size: 2.5rem;
-		width: auto;
-	}
-	h3 {
-		font-size: 4rem;
-	}
-	h4 {
-		font-size: 3.3rem;
-	}
-	details>p {
-		font-size: 3rem;
 	}
 
 	#last--image {
@@ -880,23 +726,10 @@ details>p {
 		width: 56vw;
 		opacity: 0.7;
 	}
-
-	.btn--last {
-		width: auto;
-	}
-
 	textarea#feedback {
 		max-width: 40vw;
 	}
-	.second {
-		font-size: 3rem;
-	}
 	#feedback {
 		height: 11vh;
-		font-size: 3rem;
 	}
-	footer {
-		font-size: 3rem;
-	}
-
 }

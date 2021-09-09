@@ -16,6 +16,10 @@
       <script src="../javascript/script.js"></script>
    </head>
    <body>
+      <!-- Background video -->
+      <video autoplay muted loop id="myVideo">
+         <source src="../images/background_game2.mp4" type="video/mp4">
+      </video>
          <!-- Title area -->
          <div class="title center back">
             <h1 class="header">Rocky Paperusus Scissorro</h1>
@@ -60,15 +64,14 @@
             <button class="btn play--btn btn--rtn" onclick="window.location='../../index.html'"><span>RETURN TO STORY PAGE <i class="fas fa-backward"></i></span></button>
          </div>
          <!-- links to final game outcome -->
+         <div style="display: none">
          <a id="player--win" href="win.html"></a>
-         <a id="player--loose" href="loose.html"></a>
+         <a id="player--loose" href="loose.html">Lost</a>
+         </div>
          <!-- Footer -->
          <footer class="back">Game Author: Kamil Kwiatkowski</footer>
          <!-- Font awesome script -->
-      <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-      <!-- Background video -->
-      <video autoplay muted loop id="myVideo">
-         <source src="../images/background_game.mp4" type="video/mp4">
-      </video>
+         <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+         
    </body>
 </html>
