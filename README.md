@@ -121,33 +121,31 @@ To be able to provide for users the best experience on devices which they use, m
 
 For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which helped me with defining layout for three types of devices (desktop, tablets and mobiles).
 
-* **Homepage - Story Wireframes:**
+### **Homepage - Story Wireframes:**
 
 ![Story Wireframe](assets/images/readme_images/wireframe_story_page.PNG)
 
-* **Homepage - Game Rules Wireframes:**
+### **Homepage - Game Rules Wireframes:**
 
 ![Game rules Wireframe](assets/images/readme_images/wireframe_story_how_page.PNG)
 
-* **Game before start - the play game page before Wireframes:**
+### **Game before start - the play game page before Wireframes:**
 
 ![Game start](assets/images/readme_images/wireframe_game_start_page.PNG)
 
-* **Game after start - the play game page after Wireframes:**
+### **Game after start - the play game page after Wireframes:**
 
 ![Game](assets/images/readme_images/wireframe_game_page.PNG)
 
-* **Lost - Lost page Wireframes:**
+### **Lost - Lost page Wireframes:**
 
 ![Lost](assets/images/readme_images/wireframe_lost_page.PNG)
 
-* **Win - Win page Wireframes:**
+### **Win - Win page Wireframes:**
 
 ![Win](assets/images/readme_images/wireframe_win_page.PNG)
----
 
 [Back to Table Of Content](#tableOfContents)
-
 <a name="surface"></a>
 # 1.4. Surface
 
@@ -313,27 +311,27 @@ Used google dev tool to test responsiveness.
 
 Used as a tool for improving the quality of web pages.
 
-#### Lighthouse Score for Mobile devices:
+#### **Lighthouse Score for Mobile devices:**
 
 **Note:** To achive 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution.
 
-**Story page Lighthouse Score**
+#### **Story page Lighthouse Score**
 
 ![Story page - Lighthouse](assets/images/readme_images/lighthouse_index_mobile.PNG)
 
-**Game page Lighthouse Score**
+#### **Game page Lighthouse Score**
 
 ![Game page - Lighthouse](assets/images/readme_images/lighthouse_game_mobile.PNG)
 
-**Lost page Lighthouse Score**
+#### **Lost page Lighthouse Score**
 
 ![Lost page - Lighthouse](assets/images/readme_images/lighthouse_lost_mobile.PNG)
 
-**Win page Lighthouse Score**
+#### **Win page Lighthouse Score**
 
 ![Win page - Lighthouse](assets/images/readme_images/lighthouse_win_mobile.PNG)
 
-**Story page Lighthouse Score**
+#### **Story page Lighthouse Score**
 
 #### **Lighthouse Score for Desktop:**
 
@@ -341,15 +339,15 @@ Used as a tool for improving the quality of web pages.
 
 ![Story page - Lighthouse](assets/images/readme_images/lighthouse_index_desktop.PNG)
 
-**Game page Lighthouse Score**
+#### **Game page Lighthouse Score**
 
 ![Game page - Lighthouse](assets/images/readme_images/lighthouse_game_desktop.PNG)
 
-**Lost page Lighthouse Score**
+#### **Lost page Lighthouse Score**
 
 ![Lost page - Lighthouse](assets/images/readme_images/lighthouse_lost_desktop.PNG)
 
-**Win page Lighthouse Score**
+#### **Win page Lighthouse Score**
 
 ![Win page - Lighthouse](assets/images/readme_images/lighthouse_win_desktop.PNG)
 
@@ -362,31 +360,31 @@ Used as a tool for improving the quality of web pages.
 
 ### **Story screen from multiple devices**
 
-**Laptop (14"):**
+#### **Laptop (14"):**
 
 ![Laptop](assets/images/readme_images/story_page_endproduct_laptop_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**Desktop (24"):**
+#### **Desktop (24"):**
 
 ![Desktop](assets/images/readme_images/story_page_endproduct_desktop_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**iPhone gen 6 up to 8:**
+#### **iPhone gen 6 up to 8:**
 
 ![iphone 5](assets/images/readme_images/story_page_endproduct_iphone5_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**iPhone plus gen 6 up to 8:**
+#### **iPhone plus gen 6 up to 8:**
 
 ![iphone 6-8](assets/images/readme_images/story_page_endproduct_iphone6-8plus_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**iPad:**
+#### **iPad:**
 
 ![iPad](assets/images/readme_images/story_page_endproduct_ipad_rps.PNG)
 
@@ -394,37 +392,37 @@ Used as a tool for improving the quality of web pages.
 
 ### **Story screen from multiple devices**
 
-**Laptop (14"):**
+#### **Laptop (14"):**
 
 ![Laptop](assets/images/readme_images/game_page_endproduct_laptop_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**Desktop (24"):**
+#### **Desktop (24"):**
 
 ![Desktop](assets/images/readme_images/game_page_endproduct_desktop_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**iPhone gen 5:**
+#### **iPhone gen 5:**
 
 ![iphone 5](assets/images/readme_images/game_page_endproduct_iphone5_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**iPhone gen 6 up to 8:**
+#### **iPhone gen 6 up to 8:**
 
 ![iphone 6-8](assets/images/readme_images/game_page_endproduct_iphone6-8_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**iPhone plus gen 6 up to 8:**
+#### **iPhone plus gen 6 up to 8:**
 
 ![iphone 6-8plus](assets/images/readme_images/game_page_endproduct_iphone7_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-**iPad:**
+#### **iPad:**
 
 ![iPad](assets/images/readme_images/game_page_endproduct_ipad_rps.PNG)
 
@@ -445,13 +443,13 @@ Tested by W3C validators, issues discovered:
 * ['myForm'] is better written in dot notation
 * ['feedback'] is better written in dot notation
 
-***Both errors with dot notation corrected**
+**Both errors with dot notation corrected**
 
 * const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 * 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)
 * 'template literal syntax' is only available in ES6 (use 'esversion: 6')
 
-***Issues corrected by using inline code /*jshint esversion: 6 */**
+**Issues corrected by using inline code /*jshint esversion: 6 */**
 
 ## Manual testing
 
@@ -630,20 +628,23 @@ See End Product screens:
 <a name="credits"></a>
 # 9. Credits
 
-* **Code:**
+## **Code:**
 
-    * Icons came from [Font Awsome](https://fontawesome.com/)
-    * Font came from [Google Fonts](https://fonts.google.com/)
+* Icons came from [Font Awsome](https://fontawesome.com/)
+* Font came from [Google Fonts](https://fonts.google.com/)
 
-* **Content:**
+## **Content:**
 
-    * Background photo created & download from [Giphy](https://giphy.com/);
-    * Win, Lost videos created & download from [Canva](https://www.canva.com/);
-    * Characters created by Malgorzata Ostrowska (a graphic designer beginner)
+* Background photo created & download from [Giphy](https://giphy.com/);
+* Win, Lost videos created & download from [Canva](https://www.canva.com/);
+* Characters created by Malgorzata Ostrowska (a graphic designer beginner)
 
-Special thanks to:
-@Marcel(Mentor) Mulder for constructive feedback and amazing tips 
-Malgorzata Ostrowska for creating amazing characters
-@Manni for providing feedback about the game which helps to improve UX
+## Special thanks to:
+
+### @Marcel(Mentor) Mulder for constructive feedback and amazing tips 
+### Malgorzata Ostrowska for creating amazing characters
+### @Manni for providing feedback about the game which helps to improve UX
+
+### To all my friends who play this game in baby stage and helps to improve UX & gramatical errors.
 
 [Back to Table Of Content](#tableOfContents)
