@@ -108,7 +108,7 @@ footer {
 /* images of characters links */
 .image--scissoro, 
 .fighter--scissorro {
-	background-image: url(../images/scissorro1.png);
+	background-image: url(../images/scissorro.png);
 }
 .image--rocky, 
 .fighter--rocky {
@@ -116,7 +116,7 @@ footer {
 }
 .image--paperusus, 
 .fighter--paperusus {
-	background-image: url(../images/paperususnew1.png);
+	background-image: url(../images/paperusus.png);
 }
 .vsimage {
 	background-image: url(../images/vs.png);

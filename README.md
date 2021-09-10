@@ -151,27 +151,27 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 <a name="surface"></a>
 # 1.4. Surface
 
-* **Typography**
+### **Typography**
 
-* A font of my choice is Luckiest Guy & Raleway provided by [Google Fonts](https://fonts.google.com/).
-    * As alternative font to Luckiest Guy, I used cursive font,
-    * As alternative font to Raleway, I used sans-sarif font,
+A font of my choice is Luckiest Guy & Raleway provided by [Google Fonts](https://fonts.google.com/).
+* As alternative font to Luckiest Guy, I used cursive font,
+* As alternative font to Raleway, I used sans-sarif font,
 
-* **Background**
+### **Background**
 
 The background video used in my project was created and downloaded from [Giphy](https://giphy.com/).
 
-* **Characters**
+### **Characters**
  
-Characters were created Malgorzata Ostrowska (a graphic designer beginner) with using the Inkspace app.
+Characters were created Malgorzata Ostrowska (a graphic designer beginner) with using the [SketchBook Pro app](https://www.sketchbook.com/)
 
-* **Icons**
+### **Icons**
 
 The icons were taken from [Font Awsome](https://fontawesome.com/)
 
-* **Win and lost animation**
+### **Win and lost animation**
 
-The Win and lost animation used in my project was created and downloaded from [Giphy](https://giphy.com/).
+The Win and lost animation used in my project was created and downloaded from [Canva](https://www.canva.com/)).
 
 
 [Back to Table Of Content](#tableOfContents)
@@ -211,7 +211,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 [Back to Table Of Content](#tableOfContents)
 
-## Story page
+### Story page
 
 * A short overview of game character, including funny/interesting story about each character
 
@@ -225,7 +225,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 [Back to Table Of Content](#tableOfContents)
 
-## Game page:
+### Game page:
 
 * A game page divided in sections to choose character, battlefield and score area.
 
@@ -233,7 +233,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 [Back to Table Of Content](#tableOfContents)
 
-## Win page:
+### Win page:
 
 * A short message to player - "CONGRATULATIONS" 🏆, video created using [Canva](https://www.canva.com/)
 * Feedback form
@@ -242,7 +242,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 [Back to Table Of Content](#tableOfContents)
 
-## Lose page:
+### Lose page:
 
 * A short message to player - "Sorry not this time" 😢, video created using [Canva](https://www.canva.com/)
 * Feedback form
@@ -288,7 +288,7 @@ During my page creation journey I did use:
     * Used to create background and adding last page gif animation
 * [Canva](https://www.canva.com/)
     * Used to create animated videos to the last pages 
-* [Inkspace](https://inkscape.org/)
+* [SketchBook Pro app](https://www.sketchbook.com/)
     * Used to create characters
 * [Freeconvert](https://www.freeconvert.com/)
     * Used to convert tiff format to png (one of acceptable image formats allowing to have no background)
@@ -313,11 +313,33 @@ Used google dev tool to test responsiveness.
 
 Used as a tool for improving the quality of web pages.
 
-Lighthouse Score for Mobile devices:
+#### Lighthouse Score for Mobile devices:
 
-***Story page Lighthouse Score**
+**Note:** To achive 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution.
 
-![Story page - Lighthouse](assets/images/readme_images/lighthouse_index.PNG)
+**Story page Lighthouse Score**
+
+![Story page - Lighthouse](assets/images/readme_images/lighthouse_index_mobile.PNG)
+
+**Game page Lighthouse Score**
+
+![Game page - Lighthouse](assets/images/readme_images/lighthouse_game.PNG)
+
+**Lost page Lighthouse Score**
+
+![Lost page - Lighthouse](assets/images/readme_images/lighthouse_lost.PNG)
+
+**Win page Lighthouse Score**
+
+![Win page - Lighthouse](assets/images/readme_images/lighthouse_win_mobile.PNG)
+
+**Story page Lighthouse Score**
+
+#### Lighthouse Score for Mobile devices:
+
+**Note:** To achive 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution.
+
+![Story page - Lighthouse](assets/images/readme_images/lighthouse_index_desktop.PNG)
 
 **Game page Lighthouse Score**
 
@@ -330,7 +352,6 @@ Lighthouse Score for Mobile devices:
 **Win page Lighthouse Score**
 
 ![Win page - Lighthouse](assets/images/readme_images/lighthouse_win.PNG)
-
 
 ### **Am I responsive design**
 
@@ -425,6 +446,12 @@ Tested by W3C validators, issues discovered:
 * ['feedback'] is better written in dot notation
 
 ***Both errors with dot notation corrected**
+
+* const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+* 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)
+* 'template literal syntax' is only available in ES6 (use 'esversion: 6')
+
+***Issues corrected by using inline code /*jshint esversion: 6 */**
 
 ## Manual testing
 
@@ -580,16 +607,23 @@ See End Product screens:
 <a name="knownBugs"></a>
 # 8. Known bugs
 
+### **Fixed bugs:**
+
 * Incorrect structure of play and return button - cant be closed with anchor tag - rebuild to correct structure format
 * Typo in line 22 of game.html - missing space button between attributes - space added
 * incorrect structure of embedded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed
 * Poor score from lighthouse performance 89% due to external source of video (giphy), replacing video to own created using [Canva](https://www.canva.com/)
 * Dot notation not used in form checker - fixed
+* Issues with "esversion: 6" fixed by adding line to js code /*jshint esversion: 6 */
 * Unchecked runtime.lastError: The message port closed before a response was received - error caused by Norton browser extention
 * Position of header diplaing over the .back (gray area) - fixed
 * Position of score area causing poor UX, moved by 2vw to improve visibility
 
-***All known bugs were corrected before deployment.***
+***All known bugs were corrected before deployment***
+
+### **Bugs without solution:**
+
+* Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort' - run by console
 
 [Back to Table Of Content](#tableOfContents)
 
