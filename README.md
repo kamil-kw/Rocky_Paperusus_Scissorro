@@ -60,6 +60,7 @@ One of the goals in this product was to draw attention of my potential employeer
 <a name="strategy"></a>
 # 1.1 Strategy
 
+
 <a name="projectGoals"></a>
 ## Project Goals
 
@@ -120,16 +121,29 @@ To be able to provide for users the best experience on devices which they use, m
 
 For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which helped me with defining layout for three types of devices (desktop, tablets and mobiles).
 
-* **Story - homepage Wireframes:**
+* **Homepage - Story Wireframes:**
+
+![Story Wireframe](assets/images/readme_images/wireframe_story_page.PNG)
+
+* **Homepage - Game Rules Wireframes:**
+
+![Game rules Wireframe](assets/images/readme_images/wireframe_story_how_page.PNG)
 
 * **Game before start - the play game page before Wireframes:**
 
+![Game start](assets/images/readme_images/wireframe_game_start_page.PNG)
+
 * **Game after start - the play game page after Wireframes:**
 
-* **Lose - Lose page Wireframes:**
+![Game](assets/images/readme_images/wireframe_game_page.PNG)
 
-* **Win - Lose page Wireframes:**
+* **Lost - Lost page Wireframes:**
 
+![Lost](assets/images/readme_images/wireframe_lost_page.PNG)
+
+* **Win - Win page Wireframes:**
+
+![Win](assets/images/readme_images/wireframe_win_page.PNG)
 ---
 
 [Back to Table Of Content](#tableOfContents)
@@ -572,7 +586,10 @@ See End Product screens:
 * Poor score from lighthouse performance 89% due to external source of video (giphy), replacing video to own created using [Canva](https://www.canva.com/)
 * Dot notation not used in form checker - fixed
 * Unchecked runtime.lastError: The message port closed before a response was received - error caused by Norton browser extention
+* Position of header diplaing over the .back (gray area) - fixed
+* Position of score area causing poor UX, moved by 2vw to improve visibility
 
+***All known bugs were corrected before deployment.***
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -590,6 +607,9 @@ See End Product screens:
     * Win, Lost videos created & download from [Canva](https://www.canva.com/);
     * Characters created by Malgorzata Ostrowska (a graphic designer beginner)
 
-Special thanks to @Marcel(Mentor) Mulder for constructive feedback and amazing tips, and Malgorzata Ostrowska for creating amazing characters.
+Special thanks to:
+@Marcel(Mentor) Mulder for constructive feedback and amazing tips 
+Malgorzata Ostrowska for creating amazing characters
+@Manni for providing feedback about the game which helps to improve UX
 
 [Back to Table Of Content](#tableOfContents)
