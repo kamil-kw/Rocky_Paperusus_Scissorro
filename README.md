@@ -323,11 +323,11 @@ Used as a tool for improving the quality of web pages.
 
 **Game page Lighthouse Score**
 
-![Game page - Lighthouse](assets/images/readme_images/lighthouse_game.PNG)
+![Game page - Lighthouse](assets/images/readme_images/lighthouse_game_mobile.PNG)
 
 **Lost page Lighthouse Score**
 
-![Lost page - Lighthouse](assets/images/readme_images/lighthouse_lost.PNG)
+![Lost page - Lighthouse](assets/images/readme_images/lighthouse_lost_mobile.PNG)
 
 **Win page Lighthouse Score**
 
@@ -335,7 +335,7 @@ Used as a tool for improving the quality of web pages.
 
 **Story page Lighthouse Score**
 
-#### Lighthouse Score for Mobile devices:
+#### **Lighthouse Score for Desktop:**
 
 **Note:** To achive 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution.
 
@@ -343,15 +343,15 @@ Used as a tool for improving the quality of web pages.
 
 **Game page Lighthouse Score**
 
-![Game page - Lighthouse](assets/images/readme_images/lighthouse_game.PNG)
+![Game page - Lighthouse](assets/images/readme_images/lighthouse_game_desktop.PNG)
 
 **Lost page Lighthouse Score**
 
-![Lost page - Lighthouse](assets/images/readme_images/lighthouse_lost.PNG)
+![Lost page - Lighthouse](assets/images/readme_images/lighthouse_lost_desktop.PNG)
 
 **Win page Lighthouse Score**
 
-![Win page - Lighthouse](assets/images/readme_images/lighthouse_win.PNG)
+![Win page - Lighthouse](assets/images/readme_images/lighthouse_win_desktop.PNG)
 
 ### **Am I responsive design**
 
