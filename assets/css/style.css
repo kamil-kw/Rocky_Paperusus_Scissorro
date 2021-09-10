@@ -179,11 +179,12 @@ div>p {
 .vs, 
 .game--score {
 	flex-basis: 30%;
+	padding: 0 2vw;
 }
 .player--score, 
 .computer--score, 
 .games {
-	width: 23%;
+	width: 25%;
 }
 .player--score {
 	text-align: left;
