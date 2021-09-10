@@ -38,7 +38,7 @@ strong {
 	color: black;
 	order: 1;
 	margin: 0;
-	margin-top: -3px;
+	margin-top: 3px;
 	text-shadow: 1px 1px darkviolet;
 }
 /* comment below title */
@@ -719,7 +719,7 @@ strong {
 	div>p,
 	h3,
 	footer {
-		font-size: 2.6rem;
+		font-size: 2.5rem;
 	}
 	.btn,
 	.how {

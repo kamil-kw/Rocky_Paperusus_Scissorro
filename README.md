@@ -10,7 +10,7 @@ In this project my goal was to create intresting game - with original approach t
 
 Hope You will enjoy my project idea, and have lots of fun with.
 
-# [See live webpage here](https://kamil-kw.github.io/Paperusus_Rocky_Scissorro/index.html)
+# [See live webpage here](https://kamil-kw.github.io/Rocky_Paperusus_Scissorro/)
 
 <a name="tableOfContents"></a>
 

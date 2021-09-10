@@ -57,9 +57,13 @@ function chooseFighter(userFighter) {
         let looserPage = document.getElementById('player--lost');
 
 
-    if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) > (document.getElementById("player--scored").innerText)){
+    if((document.getElementById("total--rounds").innerText > 9) && 
+    (document.getElementById("computer--scored").innerText) > 
+    (document.getElementById("player--scored").innerText)) {
         window.open(looserPage, "_self");
-    } else if((document.getElementById("total--rounds").innerText > 9) && (document.getElementById("computer--scored").innerText) < (document.getElementById("player--scored").innerText)){
+    } else if((document.getElementById("total--rounds").innerText > 9) && 
+    (document.getElementById("computer--scored").innerText) < 
+    (document.getElementById("player--scored").innerText)) {
         window.open(winnerPage, "_self");
     }
     
@@ -67,13 +71,13 @@ function chooseFighter(userFighter) {
     
     let showImage = document.getElementById('showimage');
 
-    if((document.getElementById("total--rounds").innerText) > 0){
+    if((document.getElementById("total--rounds").innerText) > 0) {
         showImage.className = `vs vsimage`;
     }
 
     let fontAwesome = document.getElementById('fontawesome');
 
-    if(resultUser === "WINNER"){
+    if(resultUser === "WINNER") {
         fontAwesome.className = `font--awesome font-win`;
     }
     if(resultUser === "LOOSER"){
