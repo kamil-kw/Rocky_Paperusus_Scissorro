@@ -6,7 +6,7 @@
 
 Welcome to my second Full Stack Course project. This game is a modern twist on the popular game rock paper scissor. 
 
-In this project my goal was to create intresting game - with original approach to rock paper scissor topic. As a Quality Engineer I'm a person who look for improvements opportunity in my daily basis, therefore I'm always keeping in back of my head words of **Ty Warner** (CEO of Ty Icn.) ***"Even perfection has room for improvement"***, what in case of my game can be translated as a perfect game with funny twist as improvement. 
+In this project my goal was to create intresting game - with original approach to rock paper scissor theme. As a Quality Engineer, I'm a person who always looks for improvement opportunities, therefore I'm keeping in back of my head words of **Ty Warner** (CEO of Ty Icn.) ***"Even perfection has room for improvement"***, what in case of my game can be translated to a perfect game with funny twist as improvement. 
 
 Hope You will enjoy my project idea, and have lots of fun with.
 
@@ -51,9 +51,10 @@ Hope You will enjoy my project idea, and have lots of fun with.
 
 As a part of my path of becoming a software developer from zero to hero 😊, I'm presenting a Rock Paperusus Scissorro game.
 
-As mentioned in my first project my ultimate goal is to change my career path and become a full time developer, therefore my second project will be showing my new acquired skill which is JavaScript in the real project. 
+As mentioned in my first project my ultimate goal is to change my career path and become a full time developer. In here I will be showing my new acquired skills, which is JavaScript. 
 
-One of the goals in this product was to draw attention of my potential employeers into this project and not be another one of the "next" rock paper scissors game out there, therefore I decided to use my creativity and build something new and original which can stay in memory for longer time than just simple version of this game.
+As part of my portfolio, which can be shown to my potential future employers, I have decided to use my creativity and build something new and original. The ultimate goal was to draw the attention and ensure this game stays in memory for a longer time. We all know the rock paper scissor game, but with the background story and unique characters, that should fit my goal of being outstanding from all existing "RPS" games.
+
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -94,6 +95,7 @@ The website has been built by using HTML, CSS and JavaScript (the new s
 ## User Expectations
 
 * Interface is easy to navigate;
+* Game rules explanation, to provide best user experience 
 * The website is responsive across all devices (mobile, tablet and desktop);
 * Content is displayed in a clear and understanding format;
 * To have the ability to leave feedback about the game experience and concept;
@@ -110,7 +112,8 @@ To be able to provide for users the best experience on devices which they use, m
 * **All pages** with one consistent layout design being easy to understand and intuitive for all users;
 * **Action buttons** located below middle sections (history, battlefield, lost/win image);
 * **Footer** with copyrights and author name;
-* **Story** includes short catchy/funny story about each character;
+* **Story** includes short catchy/funny story about each character; 
+* **Game Rules** explanation of how to play the game, reaveling after pressing the button
 * **Game** include game with, section to choose character, battlefield, score of user and computer, and amount of rounds;
 * **Lose and Win** include win or lost sentence, have ability to leave feedback by submitting the form. 
 
@@ -161,7 +164,7 @@ The background video used in my project was created and downloaded from [Giphy](
 
 ### **Characters**
  
-Characters were created Malgorzata Ostrowska (a graphic designer beginner) with using the [SketchBook Pro app](https://www.sketchbook.com/)
+Characters were created by Malgorzata Ostrowska (a graphic designer beginner) with using the [SketchBook Pro app](https://www.sketchbook.com/)
 
 ### **Icons**
 
@@ -211,7 +214,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 ### Story page
 
-* A short overview of game character, including funny/interesting story about each character
+* A short overview of game character, including funny/interesting story about each of them
 
 ![Story Page](assets/images/readme_images/story_page_rps.PNG)
 
@@ -242,7 +245,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 ### Lose page:
 
-* A short message to player - "Sorry not this time" 😢, video created using [Canva](https://www.canva.com/)
+* A short message to player - "Sorry not this time, try again" 😢, video created using [Canva](https://www.canva.com/)
 * Feedback form
 
 ![Game Page](assets/images/readme_images/lost_page_rps.PNG)
@@ -313,7 +316,7 @@ Used as a tool for improving the quality of web pages.
 
 #### **Lighthouse Score for Mobile devices:**
 
-**Note:** To achive 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution.
+**Note:** To achieve 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution. Therefore I have not achieved the perfect (100%) score.
 
 #### **Story page Lighthouse Score**
 
@@ -335,7 +338,7 @@ Used as a tool for improving the quality of web pages.
 
 #### **Lighthouse Score for Desktop:**
 
-**Note:** To achive 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution.
+**Note:** To achive 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution. Therefore I have not achieved the perfect (100%) score.
 
 ![Story page - Lighthouse](assets/images/readme_images/lighthouse_index_desktop.PNG)
 
@@ -462,9 +465,9 @@ All buttons have text color set to #701ef4 with orange border, to ensure good co
 * **Play** button will direct you to the Game page, will animate (transition in 0.5s) once pressed and change color to green.
 * **WANT TO KNOW HOW TO PLAY?** button will expand game rules below;
 * **RETURN TO STORY PAGE** button will direct you to the index page, will animate (transition in 0.5s) once pressed and change color to green.
-* **Submit form** button once pressed will change color to green than check if feedback field is filled (using Java Script):
+* **Submit form** button once pressed will change color to green then check if feedback field is filled (using Java Script):
     * If NOT the page alert "Please leave feedback" will appear  
-    * If YES than will direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in it in the new tab
+    * If YES than will direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open it in the new tab
 
         ![Feedback result](assets/images/readme_images/codeinstitute_feedback.PNG)
 * **Clear form** button will clear all text from form (using Java Script).
@@ -552,7 +555,7 @@ Was checked at multiple device sizes to focus the majority of devices currently 
 
 * **All pages:**
  
-    * Characters - during the first days of the project I did use different pictures for positioning and building game logic, however I changed it later to specially designed and created for this game characters.
+    * Characters - during the first days of the project I did use different pictures for positioning and building game logic, however later I have changed them to specially designed and created for this game.
     * Game rules added to first page as adviced by my Mentor Marcel Mulders, list reveal after pressing the **WANT TO KNOW HOW TO PLAY?** button 
     * Lost & win page image changed due to issues with performance and best practice discovered by Lighthouse test - created own mp4 in [Canva](https://www.canva.com/) to be displayed
     * Zoom for text and characters added to story page to improve interactivity and UX
@@ -607,7 +610,7 @@ See End Product screens:
 
 ### **Fixed bugs:**
 
-* Incorrect structure of play and return button - cant be closed with anchor tag - rebuild to correct structure format
+* Incorrect structure of play and return button - can't be closed with anchor tag - rebuild to correct structure format
 * Typo in line 22 of game.html - missing space button between attributes - space added
 * incorrect structure of embedded file from giphy - "Error: The frameborder attribute on the iframe element is obsolete" - removed
 * Poor score from lighthouse performance 89% due to external source of video (giphy), replacing video to own created using [Canva](https://www.canva.com/)
