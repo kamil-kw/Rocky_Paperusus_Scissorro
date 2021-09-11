@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway&display=swap');
 
 /* Main styles settings */
+
 html {
 	font-size: 12px;
 }
@@ -13,6 +14,7 @@ body {
 }
 
 /* background video */
+
 #myVideo {
 	position: fixed;
 	right: 0;
@@ -33,6 +35,7 @@ strong {
 }
 
 /* title style */
+
 .header {
 	font-weight: 300;
 	color: black;
@@ -41,20 +44,29 @@ strong {
 	margin-top: 3px;
 	text-shadow: 1px 1px darkviolet;
 }
+
 /* comment below title */
+
 .comment {
 	margin: 0;
 }
+
+
 /* make it center */
+
 .center {
 	text-align: center;
 }
+
 /* transparent background */
+
 .back {
 	background-color: rgba(255, 255, 255, 0.7);
 }
-/* inline flex display areas */ 
-summary, 
+
+/* inline flex display areas */
+
+summary,
 .history--rocky,
 .game--score,
 .history--paperusus,
@@ -69,60 +81,73 @@ summary,
 	height: 150px;
 	width: 100px;
 }
-/* flex orders */
-/* order */
+
+/* flex order */
 
 .history--rocky {
 	order: 2;
 }
+
 .image--win,
 .image--loose,
 .history--paperusus {
 	order: 3;
 	text-align: center;
 }
+
 .choose--fighter {
 	order: 3;
 	display: inline-flex;
 	justify-content: space-around;
 }
-.result--score, 
+
+.result--score,
 .fight {
 	order: 4;
 }
+
 .btn--footer,
 .history--scissoro,
-.return--try, 
+.return--try,
 .game--score {
 	text-align: center;
 	order: 5;
 }
-.play--btn, #myForm {
+
+.play--btn,
+#myForm {
 	order: 6;
 	text-align: center;
 }
+
 footer {
 	order: 7;
 	text-align: center;
 }
+
 /* images of characters links */
-.image--scissoro, 
+
+.image--scissoro,
 .fighter--scissorro {
 	background-image: url(../images/scissorro.png);
 }
-.image--rocky, 
+
+.image--rocky,
 .fighter--rocky {
 	background-image: url(../images/rocky.png);
 }
-.image--paperusus, 
+
+.image--paperusus,
 .fighter--paperusus {
 	background-image: url(../images/paperusus.png);
 }
+
 .vsimage {
 	background-image: url(../images/vs.png);
 }
-.image--scissoro, 
-.image--rocky, 
+
+.image--scissoro,
+.image--rocky,
 .image--paperusus,
 .vsimage {
 	height: 100px;
@@ -134,6 +159,7 @@ footer {
 }
 
 /* story of characters flex basis */
+
 .story--rocky,
 .story--paperusus,
 .story--scissoro {
@@ -141,6 +167,7 @@ footer {
 	margin-right: 5px;
 	margin-bottom: -10px
 }
+
 /* font for stories and game rules description */
 
 div>p,
@@ -150,20 +177,20 @@ details>p,
 	font-family: 'Raleway', sans-serif;
 }
 
-
 .name {
 	text-decoration: underline;
 	text-shadow: 1px 0px darkviolet;
 }
+
 div>p {
 	padding-left: 5px;
 	text-align: justify;
 }
 
-
 /* choose character */
-.fighter--rocky, 
-.fighter--paperusus, 
+
+.fighter--rocky,
+.fighter--paperusus,
 .fighter--scissorro {
 	height: 100px;
 	width: 200px;
@@ -173,60 +200,78 @@ div>p {
 }
 
 /* score section */
-.vs, 
+
+.vs,
 .game--score {
 	flex-basis: 30%;
 	padding: 0 2vw;
 }
-.player--score, 
-.computer--score, 
+
+.player--score,
+.computer--score,
 .games {
 	width: 25%;
 }
+
 .player--score {
 	text-align: left;
 }
+
 .games {
 	text-align: center;
 }
+
 .computer--score {
 	text-align: right;
 }
+
 #user--result,
 #computer--result {
 	text-shadow: 1px 1px darkviolet;
 }
+
 /* Animation */
+
 .zoom {
 	cursor: pointer;
 	transition: transform .2s;
 }
+
 .zoom:hover {
 	transform: scale(1.2);
 }
+
 .zoom--small {
 	transition: transform .2s;
 }
+
 .zoom--small:hover {
 	transform: scale(1.1);
 }
 
-.game--score, 
+.game--score,
 .fight {
 	display: inline-flex;
 	justify-content: space-between;
 }
+
+
 /* loose.html page style */
+
 #last--image {
 	height: 50vh;
 	width: 90vw;
 	opacity: 0.7;
 }
+
 #feedback {
 	width: 97%;
 	text-align: center;
 }
+
+
 /*buttons*/
+
 .btn,
 .how {
 	background-color: #701ef4;
@@ -243,16 +288,20 @@ div>p {
 	cursor: pointer;
 	border-radius: 16px;
 }
+
 /* button animation */
+
 .btn:hover {
 	background-color: green;
 }
+
 .btn span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
 }
+
 .btn span:after {
 	content: '>';
 	font-size: 100%;
@@ -262,18 +311,23 @@ div>p {
 	right: -20px;
 	transition: 0.5s;
 }
+
 .btn--rtn span:after {
 	content: '<';
 	right: -20px;
 }
+
 .btn:hover span {
 	padding-right: 25px;
 }
+
 .btn:hover span:after {
 	opacity: 1;
 	right: 0;
 }
-/* fontawesome pseudo classes */
+
+/* fontawesome */
+
 .font-win::before,
 .font-lost::before,
 .font-draw::before {
@@ -283,21 +337,29 @@ div>p {
 	font-size: 300%;
 	text-align: center;
 }
+
 .font-win::before {
 	color: goldenrod;
 	content: "\f091";
 }
+
 .font-lost::before {
 	color: red;
 	content: "\f5b3";
 }
+
 .font-draw::before {
 	content: "\f2b5";
 }
+
+
 /* feedback form */
+
 textarea#feedback {
 	max-width: 88vw;
 }
+
+
 /* Game rules styles */
 
 details {
@@ -307,56 +369,70 @@ details {
 	margin-left: 4vw;
 	margin-right: 4vw;
 }
+
 h4 {
 	margin: 0;
 	text-decoration: underline;
 	font-weight: 100;
 }
+
 h3 {
 	margin: 1px;
 	font-weight: 100;
 }
+
 details>p {
 	margin: 2px;
 }
+
+
 /* font size */
+
 #computer--scored,
 #player--scored,
 #total--rounds {
 	font-size: 2rem;
 }
-.player--score, 
-.computer--score, 
+
+.player--score,
+.computer--score,
 .games,
 #user--result,
 #computer--result {
 	font-size: 1.5rem;
 }
+
 .header {
 	font-size: 1.8rem;
 }
+
 .comment {
 	margin: 0;
 	font-size: 1.6rem;
 }
-div>p, 
+
+div>p,
 details>p,
 .second {
 	font-size: 1rem;
 }
+
 footer,
 h3,
 .name {
 	font-size: 1.2rem;
 }
+
 h4 {
 	font-size: 1.1rem;
 }
+
 strong {
 	font-weight: 100;
 }
 
 /* phone generations like iPhone 5S. Galaxy fold */
+
 @media screen and (min-width: 280px) and (max-width: 320px) {
 	.how,
 	.btn {
@@ -365,6 +441,7 @@ strong {
 }
 
 /* screen 321px-767px */
+
 @media screen and (min-width: 321px) and (max-width: 767px) {
 	.fighter--rocky,
 	.fighter--scissorro {
@@ -398,10 +475,10 @@ strong {
 		font-size: 1.6rem;
 	}
 }
+
 /* tablets 768px-1023px */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	/* story page */
 	.image--scissoro,
 	.image--paperusus,
 	.image--rocky {
@@ -453,8 +530,8 @@ strong {
 	#total--rounds {
 		font-size: 4rem;
 	}
-
-	.btn, .how {
+	.btn,
+	.how {
 		font-size: 2rem;
 	}
 	#feedback {
@@ -477,11 +554,9 @@ strong {
 	}
 }
 
-
 /* iPad PRO 1024px-1279px not standard laptops */
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-	/* story page */
 	.image--scissoro,
 	.image--paperusus,
 	.image--rocky {
@@ -569,11 +644,9 @@ strong {
 	}
 }
 
-
 /* 1280px up to 1599px */
 
 @media screen and (min-width: 1280px) and (max-width: 1599px) {
-	/* story page */
 	body {
 		margin-left: 100px;
 		margin-right: 100px;
@@ -630,7 +703,7 @@ strong {
 	#total--rounds {
 		font-size: 2.5rem;
 	}
-	div>p, 
+	div>p,
 	details>p,
 	.btn,
 	.how {
@@ -639,11 +712,10 @@ strong {
 	h4 {
 		font-size: 1.8rem;
 	}
-
 	.second {
 		font-size: 1.65rem;
 	}
-	#last--image{
+	#last--image {
 		width: 80vw;
 		height: 45vh;
 	}
@@ -653,10 +725,9 @@ strong {
 	textarea#feedback {
 		max-width: 40vw;
 	}
-	
 }
+
 @media screen and (min-width: 1600px) {
-	/* story page */
 	body {
 		margin-left: 100px;
 		margin-right: 100px;
@@ -695,13 +766,11 @@ strong {
 		margin: 2px 0 1px 0;
 		font-size: 3.7rem;
 	}
-
 	.font-win::before,
 	.font-lost::before,
 	.font-draw::before {
 		font-size: 500%;
 	}
-	
 	.player--scomment,
 	.computer--scomment,
 	.rounds,
@@ -723,7 +792,6 @@ strong {
 	.how {
 		font-size: 2.5rem;
 	}
-
 	#last--image {
 		height: 46vh;
 		width: 56vw;

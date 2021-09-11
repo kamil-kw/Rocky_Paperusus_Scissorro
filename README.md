@@ -648,7 +648,7 @@ Was checked at multiple device sizes to focus the majority of devices currently 
 
 
 <a name="deployment"></a>
-# 5. Deployment
+# 6. Deployment
 
 Web page deployed using GitHub
 
@@ -661,7 +661,7 @@ Web page deployed using GitHub
 
 See End Product screens:
 
-* **Story page:**
+### **Story page:**
 
 ![Story page](assets/images/readme_images/story_page_endproduct_rps.PNG)
 
@@ -669,19 +669,19 @@ See End Product screens:
 
 [Back to Table Of Content](#tableOfContents)
 
-* **Game page:**
+### **Game page:**
 
 ![Game page](assets/images/readme_images/game_page_endproduct_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-* **Win page:**
+### **Win page:**
 
 ![Win page](assets/images/readme_images/win_page_endproduct_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-* **Lost page:**
+### **Lost page:**
 
 ![Lost page](assets/images/readme_images/lost_page_endproduct_rps.PNG)
 
@@ -730,6 +730,6 @@ See End Product screens:
 ### Malgorzata Ostrowska for creating amazing characters
 ### @Manni for providing feedback about the game which helps to improve UX
 
-### To all my friends who play this game in baby stage and helps to improve UX & gramatical errors.
+### To all my friends and family who play this game in baby stage and helps to improve UX & gramatical errors.
 
 [Back to Table Of Content](#tableOfContents)
