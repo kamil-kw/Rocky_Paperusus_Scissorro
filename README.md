@@ -155,8 +155,8 @@ For creating wireframes I did use a [Balsamiq](https://balsamiq.com/), which hel
 ### **Typography**
 
 A font of my choice is Luckiest Guy & Raleway provided by [Google Fonts](https://fonts.google.com/).
-* As alternative font to Luckiest Guy, I used cursive font,
-* As alternative font to Raleway, I used sans-sarif font,
+* As alternative font to Luckiest Guy, I used cursive font
+* As alternative font to Raleway, I used sans-sarif font
 
 ### **Background**
 
@@ -172,7 +172,7 @@ The icons were taken from [Font Awsome](https://fontawesome.com/)
 
 ### **Win and lost animation**
 
-The Win and lost animation used in my project was created and downloaded from [Canva](https://www.canva.com/)).
+The Win and lost animation used in my project was created and downloaded from [Canva](https://www.canva.com/).
 
 
 [Back to Table Of Content](#tableOfContents)
@@ -180,7 +180,7 @@ The Win and lost animation used in my project was created and downloaded from [C
 <a name="features"></a>
 # 2. Features
 
-### All pages:
+## **All pages:**
 
 A goal was to achieve a one consistent layout within all pages. This includes: 
 
@@ -188,23 +188,23 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 * Game title in top section of page;
 
-* Comment to player e.g. 
-    * **Story page:** "This are our fighters" 
-    * **Game page:** "Choose Fighter" 
-    * **Win page:** "Congratulation" 
-    * **Lose page:** "Sorry not this time"
+### **Comment to player e.g.** 
+* **Story page:** "This are our fighters" 
+* **Game page:** "Choose Fighter" 
+* **Win page:** "Congratulation" 
+* **Lose page:** "Sorry not this time"
 
-* Main section
-    * **Story page:** Characters stories (catchy funny original), characters created specialy for this game (uniqe)
-    * **Game page:** Battlefield area with score calculator and active icons (characters)
-    * **Win page:** the congratulation image was created by me using [Canva](https://www.canva.com/)
-    * **Lose page:** the you lost image was created by me using [Canva](https://www.canva.com/)
+### **Main section**
+* **Story page:** Characters stories (catchy funny original), characters created specialy for this game (uniqe)
+* **Game page:** Battlefield area with score calculator and active icons (characters)
+* **Win page:** the congratulation image was created by me using [Canva](https://www.canva.com/)
+* **Lose page:** the you lost image was created by me using [Canva](https://www.canva.com/)
 
-* Action buttons
-    * **Story page:** Play
-    * **Game page:** Return to story page
-    * **Win page:** Return to story page and Play
-    * **Lose page:** Return to story page and Play
+### **Action buttons**
+* **Story page:** Play
+* **Game page:** Return to story page
+* **Win page:** Return to story page and Play
+* **Lose page:** Return to story page and Play
 
 * Feedback form only for last win/lost page including submit and clear form buttons
 
@@ -212,7 +212,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 [Back to Table Of Content](#tableOfContents)
 
-### Story page
+## **Story page**
 
 * A short overview of game character, including funny/interesting story about each of them
 
@@ -226,7 +226,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 [Back to Table Of Content](#tableOfContents)
 
-### Game page:
+## **Game page:**
 
 * A game page divided in sections to choose character, battlefield and score area.
 
@@ -234,7 +234,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 [Back to Table Of Content](#tableOfContents)
 
-### Win page:
+## **Win page:**
 
 * A short message to player - "CONGRATULATIONS" 🏆, video created using [Canva](https://www.canva.com/)
 * Feedback form
@@ -243,7 +243,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 
 [Back to Table Of Content](#tableOfContents)
 
-### Lose page:
+### Lost page:
 
 * A short message to player - "Sorry not this time, try again" 😢, video created using [Canva](https://www.canva.com/)
 * Feedback form
@@ -255,7 +255,7 @@ A goal was to achieve a one consistent layout within all pages. This includes:
 <a name="technologies"></a>
 # 3. Technologies Used
 
-During my page creation journey I did use:
+### **During my page creation journey I did use:**
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML)
     * Current project uses HyperText Markup Language.
@@ -302,23 +302,23 @@ During my page creation journey I did use:
 <a name="testing"></a>
 # 4. Testing
 
-### **Google developer Tool**
+## **Google developer Tool**
 
 Used during entire project to test code and debug issues.
 
-### **Responsive tools**
+## **Responsive tools**
 
 Used google dev tool to test responsiveness.
 
-### **Lighthouse**
+## **Lighthouse**
 
 Used as a tool for improving the quality of web pages.
 
-#### **Lighthouse Score for Mobile devices:**
+### **Lighthouse Score for Mobile devices:**
 
 **Note:** To achieve 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution. Therefore I have not achieved the perfect (100%) score.
 
-#### **Story page Lighthouse Score**
+### **Story page Lighthouse Score**
 
 ![Story page - Lighthouse](assets/images/readme_images/lighthouse_index_mobile.PNG)
 
@@ -334,9 +334,7 @@ Used as a tool for improving the quality of web pages.
 
 ![Win page - Lighthouse](assets/images/readme_images/lighthouse_win_mobile.PNG)
 
-#### **Story page Lighthouse Score**
-
-#### **Lighthouse Score for Desktop:**
+### **Lighthouse Score for Desktop:**
 
 **Note:** To achive 100% performance score I need to reduces size of background animation, however this will strongly impact on the quality, this is the smallest posible solution. Therefore I have not achieved the perfect (100%) score.
 
@@ -354,12 +352,11 @@ Used as a tool for improving the quality of web pages.
 
 ![Win page - Lighthouse](assets/images/readme_images/lighthouse_win_desktop.PNG)
 
-### **Am I responsive design**
+## **Am I responsive design**
 
 [Am I responsive design](http://ami.responsivedesign.is/) used to test end product responsiveness.
 
 [Back to Table Of Content](#tableOfContents)
-
 
 ### **Story screen from multiple devices**
 
@@ -427,7 +424,7 @@ Used as a tool for improving the quality of web pages.
 
 #### **iPhone plus gen 6 up to 8:**
 
-![iphone 6-8plus](assets/images/readme_images/game_page_endproduct_iphone7_rps.PNG)
+![iphone 6-8plus](assets/images/readme_images/game_page_endproduct_iphone7.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
@@ -513,7 +510,7 @@ Used as a tool for improving the quality of web pages.
 
 [Back to Table Of Content](#tableOfContents)
 
-### W3C Validator tools
+## W3C Validator tools
 
 Tested by W3C validators, issues discovered:
 
@@ -521,7 +518,7 @@ Tested by W3C validators, issues discovered:
 
 **All issues corrected.**
 
-### JShint
+## JShint
 
 Tested by W3C validators, issues discovered:
 
@@ -538,9 +535,9 @@ Tested by W3C validators, issues discovered:
 
 ## Manual testing
 
-Page details:
+### Page details
 
-**Action buttons:** 
+#### **Action buttons** 
     
 All buttons have text color set to #701ef4 with orange border, to ensure good contrast.
 
@@ -556,7 +553,7 @@ All buttons have text color set to #701ef4 with orange border, to ensure good co
 
  ***All buttons has pass tests and worked according to project expections.***
 
-**Characters story:**
+#### **Characters story**
 
 * Entire text was checked against grammatical issues and typos
 * Entire text area received transparent background to improve contrast and maintain visibility of animated background
@@ -564,7 +561,7 @@ All buttons have text color set to #701ef4 with orange border, to ensure good co
 
 ***Characters story has pass tests and worked according to project expections.***
 
-**Game rules:**
+#### **Game rules**
 Expand once press the **WANT TO KNOW HOW TO PLAY?** button:
 * Entire text was checked against grammatical issues and typos
 * Entire text area received transparent background to improve contrast and UX
@@ -572,23 +569,21 @@ Expand once press the **WANT TO KNOW HOW TO PLAY?** button:
 
 ***Game rules has pass tests and worked according to project expections.***
 
-**Game buttons (choose fighter):**
+#### **Game buttons (choose fighter)**
  
 * Characters images used instead of regular buttons, 
 * Characters will zoom to 110% to show currently pointed hero (UX)
 
-
 ***Game buttons animation has pass tests and worked according to project expections.***
 
-**Battlefield area:**
+#### **Battlefield area**
 
 * Characters images will appear as per player and computer choice, 
 * The VS image will popup in between chosen characters once first character will be clicked
 
-
 ***Battlefield area has pass all tests and worked according to project expections.***
 
-***Score/result area:** 
+#### **Score/result area** 
 * The player (left) and computer (right) result in text form will appear below chosen character
 * As per player result (Win, Lost, Draw) the font awesome will appear
     * 🏆 **WINNER** - Trophy icon
@@ -600,7 +595,7 @@ Expand once press the **WANT TO KNOW HOW TO PLAY?** button:
 
 ***Score/result area has pass all tests and worked according to project expections.***
 
-**Win & lost page**
+#### **Win & lost page**
 
 * Send button with color theme matching to all buttons, once pressed will check if field is filled than direct you to [Code Institute - formdump](https://formdump.codeinstitute.net/) and open in new tab;
 * Clear form button with color theme matching to all buttons clear all text from form.
@@ -609,20 +604,21 @@ Expand once press the **WANT TO KNOW HOW TO PLAY?** button:
 ***Win & lost pages pass tests and worked according to project expections.***
 
 
-**Game logic:** 
+#### **Game logic** 
+
 * 3 characters to choose from (9 combinations)
 * Total rounds 10
 * No draw option (as this is The Ultimate Tournament 😂), game number will increase until one of the game parties will get a higher score.
 
 ***Game logic has pass all tests and worked according to project expections.***
 
-**Footer:**
+#### **Footer**
 
 Include author name, styled to match the page designe, always on the bottom of the page.
 
 ***Footer worked according to project expections.***
 
-**Responsiveness:**
+#### **Responsiveness:**
 
 Was checked at multiple device sizes to focus the majority of devices currently used worldwide.
 
@@ -634,18 +630,15 @@ Was checked at multiple device sizes to focus the majority of devices currently 
 <a name="development"></a>
 # 5. Development
 
-
-* **All pages:**
+## **All pages**
  
-    * Characters - during the first days of the project I did use different pictures for positioning and building game logic, however later I have changed them to specially designed and created for this game.
-    * Game rules added to first page as adviced by my Mentor Marcel Mulders, list reveal after pressing the **WANT TO KNOW HOW TO PLAY?** button 
-    * Lost & win page image changed due to issues with performance and best practice discovered by Lighthouse test - created own mp4 in [Canva](https://www.canva.com/) to be displayed
-    * Zoom for text and characters added to story page to improve interactivity and UX
-    * Zoom for choose characters area added for improving user interactivity with characters and overall UX
-
+* Characters - during the first days of the project I did use different pictures for positioning and building game logic, however later I have changed them to specially designed and created for this game.
+* Game rules added to first page as adviced by my Mentor Marcel Mulders, list reveal after pressing the **WANT TO KNOW HOW TO PLAY?** button 
+* Lost & win page image changed due to issues with performance and best practice discovered by Lighthouse test - created own mp4 in [Canva](https://www.canva.com/) to be displayed
+* Zoom for text and characters added to story page to improve interactivity and UX
+* Zoom for choose characters area added for improving user interactivity with characters and overall UX
 
 [Back to Table Of Content](#tableOfContents)
-
 
 <a name="deployment"></a>
 # 6. Deployment
@@ -659,9 +652,9 @@ Web page deployed using GitHub
 <a name="endProduct"></a>
 # 7. End Product
 
-See End Product screens:
+## **End Product screens**
 
-### **Story page:**
+### **Story page**
 
 ![Story page](assets/images/readme_images/story_page_endproduct_rps.PNG)
 
@@ -669,19 +662,19 @@ See End Product screens:
 
 [Back to Table Of Content](#tableOfContents)
 
-### **Game page:**
+### **Game page**
 
 ![Game page](assets/images/readme_images/game_page_endproduct_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-### **Win page:**
+### **Win page**
 
 ![Win page](assets/images/readme_images/win_page_endproduct_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
-### **Lost page:**
+### **Lost page**
 
 ![Lost page](assets/images/readme_images/lost_page_endproduct_rps.PNG)
 
@@ -690,7 +683,7 @@ See End Product screens:
 <a name="knownBugs"></a>
 # 8. Known bugs
 
-### **Fixed bugs:**
+## **Fixed bugs**
 
 * Incorrect structure of play and return button - can't be closed with anchor tag - rebuild to correct structure format
 * Typo in line 22 of game.html - missing space button between attributes - space added
@@ -704,7 +697,7 @@ See End Product screens:
 
 ***All known bugs were corrected before deployment***
 
-### **Bugs without solution:**
+## **Bugs without solution**
 
 * Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort' - run by console
 
@@ -713,22 +706,22 @@ See End Product screens:
 <a name="credits"></a>
 # 9. Credits
 
-## **Code:**
+## **Code**
 
 * Icons came from [Font Awsome](https://fontawesome.com/)
 * Font came from [Google Fonts](https://fonts.google.com/)
 
-## **Content:**
+## **Content**
 
 * Background photo created & download from [Giphy](https://giphy.com/);
 * Win, Lost videos created & download from [Canva](https://www.canva.com/);
 * Characters created by Malgorzata Ostrowska (a graphic designer beginner)
 
-## Special thanks to:
+## **Special thanks to**
 
-### @Marcel(Mentor) Mulder for constructive feedback and amazing tips 
-### Malgorzata Ostrowska for creating amazing characters
-### @Manni for providing feedback about the game which helps to improve UX
+### **@Marcel(Mentor) Mulder** for constructive feedback and amazing tips 
+### **Malgorzata Ostrowska** for creating amazing characters
+### **@Manni** for providing last feedback about the game which helps to improve UX
 
 ### To all my friends and family who play this game in baby stage and helps to improve UX & gramatical errors.
 
