@@ -375,6 +375,12 @@ Used as a tool for improving the quality of web pages.
 
 [Back to Table Of Content](#tableOfContents)
 
+#### **iPhone gen 5:**
+
+![iphone 5](assets/images/readme_images/score_page_endproduct_iphone5.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
 #### **iPhone gen 6 up to 8:**
 
 ![iphone 5](assets/images/readme_images/story_page_endproduct_iphone5_rps.PNG)
@@ -428,6 +434,82 @@ Used as a tool for improving the quality of web pages.
 #### **iPad:**
 
 ![iPad](assets/images/readme_images/game_page_endproduct_ipad_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+### **Lost page from multiple devices**
+
+#### **Laptop (14"):**
+
+![Laptop](assets/images/readme_images/lost_page_endproduct_laptop.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **Desktop (24"):**
+
+![Desktop](assets/images/readme_images/lost_page_endproduct_desktop_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **iPhone gen 5:**
+
+![iphone 5](assets/images/readme_images/lost_page_endproduct_iphone5_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **iPhone gen 6 up to 8:**
+
+![iphone 6-8](assets/images/readme_images/lost_page_endproduct_iphone6-8.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **iPhone plus gen 6 up to 8:**
+
+![iphone 6-8plus](assets/images/readme_images/lost_page_endproduct_iphone6-8plus.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **iPad:**
+
+![iPad](assets/images/readme_images/lost_page_endproduct_ipad_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+### **Win page from multiple devices**
+
+#### **Laptop (14"):**
+
+![Laptop](assets/images/readme_images/win_page_endproduct_laptop_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **Desktop (24"):**
+
+![Desktop](assets/images/readme_images/win_page_endproduct_desktop_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **iPhone gen 5:**
+
+![iphone 5](assets/images/readme_images/win_page_endproduct_iphone5_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **iPhone gen 6 up to 8:**
+
+![iphone 6-8](assets/images/readme_images/win_page_endproduct_iphone6-8_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **iPhone plus gen 6 up to 8:**
+
+![iphone 6-8plus](assets/images/readme_images/win_page_endproduct_iphone6-8plus_rps.PNG)
+
+[Back to Table Of Content](#tableOfContents)
+
+#### **iPad:**
+
+![iPad](assets/images/readme_images/win_page_endproduct_ipad_rps.PNG)
 
 [Back to Table Of Content](#tableOfContents)
 
